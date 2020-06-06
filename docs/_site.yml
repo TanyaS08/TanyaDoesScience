@@ -7,3 +7,18 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
+        right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/TanyaS08
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/TanyaS_08
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/tanya-strydom-00269b12b/
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/tanyas_08/
+      output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
