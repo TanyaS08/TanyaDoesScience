@@ -2,4 +2,11 @@
 title: "About Me"
 ---
 
+<style>
+body {
+text-align: justify}
+</style>
+
+<img src="images/side_profile.jpg" style="width:45%; border:5px solid; margin-right: 20px" align="left">
+
 A Scientist in training who loves playing in the mountains and spending hours on my knees attempting to understand the role of microclimates. If I"m not too busy gushing about how cute a particular grass is I can probably be found hanging off the sides of mountains or going on bike-ventures to coffee shops. When the weather forces me indoors I'm usually living out my fantasy of being a scientific illustrator.
