@@ -1,3 +1,4 @@
 ---
-title: "contact"
+title: "Contact"
 ---
+
