@@ -1,5 +1,5 @@
 name: "TanyaDoesScience"
-output_dir: "."
+output_dir: "_site"
 
 navbar:
   title: "Tanya Does Science"
@@ -8,6 +8,8 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
+    - text: "Tanya Writes"
+      href: blog.html      
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -23,5 +25,5 @@ navbar:
       href: https://www.instagram.com/tanyas_08/      
 
 output:
-  html_document:
+  distill::distill_article:
     css: 'academicons/css/academicons.min.css'
