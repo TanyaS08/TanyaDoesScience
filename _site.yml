@@ -6,16 +6,17 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Tanya Writes"
+      href: blog.html    
     - text: "About Me"
       href: about.html
-    - text: "Tanya Writes"
-      href: blog.html      
+      
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fa-github-alt fa-lg
       href: https://github.com/TanyaS08
-    - icon: ai-orcid ai-lg
+    - icon: ai ai-orcid ai-lg
       href: https://orcid.org/0000-0001-6067-1349
     - icon: fa-twitter fa-lg
       href: https://twitter.com/TanyaS_08
