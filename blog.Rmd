@@ -1,5 +1,5 @@
 ---
 title: "Tanya Writes"
-site: distill::distill_blog
+site: distill::distill_website
 listing: posts
 ---
