@@ -1,6 +1,6 @@
 name: "TanyaDoesScience"
-output_dir: "_site"
-base_url: https://tanyas08.github.io/TanyaDoesScience/
+output_dir: "."
+
 
 navbar:
   title: "Tanya Does Science"
