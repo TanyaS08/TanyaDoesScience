@@ -26,5 +26,5 @@ navbar:
       href: https://www.instagram.com/tanyas_08/      
 
 output:
-  distill::distill_article:
+  html_document:
     css: 'academicons/css/academicons.min.css'
