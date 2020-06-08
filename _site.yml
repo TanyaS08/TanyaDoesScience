@@ -1,7 +1,6 @@
 name: "TanyaDoesScience"
 output_dir: "."
 
-
 navbar:
   title: "Tanya Does Science"
   left:
