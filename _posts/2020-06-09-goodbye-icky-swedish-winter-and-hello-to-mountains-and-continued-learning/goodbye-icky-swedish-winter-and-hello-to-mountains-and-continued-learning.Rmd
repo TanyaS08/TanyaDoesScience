@@ -9,6 +9,7 @@ author:
 date: 03-03-2020
 output:
   distill::distill_article:
+    css: 'academicons/css/academicons.min.css'
     self_contained: false
 ---
 <div style="text-align: justify">
