@@ -6,6 +6,8 @@ preview: images/preview.jpeg
 author:
   - name: Tanya Strydom
 date: 04-04-2020
+categories:
+  - learning
 output:
   distill::distill_article:
     css: 'academicons/css/academicons.min.css'
@@ -34,3 +36,6 @@ Cheers,
 
 Tanya
 </div>
+
+## Footnote {.appendix}
+This post has also been posted on 16 April 2020 [here](https://biopraksis.w.uib.no/2020/04/16/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/)
