@@ -1,7 +1,7 @@
 ---
 title: "Home is… What your passport says?"
 description: |
-  When your home institution and home country differ can make for a confusing time when trying to get 'home'
+  When your home institution and home country differ it can make for a confusing time when trying to get 'home'
 preview: images/preview.jpeg  
 author:
   - name: Tanya Strydom
