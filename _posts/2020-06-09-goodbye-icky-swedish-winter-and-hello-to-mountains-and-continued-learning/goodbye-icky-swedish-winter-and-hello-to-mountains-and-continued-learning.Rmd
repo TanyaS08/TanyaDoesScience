@@ -8,7 +8,7 @@ author:
     url: {}
 date: 03-03-2020
 categories:
-  - learning
+  - "continued learning"
 output:
   distill::distill_article:
     css: 'academicons/css/academicons.min.css'
