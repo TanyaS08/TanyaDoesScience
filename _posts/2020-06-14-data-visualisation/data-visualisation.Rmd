@@ -5,7 +5,7 @@ description: |
 author:
   - name: Tanya Strydom
     url: {}
-date: 2020-06-14
+date: "`r format(Sys.time(), '%B %Y')`"
 categories:
   - coding
 output:
