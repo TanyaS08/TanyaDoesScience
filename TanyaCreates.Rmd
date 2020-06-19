@@ -1,0 +1,59 @@
+---
+title: "Tanya Creates"
+
+---
+<div style="text-align: justify">
+A space for some of my more creative endeavours, both with regards to communicating science but also just because 😊
+</div>
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="images/draws/TigerFace.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Sometimes it's fun to break the mould a bit and see what the muse 'duct tapes'. Done in Photoshop CC</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="images/draws/Panthera_Pardus.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Squaring of with a leopard (Pantherta padres). Might have add some more portraits of big cats at some point... Done in Photoshop CC</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="images/draws/bateleur.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">A Bateleur (Terathopius ecaudatus). A surprisingly colourful eagle and possibly one of my favourites. These guys are very easy to identify in flight - due to their short tails you can usually see their feet sticking out. Done on Photoshop CC</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="/images/draw/TigerFace.jpg">
+    <img src="images/draws/KnysnaLourie.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Knysna Turaco (Tauraco corythaix) a endemic to South Africa and part of the funky Musophaginae family, which translates to banana eaters. Done on Photoshop CC</div>
+</div>
