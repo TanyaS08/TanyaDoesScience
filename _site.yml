@@ -9,7 +9,7 @@ navbar:
     - text: "Tanya Writes"
       href: blog.html
     - text: "Tanya Creates"
-      href: blog.html
+      href: TanyaCreates.html
     - text: "About Me"
       href: about.html
 
@@ -23,8 +23,6 @@ navbar:
       href: https://orcid.org/0000-0001-6067-1349
     - icon: fa-twitter fa-lg
       href: https://twitter.com/TanyaS_08
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/tanya-strydom-00269b12b/
     - icon: fa-instagram fa-lg
       href: https://www.instagram.com/tanyas_08/
 
