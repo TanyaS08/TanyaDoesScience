@@ -1,13 +1,14 @@
 ---
-title: "Data Visualisation"
+title: "Drawing diagrams using ggplot and Adobe Illustrator"
 description: |
-  Visualising data and results is a great way to quickly communicate results and there are many ways this con be done directly in R or RStudio.
+  Using the absolute control provided by R and the flexibility of Illustrator to find the balance between creative freedom and precision when drawing diagrams.
 author:
   - name: Tanya Strydom
     url: {}
 date: 2020-06-14
 categories:
-  - coding
+  - data visualisation
+  - visual communication
 output:
   distill::distill_article:
     css: 'academicons/css/academicons.min.css'
@@ -18,9 +19,74 @@ draft: true
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
+library(ggplot2)
+library(ggforce)
+library(tidyverse)
+```
+<div style="text-align: justify">
+# The Problem
+
+Okay admittedly I'm not sure if this is more of a 'me' problem or not but I feel very strongly about the design of figures and probably spend a bit too much time working on getting them *just* right. With plots it is relatively 'simple' and you can probably get away with keeping it all in RStudio and making best friends with the [`ggplot2` Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf). But what about when it comes to diagrams? A quick google search yields a handful of packages that are aimed at building diagrams (e.g [`DiagrammeR`](https://rich-iannone.github.io/DiagrammeR/) or [`diagram`](https://cran.r-project.org/web/packages/diagram/vignettes/diagram.pdf)) but on quick inspection these packages are for more data driven flow diagrams and, to be fair, the design options where pretty cut and dry. I was more interested in doing a conceptual flow diagram based off of ideas and not data making the implimentation of these packages cumbersome, combine that with the lack of creative freedom/expression and I lost interest pretty quickly...
+
+This led me to turn to the Adobe suite of products. Being more into the digital art side of things I tend to gravitate to Photoshop but in this instance Illustrator is more suited to my needs. The fact that it is vector based (as opposed to the raster basis of Photoshop) means that it is perfectly suited to generate crisp and scalable graphics and by extension figures or diagrams. The one downside for me though is that since you are moving objects around by hand it tends to get tedious lining everything up and getting the spacing **exactly** how you want it. (*Full disclosure there are probably work-arounds to this in Illustrator but I just haven't done the leg work yet - maybe a future post though*). Some other benefits of using Illustartor is that you can quickly nudge and shift things around without having to do any of the extensive 'debugging' you might have to do back in R and that you have the handy dandy [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) at your finger tips. This makes it easy to pick and design your colour palette based on colour theory (I reccomend using this tool for plotting in R as well - you can the just specify the desired hex codes for your colour palette).
+
+# Enter 'The Plan'
+
+Okay I just want to preface this section by saying that I'm hardly re-inventing the wheel with this workflow and many people have written posts (or made videos) detailing how to export plots from R and then tweak them in Illustrator. I decided to use this methodolgy  to render my diagrams as it suits both my need for creative freedom and having that *exact* spacing between main structural features (The added bonus is that I can do some left brained analyitical work in R and then let the creative side have a romp in Illustrator). This resulted in a simple 4 step plan:
+
+1. Have a rough layout of the design along with an understanding of the geometry/ratios I wanted between the main features
+
+2. Use `ggplot2` in R to create a 'skeleton' by laying out the main features of of my diagram and exploiting the grid properties of plots (I also used  [`ggforce`](https://ggforce.data-imaginist.com), which is really neat and allows for some creative plotting options as well as playing well with `ggplot2`)
+
+3. Export as a **PDF** and import into Illustrator
+
+4. Let my creative side go ham with colours, shape boarders and text layout options
+
+# The Execution
+
+Below is the journey through my workflow for three different design concepts if you want to follow along...
+
+![Possibly my favourite part of designing figures is developing concepts and getting aquainted with your designs. Its fun to try and put words and ideas into pictures and try and link them. I ended up liking two of the concepts and decided to take the circular and the flowchart designs to the next development stage](Concept.jpg){.external width=100%} 
+
+## The R side of things
+
+```{r, include=FALSE}
+
+##Circle Design
+
+circle_df <-
+tribble(
+  ~ x0, ~y0, ~ r,
+  50, 50, 5,
+  50, 50, 10,
+  50, 50, 15,
+  50, 50, 20
+  )
+
+#create empty ggplot space
+circles <-
+  ggplot() + 
+  #plot circles
+  geom_circle(
+    dat = circle_df,
+    aes(
+    x0 = x0, 
+    y0 = y0, 
+    r = r
+  )) +
+  #remove all plot features i.e. blank canvas
+  theme_void()
+
+ggsave("circles.pdf", 
+       circles, 
+       #make sure to make square to keep circular and not make elliptical
+       height = 11, width = 11, 
+       units = "in", dpi = 600)
+
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+</div>
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
-
+## Footnote {.appendix}
+If you want a better look at all of the code feel free to have a peek on GitHub [`r fa("github")`](https://github.com/TanyaS08/TanyaDoesScience/blob/master/_posts/2020-06-14-data-visualisation/data-visualisation.Rmd)
