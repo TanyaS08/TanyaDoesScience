@@ -3,7 +3,7 @@ title: "Tanya Creates"
 ---
 
 <div style="text-align: justify">
-A space for some of my more creative endeavours, both with regards to communicating science but also just because 😊
+A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 </div>
 
 <style>
@@ -38,17 +38,18 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="images/draws/Panthera_Pardus.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Squaring of with a leopard (*Panthera padrus*). Might have add some more portraits of big cats at some point... Done in Photoshop CC</div>
-</div>
-
-<div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="images/draws/bateleur.jpg" alt="Northern Lights" width="600" height="400">
   </a>
   <div class="desc">A Bateleur (*Terathopius ecaudatus*). A surprisingly colourful eagle and possibly one of my favourites. These guys are very easy to identify in flight - due to their short tails you can usually see their feet sticking out. Done on Photoshop CC</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="images/draws/Panthera_Pardus.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Squaring of with a leopard (*Panthera padrus*). Might have add some more portraits of big cats at some point... Done in Photoshop CC</div>
 </div>
 
 <div class="gallery">
