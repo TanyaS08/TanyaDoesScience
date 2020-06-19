@@ -4,7 +4,7 @@ description: |
   A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 output:
   distill::distill_article:
-     css: 'Gallery.css'
+     css: ['Gallery.css', 'academicons/css/academicons.min.css']
 ---
 
 <div class="gallery">
