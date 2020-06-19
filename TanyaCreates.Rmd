@@ -9,14 +9,12 @@ output:
 A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 </div>
 
-
 <div class="gallery">
   <a target="_blank" href="images/draws/TigerFace.jpg">
     <img src="images/draws/TigerFace.jpg" alt="Cinque Terre" width="100%">
   </a>
   <div class="desc">Sometimes it's fun to break the mould a bit and see what the muse 'duct tapes'. Done in Photoshop CC</div>
 </div>
-
 
 <div class="gallery">
   <a target="_blank" href="images/draws/bateleur.jpg">
