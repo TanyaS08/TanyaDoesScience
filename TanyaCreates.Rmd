@@ -1,13 +1,11 @@
 ---
 title: "Tanya Creates"
+description: |
+  A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 output:
   distill::distill_article:
      css: 'Gallery.css'
 ---
-
-<div style="text-align: justify">
-A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
-</div>
 
 <div class="gallery">
   <a target="_blank" href="images/draws/TigerFace.jpg">
@@ -28,7 +26,7 @@ A space for some of my more creative endeavours, both with regards to communicat
   <a target="_blank" href="images/draws/Panthera_Pardus.jpg">
     <img src="images/draws/Panthera_Pardus.jpg" alt="Forest" width="100%">
   </a>
-  <div class="desc">Squaring off with a leopard (*Panthera padrus*). Might have add some more portraits of big cats at some point... Done in Photoshop CC</div>
+  <div class="desc">Squaring off with a leopard (*Panthera padrus*). Might have to add some more portraits of big cats at some point... Done in Photoshop CC</div>
 </div>
 
 
@@ -36,7 +34,7 @@ A space for some of my more creative endeavours, both with regards to communicat
   <a target="_blank" href="images/draws/KnysnaLourie.jpg">
     <img src="images/draws/KnysnaLourie.jpg" alt="Mountains" width="100%">
   </a>
-  <div class="desc">Knysna Turaco (*Tauraco corythaix*) a endemic to South Africa and part of the funky Musophaginae family, which translates to banana eaters. Done on Photoshop CC</div>
+  <div class="desc">Knysna Turaco (*Tauraco corythaix*) an endemic to South Africa and part of the funky Musophagidae family, which translates to banana eaters. Done on Photoshop CC</div>
 </div>
 
 <div class="gallery">
