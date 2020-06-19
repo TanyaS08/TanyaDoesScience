@@ -1,37 +1,16 @@
 ---
 title: "Tanya Creates"
+output:
+  distill::distill_article:
+     css: 'Gallery.css'
 ---
 
 <div style="text-align: justify">
 A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 </div>
 
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
 <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
+  <a target="_blank" href="images/draws/TigerFace.jpg">
     <img src="images/draws/TigerFace.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Sometimes it's fun to break the mould a bit and see what the muse 'duct tapes'. Done in Photoshop CC</div>
