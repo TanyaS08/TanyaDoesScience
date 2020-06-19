@@ -9,7 +9,7 @@ navbar:
     - text: "Tanya Writes"
       href: blog.html
     - text: "Tanya Creates"
-      href: TanyaCreates.html
+      href: blog.html
     - text: "About Me"
       href: about.html
 
