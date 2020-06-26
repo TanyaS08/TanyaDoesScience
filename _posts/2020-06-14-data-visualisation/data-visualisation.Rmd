@@ -7,7 +7,7 @@ author:
     url: {}
 date: 2020-06-14
 categories:
-  - data visualisation
+  - DataVis
   - visual communication
 output:
   distill::distill_article:

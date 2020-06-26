@@ -1,11 +1,9 @@
-<html>
-<head>
-<style>
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 100%;
 }
 
 div.gallery:hover {
@@ -37,7 +35,3 @@ div.desc {
   clear: both;
   display: table;
 }
-
-
-</style>
-</head>
