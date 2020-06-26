@@ -2,11 +2,11 @@
 title: "Exploring colourblind and colourweak plotting options in ggplot2"
 description: |
   After reading an interesting blog post from Chartable I thought why not try and impliment some of their suggestions using ggplot.
-preview: banner.jpg
+preview: pattern_box.jpg
 author:
   - name: Tanya Strydom
     url: {}
-date: 06-12-2020'
+date: "`r format(Sys.time(), '%m %d, %y')`"
 categories:
   - "coding"
   - "dataVis"  
@@ -205,4 +205,4 @@ Tanya
 </div>
 
 ## Footnote {.appendix}
-If you want a better look at all of the code feel free to have a peek on GitHub [`r fa("github")`](https://github.com/TanyaS08/TanyaDoesScience/blob/master/_posts/2020-06-14-data-visualisation/data-visualisation.Rmd)
+If you want a better look at all of the code feel free to have a peek on GitHub [`r fa("github")`](https://github.com/TanyaS08/TanyaDoesScience/blob/master/_posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/exploring-colourblind-and-colourweak-plotting-options-in-ggplot2.Rmd)
