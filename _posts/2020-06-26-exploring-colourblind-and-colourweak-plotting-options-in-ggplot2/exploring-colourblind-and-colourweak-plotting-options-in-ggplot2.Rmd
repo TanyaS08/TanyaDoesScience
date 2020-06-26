@@ -6,7 +6,7 @@ preview: banner.jpg
 author:
   - name: Tanya Strydom
     url: {}
-date: 06-26-2020
+date: "`r format(Sys.time(), '%B %Y')`"
 categories:
   - "coding"
   - "dataVis"  
