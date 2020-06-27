@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/",
-    "title": "Exploring colourblind and colourweak plotting options in ggplot2",
-    "description": "After reading an interesting blog post from Chartable I thought why not try and impliment some of their suggestions using ggplot.",
+    "title": "Exploring colour blind and colour weak plotting options in ggplot2",
+    "description": "After reading an interesting blog post from Chartable I thought why not try and implement some of their suggestions using ggplot.",
     "author": [
       {
         "name": "Tanya Strydom",
@@ -15,7 +15,7 @@
       "dataVis"
     ],
     "preview": "posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/pattern_box.jpg",
-    "last_modified": "2020-06-26T18:35:45+01:00",
+    "last_modified": "2020-06-27T12:03:31+01:00",
     "input_file": {}
   },
   {

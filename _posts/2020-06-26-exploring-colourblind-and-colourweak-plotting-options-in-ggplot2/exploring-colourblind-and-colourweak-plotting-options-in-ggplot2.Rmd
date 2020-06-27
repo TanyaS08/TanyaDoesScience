@@ -1,7 +1,7 @@
 ---
-title: "Exploring colourblind and colourweak plotting options in ggplot2"
+title: "Exploring colour blind and colour weak plotting options in ggplot2"
 description: |
-  After reading an interesting blog post from Chartable I thought why not try and impliment some of their suggestions using ggplot.
+  After reading an interesting blog post from Chartable I thought why not try and implement some of their suggestions using ggplot.
 preview: pattern_box.jpg
 author:
   - name: Tanya Strydom
@@ -27,24 +27,24 @@ library(ggplot2)
 library(fontawesome)
 ```
 
-On my 'over breakfast' Twitter scroll I cam across [this](https://blog.datawrapper.de/colorblindness-part1/) interesting series of blogposts on the Chartable blog (hosted by Datawrapper) that discusses how we can make our plots and visuals more friendly for colourblind and colourweak readers. They raised some intersting points and options to use and I thought it would be a 'constructive' way to spend my Friday trying to impliment these ideas in R, specifically using `ggplot2`.
+On my 'over breakfast' Twitter scroll I cam across [this](https://blog.datawrapper.de/colorblindness-part1/) interesting series of blogposts on the Chartable blog (hosted by Datawrapper) that discusses how we can make our plots and visuals more friendly for colour blind and colour weak readers. They raised some interesting points and options to use and I thought it would be a 'constructive' way to spend my Friday trying to implement these ideas in R, specifically using `ggplot2`.
 
-In the [second](https://blog.datawrapper.de/colorblindness-part2/) blogpost they have a long discussion about different ways to make your figures more inclusive (I highly reccomend reading the full article - it has some awesome visuals as well) and along with the standard reccomendation to **avoid green** and trying to go with **complimentary colours such as blue and orange** some other points they raised taht I thought were intersting include:
+In the [second](https://blog.datawrapper.de/colorblindness-part2/) blogpost they have a long discussion about different ways to make your figures more inclusive (I highly recommend reading the full article - it has some awesome visuals as well) and along with the standard recommendation to **avoid green** and trying to go with **complimentary colours such as blue and orange** some other points they raised that I thought were interesting include:
 
 * **Playing with the lightness of your colours**
   + Even if you end up using non-ideal colours you can use darker and lighter shades to offset the similarity
 * **Using fewer colours**
   + Maybe only use colour to highlight differences or pull out the main points of the figure
 * **Play with shapes and patterns**
-  + This can include using symbols (such as ticks and crosses) to imphasise a point or show different groups in scatterplots, or use patterns for line plots or even for fill colours on geom-type plots
+  + This can include using symbols (such as ticks and crosses) to emphasise a point or show different groups in scatterplots, or use patterns for line plots or even for fill colours on geom-type plots
 
-So at first glance most of these options seem very do-able and easy to intergrate into the `ggplot2` workflow, with the exception of specifying patterns for fills of geom objects (think barplots) but I came across the `ggpattern` package which solves that problem with what seems to be a huge degree of cutomisability - see the package website [here](https://coolbutuseless.github.io/package/ggpattern/). At time of writing this package isn't available on CRAN yet but can be downloaded and installed via GitHub.
+So at first glance most of these options seem very do-able and easy to integrate into the `ggplot2` workflow, with the exception of specifying patterns for fills of geom objects (think barplots) but I came across the `ggpattern` package which solves that problem with what seems to be a huge degree of customisability - see the package website [here](https://coolbutuseless.github.io/package/ggpattern/). At time of writing this package isn't available on CRAN yet but can be downloaded and installed via GitHub.
 
 With that out of the way let's get to the actual plotting. Also I thought this would be a good opportunity to play with the `penguins` dataset that was [recently released](https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb8c8d95) as an `iris` alternative.
 
 # Playing with lightness
 
-This is theoretically a very simple example to execute as we can just specify our colour choices to be of varying shades. For this example I decided to plot body mass vs. flipper length for the different penguin species as well as for males and females. I used [Adobe Color][https://color.adobe.com/create/color-wheel] to pic my colours but thats just personal preference.
+This is theoretically a very simple example to execute as we can just specify our colour choices to be of varying shades. For this example I decided to plot body mass vs. flipper length for the different penguin species as well as for males and females. I used [Adobe Color][https://color.adobe.com/create/color-wheel] to pick my colours but that just personal preference.
 
 ```{r lightness, echo=TRUE, warning=FALSE}
 
@@ -157,7 +157,7 @@ P3 <- ggplot() +
 
 ![](box.jpg){.external width=100%} 
 
-Here we can see how the different shades pop out really nicely - arguably we can still distinguis between the Chinstraps and the Gentoos but I think we can play with the aesthetics a bit more and make the plot pretty - not just functional!
+Here we can see how the different shades pop out really nicely - arguably we can still distinguish between the Chinstraps and the Gentoos but I think we can play with the aesthetics a bit more and make the plot pretty - not just functional!
 
 ```{r pattern, echo=TRUE, warning=FALSE}
 #To download package from GitHub
@@ -196,7 +196,7 @@ P4 <- ggplot() +
 
 ![](pattern_box.jpg){.external width=100%} 
 
-**Neat!** We can see that the patterns add a new 'level' to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more `_pattern` thrown in! This package allows a large degree of freedom with regrads to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you're comfortable with ggplot) it is something I can see myself trying to use more often when making figures.
+**Neat!** We can see that the patterns add a new 'level' to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more `_pattern` thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you're comfortable with ggplot) it is something I can see myself trying to use more often when making figures.
 
 Cheers
 
