@@ -18,7 +18,7 @@ output:
   <a target="_blank" href="images/draws/bateleur.jpg">
     <img src="images/draws/bateleur.jpg" alt="Bateleur">
   </a>
-  <div class="desc">A Bateleur (*Terathopius ecaudatus*). A surprisingly colourful eagle and possibly one of my favourites. These guys are very easy to identify in flight - due to their short tails you can usually see their feet sticking out. *Done on Photoshop CC*</div>
+  <div class="desc">A Bateleur (*Terathopius ecaudatus*). A surprisingly colourful eagle and possibly one of my favourites. These guys are very easy to identify in flight - due to their short tails you can usually see their feet sticking out. *Done in Photoshop CC*</div>
 </div>
 
 
@@ -34,12 +34,26 @@ output:
   <a target="_blank" href="images/draws/KnysnaLourie.jpg">
     <img src="images/draws/KnysnaLourie.jpg" alt="Knysna Turaco">
   </a>
-  <div class="desc">Knysna Turaco (*Tauraco corythaix*) an endemic to South Africa and part of the funky Musophagidae family, which translates to banana eaters. *Done on Photoshop CC*</div>
+  <div class="desc">Knysna Turaco (*Tauraco corythaix*) an endemic to South Africa and part of the funky Musophagidae family, which translates to banana eaters. *Done in Photoshop CC*</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="images/draws/Katrin_Perris.png">
     <img src="images/draws/Katrin_Perris.png" alt="Thermal performance in butterflies">
   </a>
-  <div class="desc">A collection of illustrations used for presenting research surrounding the thermal performance in butterflies. *Done on Photoshop CC*</div>
+  <div class="desc">A collection of illustrations used for presenting research surrounding the thermal performance in butterflies. *Done in Photoshop CC*</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/draws/Butterfly_dragon2.jpg">
+    <img src="images/draws/Butterfly_dragon2.jpg" alt="A butterfly dragon">
+  </a>
+  <div class="desc">A little critter from the imagination. *Done in Photoshop CC*</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/draws/Lioness_FlowerCrown.png">
+    <img src="images/draws/Lioness_FlowerCrown.png" alt="A butterfly dragon">
+  </a>
+  <div class="desc">A queen deserves a crown afterall... *Done in Photoshop CC*</div>
 </div>
