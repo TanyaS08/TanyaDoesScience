@@ -53,7 +53,7 @@ output:
 
 <div class="gallery">
   <a target="_blank" href="images/draws/Lioness_FlowerCrown.png">
-    <img src="images/draws/Lioness_FlowerCrown.png" alt="A butterfly dragon">
+    <img src="images/draws/Lioness_FlowerCrown.png" alt="A lioness with a flower crown">
   </a>
   <div class="desc">A queen deserves a crown afterall... *Done in Photoshop CC*</div>
 </div>
