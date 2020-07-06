@@ -21,3 +21,6 @@ yaml.dump(dict_file)
 #conver to .yml file and save to wd
 with open(r'/Users/tanyastrydom/Documents/TanyaDoesScience/dynamic_yaml.yml', 'w') as file:
     documents = yaml.dump(dict_file, file)
+
+
+##END OF SCRIPT

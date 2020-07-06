@@ -1,5 +1,23 @@
 [
   {
+    "path": "posts/2020-07-06-coming-to-terms-with-being-a-theoretical-ecologist/",
+    "title": "Coming to Terms With Being a Theoretical Ecologist",
+    "description": "Having done some soul searching while working on PhD applications I've come to the conclusion that just maybe I'm not the ecologist that I thought I was.",
+    "author": [
+      {
+        "name": "Tanya Strydom",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-06",
+    "categories": [
+      "musings"
+    ],
+    "preview": {},
+    "last_modified": "2020-07-06T18:44:18+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/",
     "title": "Exploring colour blind and colour weak plotting options in ggplot2",
     "description": "After reading an interesting blog post from Chartable I thought why not try and implement some of their suggestions using ggplot.",
@@ -9,13 +27,13 @@
         "url": {}
       }
     ],
-    "date": "2020-06-27",
+    "date": "2020-07-04",
     "categories": [
       "coding",
       "dataVis"
     ],
     "preview": "posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/pattern_box.jpg",
-    "last_modified": "2020-06-27T14:30:30+01:00",
+    "last_modified": "2020-07-04T11:19:21+01:00",
     "input_file": {}
   },
   {
