@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R | Academic</title>
+    <title>R | Tanya Does Science</title>
     <link>/category/r/</link>
       <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
@@ -13,52 +13,271 @@
     </image>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
+      <title>Exploring colour blind and colour weak plotting options in ggplot2</title>
+      <link>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;On my &amp;lsquo;over breakfast&amp;rsquo; Twitter scroll I cam across 
+&lt;a href=&#34;https://blog.datawrapper.de/colorblindness-part1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; interesting series of blogposts on the Chartable blog (hosted by Datawrapper) that discusses how we can make our plots and visuals more friendly for colour blind and colour weak readers. They raised some interesting points and options to use and I thought it would be a &amp;lsquo;constructive&amp;rsquo; way to spend my Friday trying to implement these ideas in R, specifically using &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In the 
+&lt;a href=&#34;https://blog.datawrapper.de/colorblindness-part2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;second&lt;/a&gt; blogpost they have a long discussion about different ways to make your figures more inclusive (I highly recommend reading the full article - it has some awesome visuals as well) and along with the standard recommendation to &lt;strong&gt;avoid green&lt;/strong&gt; and trying to go with &lt;strong&gt;complimentary colours such as blue and orange&lt;/strong&gt; some other points they raised that I thought were interesting include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Playing with the lightness of your colours&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Even if you end up using non-ideal colours you can use darker and lighter shades to offset the similarity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using fewer colours&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Maybe only use colour to highlight differences or pull out the main points of the figure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Play with shapes and patterns&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This can include using symbols (such as ticks and crosses) to emphasise a point or show different groups in scatterplots, or use patterns for line plots or even for fill colours on geom-type plots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So at first glance most of these options seem very do-able and easy to integrate into the &lt;code&gt;ggplot2&lt;/code&gt; workflow, with the exception of specifying patterns for fills of geom objects (think barplots) but I came across the &lt;code&gt;ggpattern&lt;/code&gt; package which solves that problem with what seems to be a huge degree of customisability - see the package website 
+&lt;a href=&#34;https://coolbutuseless.github.io/package/ggpattern/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. At time of writing this package isn&amp;rsquo;t available on CRAN yet but can be downloaded and installed via GitHub.&lt;/p&gt;
+&lt;p&gt;With that out of the way let&amp;rsquo;s get to the actual plotting. Also I thought this would be a good opportunity to play with the &lt;code&gt;penguins&lt;/code&gt; dataset that was 
+&lt;a href=&#34;https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb8c8d95&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recently released&lt;/a&gt; as an &lt;code&gt;iris&lt;/code&gt; alternative.&lt;/p&gt;
+&lt;h1 id=&#34;playing-with-lightness&#34;&gt;Playing with lightness&lt;/h1&gt;
+&lt;p&gt;This is theoretically a very simple example to execute as we can just specify our colour choices to be of varying shades. For this example I decided to plot body mass vs. flipper length for the different penguin species as well as for males and females. I used [Adobe Color][https://color.adobe.com/create/color-wheel] to pick my colours but that just personal preference.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+library(dplyr)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(palmerpenguins)
+
+#import data
+penguins &amp;lt;- penguins %&amp;gt;%
+  #removing NAs for ease
+  na.omit()
+
+#specify colours manually
+AdeMale &amp;lt;- &amp;quot;#1C1DAD&amp;quot;
+AdeFem &amp;lt;- &amp;quot;#A0A0FA&amp;quot;
+ChiMale &amp;lt;- &amp;quot;#AD400B&amp;quot;
+ChiFem &amp;lt;- &amp;quot;#FA9966&amp;quot;
+GenMale &amp;lt;- &amp;quot;#445748&amp;quot;
+GenFem &amp;lt;- &amp;quot;#6AD674&amp;quot;
+
+#create plot
+P1 &amp;lt;- ggplot() +
+  geom_point(data = penguins,
+             aes(x = body_mass_g,
+                 y = flipper_length_mm,
+                 #make new grouping variable with the species sex combos
+                 colour = paste(penguins$species,
+                                penguins$sex)),
+             #for simplicity removing legend
+             show.legend = FALSE) +
+  #set colours
+  scale_colour_manual(values = c(AdeMale,
+                                 AdeFem,
+                                 ChiMale,
+                                 ChiFem,
+                                 GenMale,
+                                 GenFem)) +
+  theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
 
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/points.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/points.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;So we can see that using the different shades of the same colour for the different sexes works really well - although arguably there is some issue distinguishing between the species so lets add some shapes&amp;hellip;&lt;/p&gt;
+&lt;h1 id=&#34;adding-shapes&#34;&gt;Adding shapes&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;P2 &amp;lt;- ggplot() +
+  geom_point(data = penguins,
+             aes(x = body_mass_g,
+                 y = flipper_length_mm,
+                 #make new grouping variable with the species sex combos
+                 colour = paste(penguins$species,
+                                penguins$sex),
+                 #specify grouping var for shape
+                 shape = species),
+             #for simplicity removing legend
+             show.legend = FALSE) +
+  #set colours
+  scale_colour_manual(values = c(AdeMale,
+                                 AdeFem,
+                                 ChiMale,
+                                 ChiFem,
+                                 GenMale,
+                                 GenFem)) +
+  theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Symbols.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Nice!&lt;/strong&gt; As we can see just adding one line to our code can make all the difference.&lt;/p&gt;
+&lt;h1 id=&#34;playing-with-patterns&#34;&gt;Playing with patterns&lt;/h1&gt;
+&lt;p&gt;This is where it gets fun - time to play with a new package. If we want to call patterns for our geoms instead of using the standard &lt;code&gt;geom_*&lt;/code&gt; function from &lt;code&gt;ggplot2&lt;/code&gt; we will be using the &lt;code&gt;geom_*_pattern&lt;/code&gt; function from the &lt;code&gt;ggpattern&lt;/code&gt; package. But first we can have a look at our original colour palette using a standard boxplot - let&amp;rsquo;s stick to flipper length.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/box.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/box.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Here we can see how the different shades pop out really nicely - arguably we can still distinguish between the Chinstraps and the Gentoos but I think we can play with the aesthetics a bit more and make the plot pretty - not just functional!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#To download package from GitHub
+#remotes::install_github(&amp;quot;coolbutuseless/ggpattern&amp;quot;)
+library(ggpattern)
+
+#Summarised the dataset for plotting
+
+P4 &amp;lt;- ggplot() +
+  geom_col_pattern(data = penguins_summary,
+                   aes(y = flipper_length_mm,
+                       x = species,
+                       group = sex,
+                       #make new grouping variable with the species sex combos
+                       fill = paste(penguins_summary$species,
+                                    penguins_summary$sex),
+                       #specify pattern type
+                       pattern = sex),
+                   #specify the fill for the pattern
+                   pattern_fill = &amp;quot;black&amp;quot;,
+                   #specify box colour
+                   colour  = &#39;black&#39;,
+                   #for simplicity removing legend
+                   show.legend = FALSE,
+                   position = &amp;quot;dodge&amp;quot;) +
+  #set colours
+  scale_fill_manual(values = c(AdeMale,
+                               AdeFem,
+                               ChiMale,
+                               ChiFem,
+                               GenMale,
+                               GenFem)) +
+  theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/pattern_box.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Neat!&lt;/strong&gt; We can see that the patterns add a new &amp;lsquo;level&amp;rsquo; to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more &lt;code&gt;_pattern&lt;/code&gt; thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you&amp;rsquo;re comfortable with ggplot) it is something I can see myself trying to use more often when making figures.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;h2 class=&#34;appendix&#34; id=&#34;footnote&#34;&gt;Footnote&lt;/h2&gt;
+&lt;p&gt;If you want a better look at all of the code feel free to have a peek on GitHub 
+&lt;a href=&#34;https://github.com/TanyaS08/TanyaDoesScience/blob/master/_posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/exploring-colourblind-and-colourweak-plotting-options-in-ggplot2.Rmd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;svg style=&#34;height:0.8em;top:.04em;position:relative;&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

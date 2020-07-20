@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title>Tanya Does Science</title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <description>Tanya Does Science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Academic</title>
+      <title>Tanya Does Science</title>
       <link>/</link>
     </image>
     
@@ -77,255 +77,395 @@
     </item>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\\\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
+      <title>Coming to Terms With Being a Theoretical Ecologist</title>
+      <link>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren&amp;rsquo;t always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me&amp;hellip;&lt;/p&gt;
+&lt;p&gt;My analytical brain (I blame having two engineers as parents for this) on the other hand &lt;em&gt;loves&lt;/em&gt; the data analysis and processing side of things - more specifically playing with and (hopefully) being able to draw meaningful conclusions from the data. I get super excited (and geek out extensively) about all of the cool things and stories I can learn from the data that we&amp;rsquo;ve collected. Only to be (mildly) upset when I discover that we don&amp;rsquo;t &lt;em&gt;really&lt;/em&gt; have enough or all of the data needed to apply the really cool or complex approaches that I would like to take and then being relegated to the more &amp;lsquo;vanilla&amp;rsquo; statistical analyses. But if I think back on it long enough I think it goes back even further than that.&lt;/p&gt;
+&lt;p&gt;I fondly remember one day in first year over a cup of tea a friend and I were joking about developing a &amp;lsquo;master&amp;rsquo; formula that we could use for all of our calculations for the upcoming physics exam (I mean realistically they&amp;rsquo;re all interconnected but in our defence it was first yet and we were exhausted/delirious). Fast forward to my more recent musings I found myself in a philosophy course where I often brought up how we as ecologists really don&amp;rsquo;t seem to have any concrete laws (except maybe the species area relationship) or that they at least require a fair bit of hand waving and that we don&amp;rsquo;t seem to be actively moving towards that (data synthesis) direction either (&lt;em&gt;Although I do think that is changing&lt;/em&gt;). Clearly that is what I crave though - developing and working with a model/formula/program that I can apply to my specific research query.&lt;/p&gt;
+&lt;p&gt;Another tell-tale sign should have been how quickly I adopted the use of functional traits in my data collecting/consideration protocol. I love the concept, not only can we use them to quantify certain ecosystem processes, but we also create an abstraction of the individual - everyone is reduced to their trait value(s) and treated as such. So not only are we able to take data from individuals (and communities) and scale this up to infer various ecosystem processes we also have a sense of generality by using traits. All species (at least within some taxonomic group) share the same traits they are just expressed differently - all plants (if we stick with vascular species) have leaves and as such we can &amp;lsquo;reduce&amp;rsquo; them all to the traits of their leaves e.g. area/mass/water content. This means that we could use these traits in our analyses and would be more likely to make generalisations of our conclusions by saying if an individual has &lt;em&gt;x&lt;/em&gt; traits we expect it to respond in such a manner to changes in temperature. Now isn&amp;rsquo;t that an elegant approach!&lt;/p&gt;
+&lt;p&gt;Some other warning signs probably include the fact that I am very happy when I have R studio open in one window and Stack Overflow in another and have spent the last hour trying to work out why the code that was working has now decided to no longer co-operate. Another may have been me deciding that I &lt;del&gt;needed&lt;/del&gt; wanted to take a course in Bayesian Analyses (despite it being a bit of an admin headache) because it &amp;ldquo;looks really cool&amp;rdquo;. Admittedly this was also when I found out about hierarchical modelling and let me tell you it was love at first sight! Well until I found out that there are even more things you can do by building on that concept&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I guess I have to face the music and accept that I probably love sitting in front of my computer thinking about species in abstract terms and numbers more than being out in the field doing the data collecting - and I &lt;em&gt;think&lt;/em&gt; I&amp;rsquo;m okay with that.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya ^[a self-diagnosed theoretical ecologist]&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coming to Terms With Being a Theoretical Ecologist</title>
+      <link>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/coming-to-terms-with-being-a-theoretical-ecologist/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/coming-to-terms-with-being-a-theoretical-ecologist/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren&amp;rsquo;t always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me&amp;hellip;&lt;/p&gt;
+&lt;p&gt;My analytical brain (I blame having two engineers as parents for this) on the other hand &lt;em&gt;loves&lt;/em&gt; the data analysis and processing side of things - more specifically playing with and (hopefully) being able to draw meaningful conclusions from the data. I get super excited (and geek out extensively) about all of the cool things and stories I can learn from the data that we&amp;rsquo;ve collected. Only to be (mildly) upset when I discover that we don&amp;rsquo;t &lt;em&gt;really&lt;/em&gt; have enough or all of the data needed to apply the really cool or complex approaches that I would like to take and then being relegated to the more &amp;lsquo;vanilla&amp;rsquo; statistical analyses. But if I think back on it long enough I think it goes back even further than that.&lt;/p&gt;
+&lt;p&gt;I fondly remember one day in first year over a cup of tea a friend and I were joking about developing a &amp;lsquo;master&amp;rsquo; formula that we could use for all of our calculations for the upcoming physics exam (I mean realistically they&amp;rsquo;re all interconnected but in our defence it was first yet and we were exhausted/delirious). Fast forward to my more recent musings I found myself in a philosophy course where I often brought up how we as ecologists really don&amp;rsquo;t seem to have any concrete laws (except maybe the species area relationship) or that they at least require a fair bit of hand waving and that we don&amp;rsquo;t seem to be actively moving towards that (data synthesis) direction either (&lt;em&gt;Although I do think that is changing&lt;/em&gt;). Clearly that is what I crave though - developing and working with a model/formula/program that I can apply to my specific research query.&lt;/p&gt;
+&lt;p&gt;Another tell-tale sign should have been how quickly I adopted the use of functional traits in my data collecting/consideration protocol. I love the concept, not only can we use them to quantify certain ecosystem processes, but we also create an abstraction of the individual - everyone is reduced to their trait value(s) and treated as such. So not only are we able to take data from individuals (and communities) and scale this up to infer various ecosystem processes we also have a sense of generality by using traits. All species (at least within some taxonomic group) share the same traits they are just expressed differently - all plants (if we stick with vascular species) have leaves and as such we can &amp;lsquo;reduce&amp;rsquo; them all to the traits of their leaves e.g. area/mass/water content. This means that we could use these traits in our analyses and would be more likely to make generalisations of our conclusions by saying if an individual has &lt;em&gt;x&lt;/em&gt; traits we expect it to respond in such a manner to changes in temperature. Now isn&amp;rsquo;t that an elegant approach!&lt;/p&gt;
+&lt;p&gt;Some other warning signs probably include the fact that I am very happy when I have R studio open in one window and Stack Overflow in another and have spent the last hour trying to work out why the code that was working has now decided to no longer co-operate. Another may have been me deciding that I &lt;del&gt;needed&lt;/del&gt; wanted to take a course in Bayesian Analyses (despite it being a bit of an admin headache) because it &amp;ldquo;looks really cool&amp;rdquo;. Admittedly this was also when I found out about hierarchical modelling and let me tell you it was love at first sight! Well until I found out that there are even more things you can do by building on that concept&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I guess I have to face the music and accept that I probably love sitting in front of my computer thinking about species in abstract terms and numbers more than being out in the field doing the data collecting - and I &lt;em&gt;think&lt;/em&gt; I&amp;rsquo;m okay with that.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya ^[a self-diagnosed theoretical ecologist]&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring colour blind and colour weak plotting options in ggplot2</title>
+      <link>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;On my &amp;lsquo;over breakfast&amp;rsquo; Twitter scroll I cam across 
+&lt;a href=&#34;https://blog.datawrapper.de/colorblindness-part1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; interesting series of blogposts on the Chartable blog (hosted by Datawrapper) that discusses how we can make our plots and visuals more friendly for colour blind and colour weak readers. They raised some interesting points and options to use and I thought it would be a &amp;lsquo;constructive&amp;rsquo; way to spend my Friday trying to implement these ideas in R, specifically using &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In the 
+&lt;a href=&#34;https://blog.datawrapper.de/colorblindness-part2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;second&lt;/a&gt; blogpost they have a long discussion about different ways to make your figures more inclusive (I highly recommend reading the full article - it has some awesome visuals as well) and along with the standard recommendation to &lt;strong&gt;avoid green&lt;/strong&gt; and trying to go with &lt;strong&gt;complimentary colours such as blue and orange&lt;/strong&gt; some other points they raised that I thought were interesting include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Playing with the lightness of your colours&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Even if you end up using non-ideal colours you can use darker and lighter shades to offset the similarity&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Using fewer colours&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Maybe only use colour to highlight differences or pull out the main points of the figure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Play with shapes and patterns&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This can include using symbols (such as ticks and crosses) to emphasise a point or show different groups in scatterplots, or use patterns for line plots or even for fill colours on geom-type plots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So at first glance most of these options seem very do-able and easy to integrate into the &lt;code&gt;ggplot2&lt;/code&gt; workflow, with the exception of specifying patterns for fills of geom objects (think barplots) but I came across the &lt;code&gt;ggpattern&lt;/code&gt; package which solves that problem with what seems to be a huge degree of customisability - see the package website 
+&lt;a href=&#34;https://coolbutuseless.github.io/package/ggpattern/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. At time of writing this package isn&amp;rsquo;t available on CRAN yet but can be downloaded and installed via GitHub.&lt;/p&gt;
+&lt;p&gt;With that out of the way let&amp;rsquo;s get to the actual plotting. Also I thought this would be a good opportunity to play with the &lt;code&gt;penguins&lt;/code&gt; dataset that was 
+&lt;a href=&#34;https://towardsdatascience.com/penguins-dataset-overview-iris-alternative-9453bb8c8d95&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recently released&lt;/a&gt; as an &lt;code&gt;iris&lt;/code&gt; alternative.&lt;/p&gt;
+&lt;h1 id=&#34;playing-with-lightness&#34;&gt;Playing with lightness&lt;/h1&gt;
+&lt;p&gt;This is theoretically a very simple example to execute as we can just specify our colour choices to be of varying shades. For this example I decided to plot body mass vs. flipper length for the different penguin species as well as for males and females. I used [Adobe Color][https://color.adobe.com/create/color-wheel] to pick my colours but that just personal preference.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+library(dplyr)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
-&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
-You found me!
-{{&amp;lt; /spoiler &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;spoiler &#34; &gt;
-  &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
-      Click to view the spoiler
-    &lt;/a&gt;
-  &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
-    &lt;div class=&#34;card-body&#34;&gt;
-      You found me!
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(palmerpenguins)
 
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+#import data
+penguins &amp;lt;- penguins %&amp;gt;%
+  #removing NAs for ease
+  na.omit()
 
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+#specify colours manually
+AdeMale &amp;lt;- &amp;quot;#1C1DAD&amp;quot;
+AdeFem &amp;lt;- &amp;quot;#A0A0FA&amp;quot;
+ChiMale &amp;lt;- &amp;quot;#AD400B&amp;quot;
+ChiFem &amp;lt;- &amp;quot;#FA9966&amp;quot;
+GenMale &amp;lt;- &amp;quot;#445748&amp;quot;
+GenFem &amp;lt;- &amp;quot;#6AD674&amp;quot;
+
+#create plot
+P1 &amp;lt;- ggplot() +
+  geom_point(data = penguins,
+             aes(x = body_mass_g,
+                 y = flipper_length_mm,
+                 #make new grouping variable with the species sex combos
+                 colour = paste(penguins$species,
+                                penguins$sex)),
+             #for simplicity removing legend
+             show.legend = FALSE) +
+  #set colours
+  scale_colour_manual(values = c(AdeMale,
+                                 AdeFem,
+                                 ChiMale,
+                                 ChiFem,
+                                 GenMale,
+                                 GenFem)) +
+  theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/points.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/points.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;So we can see that using the different shades of the same colour for the different sexes works really well - although arguably there is some issue distinguishing between the species so lets add some shapes&amp;hellip;&lt;/p&gt;
+&lt;h1 id=&#34;adding-shapes&#34;&gt;Adding shapes&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;P2 &amp;lt;- ggplot() +
+  geom_point(data = penguins,
+             aes(x = body_mass_g,
+                 y = flipper_length_mm,
+                 #make new grouping variable with the species sex combos
+                 colour = paste(penguins$species,
+                                penguins$sex),
+                 #specify grouping var for shape
+                 shape = species),
+             #for simplicity removing legend
+             show.legend = FALSE) +
+  #set colours
+  scale_colour_manual(values = c(AdeMale,
+                                 AdeFem,
+                                 ChiMale,
+                                 ChiFem,
+                                 GenMale,
+                                 GenFem)) +
+  theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Symbols.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Nice!&lt;/strong&gt; As we can see just adding one line to our code can make all the difference.&lt;/p&gt;
+&lt;h1 id=&#34;playing-with-patterns&#34;&gt;Playing with patterns&lt;/h1&gt;
+&lt;p&gt;This is where it gets fun - time to play with a new package. If we want to call patterns for our geoms instead of using the standard &lt;code&gt;geom_*&lt;/code&gt; function from &lt;code&gt;ggplot2&lt;/code&gt; we will be using the &lt;code&gt;geom_*_pattern&lt;/code&gt; function from the &lt;code&gt;ggpattern&lt;/code&gt; package. But first we can have a look at our original colour palette using a standard boxplot - let&amp;rsquo;s stick to flipper length.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/box.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/box.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Here we can see how the different shades pop out really nicely - arguably we can still distinguish between the Chinstraps and the Gentoos but I think we can play with the aesthetics a bit more and make the plot pretty - not just functional!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#To download package from GitHub
+#remotes::install_github(&amp;quot;coolbutuseless/ggpattern&amp;quot;)
+library(ggpattern)
+
+#Summarised the dataset for plotting
+
+P4 &amp;lt;- ggplot() +
+  geom_col_pattern(data = penguins_summary,
+                   aes(y = flipper_length_mm,
+                       x = species,
+                       group = sex,
+                       #make new grouping variable with the species sex combos
+                       fill = paste(penguins_summary$species,
+                                    penguins_summary$sex),
+                       #specify pattern type
+                       pattern = sex),
+                   #specify the fill for the pattern
+                   pattern_fill = &amp;quot;black&amp;quot;,
+                   #specify box colour
+                   colour  = &#39;black&#39;,
+                   #for simplicity removing legend
+                   show.legend = FALSE,
+                   position = &amp;quot;dodge&amp;quot;) +
+  #set colours
+  scale_fill_manual(values = c(AdeMale,
+                               AdeFem,
+                               ChiMale,
+                               ChiFem,
+                               GenMale,
+                               GenFem)) +
+  theme_bw()
+&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/pattern_box.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Neat!&lt;/strong&gt; We can see that the patterns add a new &amp;lsquo;level&amp;rsquo; to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more &lt;code&gt;_pattern&lt;/code&gt; thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you&amp;rsquo;re comfortable with ggplot) it is something I can see myself trying to use more often when making figures.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 class=&#34;appendix&#34; id=&#34;footnote&#34;&gt;Footnote&lt;/h2&gt;
+&lt;p&gt;If you want a better look at all of the code feel free to have a peek on GitHub 
+&lt;a href=&#34;https://github.com/TanyaS08/TanyaDoesScience/blob/master/_posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/exploring-colourblind-and-colourweak-plotting-options-in-ggplot2.Rmd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;svg style=&#34;height:0.8em;top:.04em;position:relative;&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Goodbye icky Swedish winter and hello to mountains and continued learning</title>
+      <link>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</guid>
+      <description>&lt;p&gt;It’s &lt;em&gt;‘sportlov’&lt;/em&gt; week in Stockholm, which is essentially winter break for the school kids and is traditionally the sports holidays and most families go on their annual ski trip. Although the Masters students don’t officially have a winter holiday to look forward to, I can’t help but share in the excitement of the kids as I to prepare for my own winter holiday of sorts. In less than a week I will be trading in the homogenous urban landscape of Stockholm for the mountainous Puna grasslands of Peru. Here I will be ‘going back to school’ for a bit as I take a break from thesis writing and get my hands dirty as we go out into the field to collect data and conduct mini research projects. Aside from getting to play in the mountains (all in the name of science) I’m also excited to meet the students and instructors from different countries and scientific backgrounds.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-some-mountains-from-back-home-in-south-africa-where-i-did-my-undergraduate-research-fun-fact-for-those-that-are-familiar-with-the-marvel-cinematic-universe-this-area-is-canonically-the-foot-slopes-of-wakanda-yes-my-study-area-is-world-famous-how-about-yours-&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/featured.jpeg&#34; data-caption=&#34;Some mountains from back home in South Africa where I did my undergraduate research. Fun fact for those that are familiar with the Marvel cinematic universe this area is canonically the foot slopes of Wakanda. Yes, my study area is world famous how about yours? 😉&#34;&gt;
+
+
+  &lt;img src=&#34;/img/featured.jpeg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Some mountains from back home in South Africa where I did my undergraduate research. Fun fact for those that are familiar with the Marvel cinematic universe this area is canonically the foot slopes of Wakanda. Yes, my study area is world famous how about yours? 😉
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I am an ecologist by training and love seeing how everything fits together – the thing that gets me most excited though? How the microclimate affects the performance of plants and, if you really want to get me excited throw some biotic interactions into the mix. Both elements that have followed me throughout my Honours project in South Africa, a stint in the Sub-Antarctic and now for my Masters thesis in Sweden. Although this course isn’t specifically dealing with microclimates and biotic interactions it is dealing with the plant performance side of things. Specifically, using functional traits to aid in quantifying ‘performance’. Along with learning how to go out and record these functional traits (some of which I have never worked before) we will also be working on data management (something my scatter-brained self does not do well) and obviously writing up a small research project. I will count this trip as a ‘success’ if I can confidently measure traits other than SLA and LDMC and link them to bigger ecosystem processes (this means I would be confident in using them in my own research) and publishing a data paper will at least allow me to feel as if I’ve done some part in managing data so that it is in a publishable format.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-one-of-the-best-parts-about-working-with-microclimates-all-of-the-awesome-microlandscapes-you-get-acquainted-with-working-at-such-small-scales-means-you-often-get-to-appreciate-the-little-things-in-life-as-you-sometimes-spend-half-an-hour-without-moving-more-than-a-meter&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Collage1.png&#34; data-caption=&#34;One of the best parts about working with microclimates? All of the awesome microlandscapes you get acquainted with. Working at such small scales means you often get to appreciate the little things in life as you sometimes spend half an hour without moving more than a meter.&#34;&gt;
+
+
+  &lt;img src=&#34;/img/Collage1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    One of the best parts about working with microclimates? All of the awesome microlandscapes you get acquainted with. Working at such small scales means you often get to appreciate the little things in life as you sometimes spend half an hour without moving more than a meter.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;It’s interesting one of the elements in this course is the application of traits-based in climate change research. Climate change is globally a bit of a hot topic and it will be interesting to see what public perception of it will be in Peru. Having grown up in South Africa and now living in Sweden it is interesting to see how not only the government but also the public view the issue of climate change. Sweden is very ‘climate conscious’ and the general public has really bought into the idea of ‘green living’, it’s even part of political campaigns and debates. Back home the picture is slightly different. I think most people would agree with you that the climate is changing (I mean we have had serious droughts and heatwaves the last few years) but I don’t think that people have realised that they can and should start taking action regarding their lifestyle.&lt;/p&gt;
+&lt;p&gt;I think if I had to put Peru on the same continuum, they would be closer to South Africa than Sweden. Although they may not have the strong dependence on agriculture (and thus ‘good’ weather) I am sure they will still feel the effects of changes in temperature/rainfall that affects crop production. The recent appearance of the rainbow mountains near Cuzco is another undeniable proof of the changing climate. Therefore, I think that the public probably doesn’t doubt that climate change is happening, but I do wonder how much they link it to human actions/activities or see themselves as ‘culprits’ when compared to countries such as the US or China.&lt;/p&gt;
+&lt;p&gt;All in all, I am excited for these next two weeks and look forward to putting some of these questions to bed during my stay and leaving Peru with a whole new set of tools in my toolbox and hopefully some new friends! And if all else fails at least I got to have my own &lt;em&gt;‘sportlov’&lt;/em&gt; playing in the mountains.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya&lt;/p&gt;
 </description>
     </item>
     
@@ -341,55 +481,6 @@ You found me!
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -567,150 +658,6 @@ Three
     </item>
     
     <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 
-&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 
-&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: 
-&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
-&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-&lt;ul&gt;
-&lt;li&gt;☕️ 
-&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 
-&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ 
-&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 
-&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-
-
-  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
-&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
-&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
-&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
-&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;
-&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
-&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present 
-&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the 
-&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>An example journal article</title>
       <link>/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
@@ -727,56 +674,6 @@ Three
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     
