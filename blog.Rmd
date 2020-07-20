@@ -1,5 +1,0 @@
----
-title: "Tanya Writes"
-site: distill::distill_website
-listing: posts
----
