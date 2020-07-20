@@ -2,4 +2,4 @@
 title: "Contact"
 ---
 
-<iframe src="https://tanyadoesscience.shinyapps.io/Participant_Dashboard/" width=1000 height=800></iframe>
+<iframe src="https://tanyadoesscience.shinyapps.io/Participant_Dashboard/" width=100% height=800></iframe>
