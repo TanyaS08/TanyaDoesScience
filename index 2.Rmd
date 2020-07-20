@@ -1,7 +1,0 @@
----
-title: "Tanya Does Science"
-site: distill::distill_website
-listing: posts
-
----
-
