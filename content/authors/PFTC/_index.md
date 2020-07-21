@@ -2,6 +2,10 @@
 authors:
 - PFTC
 bio: A hands-on, field-based exploration of plant functional traits, along with experience in using plant-trait data for climate-change research & ecosystem ecology
+interests:
+- Hands-on, field based training
+- Plant-trait data
+- Teaching  FAIR and Open principles
 email: ""
 role: Plant Functional Traits Courses
 social:
@@ -14,5 +18,5 @@ social:
 superuser: false
 title: PFTCourses
 user_groups:
-- Affiliations
+- Groups
 ---

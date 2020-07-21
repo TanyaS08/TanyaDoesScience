@@ -33,22 +33,17 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-21T13:01:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/test/</loc>
-    <lastmod>2020-07-21T13:01:46+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/musings/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,7 +113,7 @@
   </url>
   
   <url>
-    <loc>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</loc>
+    <loc>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -220,6 +215,10 @@
   <url>
     <loc>/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/poisot-lab/</loc>
   </url>
   
 </urlset>

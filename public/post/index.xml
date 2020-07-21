@@ -5,20 +5,12 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
-    
-    <item>
-      <title>test</title>
-      <link>/post/test/</link>
-      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/test/</guid>
-      <description>&lt;iframe src=“https://tanyadoesscience.shinyapps.io/AlumniMap/” width=100% height = 800&gt;&lt;/iframe&gt;</description>
-    </item>
     
     <item>
       <title>Coming to Terms With Being a Theoretical Ecologist</title>
@@ -472,15 +464,16 @@ Just a typical conversation at the dinner table between the many international s
     
     <item>
       <title>Goodbye icky Swedish winter and hello to mountains and continued learning</title>
-      <link>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</link>
+      <link>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</link>
       <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</guid>
+      <guid>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</guid>
       <description>&lt;p&gt;It’s &lt;em&gt;‘sportlov’&lt;/em&gt; week in Stockholm, which is essentially winter break for the school kids and is traditionally the sports holidays and most families go on their annual ski trip. Although the Masters students don’t officially have a winter holiday to look forward to, I can’t help but share in the excitement of the kids as I to prepare for my own winter holiday of sorts. In less than a week I will be trading in the homogenous urban landscape of Stockholm for the mountainous Puna grasslands of Peru. Here I will be ‘going back to school’ for a bit as I take a break from thesis writing and get my hands dirty as we go out into the field to collect data and conduct mini research projects. Aside from getting to play in the mountains (all in the name of science) I’m also excited to meet the students and instructors from different countries and scientific backgrounds.&lt;/p&gt;
 
 
 
 
 
+  
   
 
 
@@ -496,10 +489,10 @@ Just a typical conversation at the dinner table between the many international s
 &lt;figure id=&#34;figure-some-mountains-from-back-home-in-south-africa-where-i-did-my-undergraduate-research-fun-fact-for-those-that-are-familiar-with-the-marvel-cinematic-universe-this-area-is-canonically-the-foot-slopes-of-wakanda-yes-my-study-area-is-world-famous-how-about-yours-&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/featured.jpeg&#34; data-caption=&#34;Some mountains from back home in South Africa where I did my undergraduate research. Fun fact for those that are familiar with the Marvel cinematic universe this area is canonically the foot slopes of Wakanda. Yes, my study area is world famous how about yours? 😉&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/featured_hufeddb77f1eb00da1dd346c1f3e0fb87b_10173630_2000x2000_fit_q90_lanczos.jpeg&#34; data-caption=&#34;Some mountains from back home in South Africa where I did my undergraduate research. Fun fact for those that are familiar with the Marvel cinematic universe this area is canonically the foot slopes of Wakanda. Yes, my study area is world famous how about yours? 😉&#34;&gt;
 
 
-  &lt;img src=&#34;/img/featured.jpeg&#34; alt=&#34;&#34;  &gt;
+  &lt;img data-src=&#34;/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/featured_hufeddb77f1eb00da1dd346c1f3e0fb87b_10173630_2000x2000_fit_q90_lanczos.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;5220&#34; height=&#34;2936&#34;&gt;
 &lt;/a&gt;
 
 

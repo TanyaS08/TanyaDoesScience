@@ -5,10 +5,10 @@
 name = "Native"
 
 # Optional Google font URL
-google_fonts = "Lato|Waiting+for+the+Sunrise|Nova+Mono|Swanky+and+Moo+Moo|Shadows+Into+Light|Patrick+Hand|Josefin+Slab"
+google_fonts = "Lato|Exo:wght@600|Nova+Mono|Swanky+and+Moo+Moo|Shadows+Into+Light|Patrick+Hand|Josefin+Slab"
 
 # Font families
 heading_font = "Patrick Hand"
 body_font = "Lato"
 nav_font = "Patrick Hand"
-mono_font = "Waiting for the Sunrise"
+mono_font = "Exo"

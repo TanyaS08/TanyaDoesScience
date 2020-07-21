@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Self diagnosed theoretical ecologist, code switcher (both spoken and programming), doodler and peruser of warm beverages.
 education:
   courses:
   - course: MSc in Ecology and Biodiversity
