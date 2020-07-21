@@ -7,7 +7,7 @@ education:
   - course: MSc in Ecology and Biodiversity
     institution: Stockholms universitet, Sweden
     year: 2020
-  - course: BSc(Hons) in Plant Sciences
+  - course: BScHons in Plant Sciences
     institution: University of Pretoria, South Africa
     year: 2017
 email: ""
@@ -23,7 +23,7 @@ role: PhD Candidate
 social:
 - icon: paper-plane
   icon_pack: fas
-  link: '#contact'
+  link: 'mailto:tanya.strydom@icloud.com'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/TanyaS_08

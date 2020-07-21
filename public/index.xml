@@ -81,34 +81,22 @@
       <link>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</guid>
-      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
-&lt;p&gt;While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren&amp;rsquo;t always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren&amp;rsquo;t always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me&amp;hellip;&lt;/p&gt;
 &lt;p&gt;My analytical brain (I blame having two engineers as parents for this) on the other hand &lt;em&gt;loves&lt;/em&gt; the data analysis and processing side of things - more specifically playing with and (hopefully) being able to draw meaningful conclusions from the data. I get super excited (and geek out extensively) about all of the cool things and stories I can learn from the data that we&amp;rsquo;ve collected. Only to be (mildly) upset when I discover that we don&amp;rsquo;t &lt;em&gt;really&lt;/em&gt; have enough or all of the data needed to apply the really cool or complex approaches that I would like to take and then being relegated to the more &amp;lsquo;vanilla&amp;rsquo; statistical analyses. But if I think back on it long enough I think it goes back even further than that.&lt;/p&gt;
 &lt;p&gt;I fondly remember one day in first year over a cup of tea a friend and I were joking about developing a &amp;lsquo;master&amp;rsquo; formula that we could use for all of our calculations for the upcoming physics exam (I mean realistically they&amp;rsquo;re all interconnected but in our defence it was first yet and we were exhausted/delirious). Fast forward to my more recent musings I found myself in a philosophy course where I often brought up how we as ecologists really don&amp;rsquo;t seem to have any concrete laws (except maybe the species area relationship) or that they at least require a fair bit of hand waving and that we don&amp;rsquo;t seem to be actively moving towards that (data synthesis) direction either (&lt;em&gt;Although I do think that is changing&lt;/em&gt;). Clearly that is what I crave though - developing and working with a model/formula/program that I can apply to my specific research query.&lt;/p&gt;
 &lt;p&gt;Another tell-tale sign should have been how quickly I adopted the use of functional traits in my data collecting/consideration protocol. I love the concept, not only can we use them to quantify certain ecosystem processes, but we also create an abstraction of the individual - everyone is reduced to their trait value(s) and treated as such. So not only are we able to take data from individuals (and communities) and scale this up to infer various ecosystem processes we also have a sense of generality by using traits. All species (at least within some taxonomic group) share the same traits they are just expressed differently - all plants (if we stick with vascular species) have leaves and as such we can &amp;lsquo;reduce&amp;rsquo; them all to the traits of their leaves e.g. area/mass/water content. This means that we could use these traits in our analyses and would be more likely to make generalisations of our conclusions by saying if an individual has &lt;em&gt;x&lt;/em&gt; traits we expect it to respond in such a manner to changes in temperature. Now isn&amp;rsquo;t that an elegant approach!&lt;/p&gt;
 &lt;p&gt;Some other warning signs probably include the fact that I am very happy when I have R studio open in one window and Stack Overflow in another and have spent the last hour trying to work out why the code that was working has now decided to no longer co-operate. Another may have been me deciding that I &lt;del&gt;needed&lt;/del&gt; wanted to take a course in Bayesian Analyses (despite it being a bit of an admin headache) because it &amp;ldquo;looks really cool&amp;rdquo;. Admittedly this was also when I found out about hierarchical modelling and let me tell you it was love at first sight! Well until I found out that there are even more things you can do by building on that concept&amp;hellip;&lt;/p&gt;
 &lt;p&gt;I guess I have to face the music and accept that I probably love sitting in front of my computer thinking about species in abstract terms and numbers more than being out in the field doing the data collecting - and I &lt;em&gt;think&lt;/em&gt; I&amp;rsquo;m okay with that.&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;/p&gt;
-&lt;p&gt;Tanya ^[a self-diagnosed theoretical ecologist]&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Coming to Terms With Being a Theoretical Ecologist</title>
-      <link>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/coming-to-terms-with-being-a-theoretical-ecologist/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/coming-to-terms-with-being-a-theoretical-ecologist/</guid>
-      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
-&lt;p&gt;While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren&amp;rsquo;t always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me&amp;hellip;&lt;/p&gt;
-&lt;p&gt;My analytical brain (I blame having two engineers as parents for this) on the other hand &lt;em&gt;loves&lt;/em&gt; the data analysis and processing side of things - more specifically playing with and (hopefully) being able to draw meaningful conclusions from the data. I get super excited (and geek out extensively) about all of the cool things and stories I can learn from the data that we&amp;rsquo;ve collected. Only to be (mildly) upset when I discover that we don&amp;rsquo;t &lt;em&gt;really&lt;/em&gt; have enough or all of the data needed to apply the really cool or complex approaches that I would like to take and then being relegated to the more &amp;lsquo;vanilla&amp;rsquo; statistical analyses. But if I think back on it long enough I think it goes back even further than that.&lt;/p&gt;
-&lt;p&gt;I fondly remember one day in first year over a cup of tea a friend and I were joking about developing a &amp;lsquo;master&amp;rsquo; formula that we could use for all of our calculations for the upcoming physics exam (I mean realistically they&amp;rsquo;re all interconnected but in our defence it was first yet and we were exhausted/delirious). Fast forward to my more recent musings I found myself in a philosophy course where I often brought up how we as ecologists really don&amp;rsquo;t seem to have any concrete laws (except maybe the species area relationship) or that they at least require a fair bit of hand waving and that we don&amp;rsquo;t seem to be actively moving towards that (data synthesis) direction either (&lt;em&gt;Although I do think that is changing&lt;/em&gt;). Clearly that is what I crave though - developing and working with a model/formula/program that I can apply to my specific research query.&lt;/p&gt;
-&lt;p&gt;Another tell-tale sign should have been how quickly I adopted the use of functional traits in my data collecting/consideration protocol. I love the concept, not only can we use them to quantify certain ecosystem processes, but we also create an abstraction of the individual - everyone is reduced to their trait value(s) and treated as such. So not only are we able to take data from individuals (and communities) and scale this up to infer various ecosystem processes we also have a sense of generality by using traits. All species (at least within some taxonomic group) share the same traits they are just expressed differently - all plants (if we stick with vascular species) have leaves and as such we can &amp;lsquo;reduce&amp;rsquo; them all to the traits of their leaves e.g. area/mass/water content. This means that we could use these traits in our analyses and would be more likely to make generalisations of our conclusions by saying if an individual has &lt;em&gt;x&lt;/em&gt; traits we expect it to respond in such a manner to changes in temperature. Now isn&amp;rsquo;t that an elegant approach!&lt;/p&gt;
-&lt;p&gt;Some other warning signs probably include the fact that I am very happy when I have R studio open in one window and Stack Overflow in another and have spent the last hour trying to work out why the code that was working has now decided to no longer co-operate. Another may have been me deciding that I &lt;del&gt;needed&lt;/del&gt; wanted to take a course in Bayesian Analyses (despite it being a bit of an admin headache) because it &amp;ldquo;looks really cool&amp;rdquo;. Admittedly this was also when I found out about hierarchical modelling and let me tell you it was love at first sight! Well until I found out that there are even more things you can do by building on that concept&amp;hellip;&lt;/p&gt;
-&lt;p&gt;I guess I have to face the music and accept that I probably love sitting in front of my computer thinking about species in abstract terms and numbers more than being out in the field doing the data collecting - and I &lt;em&gt;think&lt;/em&gt; I&amp;rsquo;m okay with that.&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;/p&gt;
-&lt;p&gt;Tanya ^[a self-diagnosed theoretical ecologist]&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;Tanya &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;a self-diagnosed theoretical ecologist. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
@@ -378,6 +366,163 @@ P4 &amp;lt;- ggplot() +
 &lt;h2 class=&#34;appendix&#34; id=&#34;footnote&#34;&gt;Footnote&lt;/h2&gt;
 &lt;p&gt;If you want a better look at all of the code feel free to have a peek on GitHub 
 &lt;a href=&#34;https://github.com/TanyaS08/TanyaDoesScience/blob/master/_posts/2020-06-26-exploring-colourblind-and-colourweak-plotting-options-in-ggplot2/exploring-colourblind-and-colourweak-plotting-options-in-ggplot2.Rmd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;svg style=&#34;height:0.8em;top:.04em;position:relative;&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Home is… What your passport says?</title>
+      <link>/post/home-is-what-your-passport-says/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/home-is-what-your-passport-says/</guid>
+      <description>&lt;div style=&#34;text-align: center&#34;&gt;
+*“Could you pass the tomato sauce?”*
+&lt;p&gt;&lt;em&gt;“The what?!?”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“The tomato sauce.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Oh, you mean the ketchup!”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Yeah that”&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;
+Just a typical conversation at the dinner table between the many international students attending the fifth plant functional traits course in Perú co-hosted by the University of Bergen and Arizona. Most of our conversations are punctuated by local colloquialisms and some even take on a bilingual flair (“How would you say that in *insert language*?” or “We would say it like this in *insert language*.”). However, these idiosyncrasies are not only limited to our everyday conversations and our discussions revolving around science often have many diverse takes. 
+&lt;p&gt;Fast forward and the COVID-19 pandemic has wreaked havoc on global transportation networks. With Perú being one of the countries to declare a state of emergency and closing all borders and internal travel resulting in half of us being stranded. The awesome multinational cast of researchers that we are means that we’re now faced with a bit of a conundrum. We all belong to different institutions and countries – with many of us not even studying in our home country. Who do we belong to? Who is responsible for helping us get home?&lt;/p&gt;
+&lt;p&gt;Well, I can tell you this, a residence permit only means so much – and support from your home institution? Don’t put too much stake on that! Having dual citizenship myself, and living in a third country while doing my Masters you’d think I’d have many avenues to pursue to try and get out. Well, the country I currently live (and have residence) in simply turned me away and my home country was of no assistance. The only light at the end of the tunnel – my second nationality – a country that I’ve never even lived in! Many of us were in the same boat, with most institutions dragging their feet to give any support (although a special shout out to the guys at Bergen) and having to just wait it out until our different governments could (hopefully) help us out.&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-empty-streets-of-cusco-during-the-lockdown-normally-these-alleys-would-be-packed-with-locals-and-tourists-alike&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Streets.jpeg&#34; data-caption=&#34;The empty streets of Cusco during the lockdown. Normally these alleys would be packed with locals and tourists alike.&#34;&gt;
+
+
+  &lt;img src=&#34;/img/Streets.jpeg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    The empty streets of Cusco during the lockdown. Normally these alleys would be packed with locals and tourists alike.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Now, one could argue that we put ourselves in this situation. Going off to a developing country in what appears to be an emerging pandemic only to go out and ‘mess-around’ in the mountains in the name of science. But it’s so much more than that. As much as I was looking forward to learning about the science side of things the part of the course that I found the most attractive was the chance to meet so many international researchers. Science is after all a social activity and, with the ease of long-distance communication, collaborative projects can often span the globe. So, in reality this course is but a snapshot of what science looks like and how things work and working abroad is not uncommon. So, the question is should we stop trying to be globe trotters and just keep it local? Return back to a time when it was ‘us’ vs. ‘them’? Should we just dismantle the global science community?&lt;/p&gt;
+&lt;p&gt;Maybe it’s time that institutions actually take some responsibility for their employees. After all, we oftentimes uproot our whole lives to work with them, the least they could do is have our backs in times of crisis. We shouldn’t have to rely on the ‘back-up’ support from consulates and embassies – our institutions should be fighting for us too! I think if we were to ‘localise’ our science within country and institutional borders in fear of unknown disasters we would only be hamstringing that which we hold dear. We would be losing out on input of researchers from different cultural and sociological backgrounds and ultimately their unique take on that which we call science. In addition, localising science would mean missing out on &lt;del&gt;heated&lt;/del&gt; extensive conversations regarding the correct pronunciation of words – I’m looking at you Americans! 😉&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;For a more eloquent take have a look at this PopSci article that we wrote about our experience 
+&lt;a href=&#34;https://www.timeshighereducation.com/blog/international-scientists-need-better-support-during-global-emergencies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How COVID-19 possibly enhanced my educational experience: the post-course musings of a COVID-19 refugee</title>
+      <link>/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</guid>
+      <description>&lt;p&gt;At the beginning of this course the thought of me sharing my experiences and being a (somewhat) active member of the science community on ‘The Twitter’ never crossed my mind. Yet, after my (unexpectedly) extended stay in Peru for the PFTC 5 course I think I’m getting the hang of this tweeting thing and it might be here to stay…&lt;/p&gt;
+&lt;p&gt;I think it’s fair to say that a reoccurring theme with this course was the unexpected and far reaching consequences of the COVID-19 pandemic. Not only did we have some direct changes to our actual trip and travel itinerary (with some of us leaving early and others having an extended stay), COVID-19 also changed my view of science and showed me the importance of the connections and networks of the scientific community. Essentially (at least to me now) science is more than just doing cool research and getting published, it’s about sharing your data and findings and working in a collaborative environment. I’ve never had to share my code with anyone (and my coding etiquette reflects that) and now I just want to or need to share everything (after extensive revisions of course). In addition, although I’m no longer having my three-hour breakfasts, I do still make an effort to check what is happening on #ScienceTwitter during this time and who knows maybe one day I’ll start tweeting about my own research and not just #Quarantrait or #COVID19refugee life.&lt;/p&gt;
+&lt;p&gt;I guess what I’m getting at is that although my main goals for this course were ‘science’ related – and don’t get me wrong I did learn a lot about the science side of things – I think I stepped away from this course with a much better understanding of both the ‘real’ science behind functional traits along with a better understanding of what it is like doing science in a collaborative world. So as much as the COVID-19 pandemic got in the way of us doing the science we had originally set out to do (but we did make the best of a less than ideal situation) I would dare to say that we (or at least I) still stepped away from this course with an unexpected but comprehensive learning experience. I would even go so far as to speculate that the networks we established during this course may be stronger than those of previous courses given our shared experiences through this pandemic – be it virtual or together in the courtyard of the Royal Inka I. Let’s just say I am very keen to see how far these relationships and collaborative efforts will go!&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-although-our-time-in-the-field-was-cut-short-we-did-manage-to-get-all-of-the-important-things-done-namely-gush-over-adorable-plants-play-in-the-mountains-ogle-microlandscapes-and-some-actual-science-of-course&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Picture1.png&#34; data-caption=&#34;Although our time in the field was cut short, we did manage to get all of the important things done namely: gush over adorable plants, play in the mountains, ogle microlandscapes and some actual science of course!&#34;&gt;
+
+
+  &lt;img src=&#34;/img/Picture1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Although our time in the field was cut short, we did manage to get all of the important things done namely: gush over adorable plants, play in the mountains, ogle microlandscapes and some actual science of course!
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Before starting this course, we were asked to set some personal goals, so I guess it’s only fair to take a moment to reflect on them – funnily enough these were very much focused on the ‘real’ science side of things! I had previously told myself that I would consider this course a success if I walked away from this course being more confident in linking functional traits to broader ecosystem processes (and would be confident in applying the knowledge to my own research) and also having applied myself (read: being slightly less disorganised) by assisting in the administrative side of things such as the writing of data documentation and being part of the data curation process. I think given the circumstances we did a pretty good job of helping me realise my goals – especially on the data curation side of things. Also, I did mention that I was looking forward to making a new host of international friends and that can definitely be ticked off!&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-some-typical-scenes-from-the-quarantrait-life-including-zoom-meetingslectures-keeping-the-trait-wheel-turning-chatting-up-a-storm-with-the-breakfast-club-and-carrying-on-with-real-world-work&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Picture2.png&#34; data-caption=&#34;Some typical scenes from the #Quarantrait life including Zoom meetings/lectures, keeping the trait wheel turning, chatting up a storm with the breakfast club and carrying on with ‘real world’ work&#34;&gt;
+
+
+  &lt;img src=&#34;/img/Picture2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Some typical scenes from the #Quarantrait life including Zoom meetings/lectures, keeping the trait wheel turning, chatting up a storm with the breakfast club and carrying on with ‘real world’ work
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I guess it only fair to finish this post up with a bit of personal reflection upon having society and the world you know being flipped upside down by a pandemic. Spending 17 days in a government enforced lockdown means there is a lot of time for self-reflection and maybe just a hint of soul searching. Personally, I don’t think I was that perturbed by my new (and restricted) living conditions although a think that might be my ‘distance from the equator’ theory at play there (which might need to get its own blog post at some point…). Well that or I am really good at compartmentalising problems and keeping myself oblivious to things… I find that I managed to keep going on with ‘business as usual’ and think I may have actually been more productive!  Especially now in the second phase of my global pandemic journey where I’ve taken on refugee-like status with family friends in the UK countryside. Also, funnily enough, as disorganised and scatter-brained as I might be at times, I did find that I do need to have some structure and control in my life – in this case taking control of our morning Zoom meetings!&lt;/p&gt;
+&lt;p&gt;So, I think as much of a disturbance (annoyance) the COVID-19 pandemic has been both with regards to disrupting the original course plan and keeping me from getting home I think there are many positives that come from this as well. We still managed to get the teaching done and I’ve gained new insights to the (important) social side of science all while making some (hopefully) long-lasting connections. And lastly - as well as the most important I am going to be able to put proficient in Zoom on my CV. Who knows in the new post COVID-19 world it might be a highly sought-after skill!&lt;/p&gt;
+&lt;p&gt;See you guys on ‘The Twitter’&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya&lt;/p&gt;
 </description>
     </item>
     

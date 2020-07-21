@@ -10,15 +10,13 @@ subtitle: ''
 summary: "Having done some soul searching while working on PhD applications I've come to the conclusion that just maybe I'm not the ecologist that I thought I was."
 authors: []
 lastmod: '2020-07-07'
-featured: no
+featured: yes
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
 ---
-
-<div style="text-align: justify">
 
 While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren't always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me...
 
@@ -34,7 +32,6 @@ I guess I have to face the music and accept that I probably love sitting in fron
 
 Cheers,
 
-Tanya ^[a self-diagnosed theoretical ecologist]
+Tanya [^fn:1]
 
-
-</div>
+[^fn:1]: a self-diagnosed theoretical ecologist.

@@ -10,7 +10,7 @@ tags:
   - coding
   - R
 subtitle: ''
-summary: 'fter reading an interesting blog post from Chartable I thought why not try and implement some of their suggestions using ggplot.'
+summary: 'After reading an interesting blog post from Chartable I thought why not try and implement some of their suggestions using ggplot.'
 authors: []
 lastmod: ''
 featured: no
