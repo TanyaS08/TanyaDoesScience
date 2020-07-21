@@ -5,7 +5,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 education:
   courses:
   - course: MSc in Ecology and Biodiversity
-    institution: Stockholms universitet, Sweden
+    institution: Stockholms Universitet, Sweden
     year: 2020
   - course: BScHons in Plant Sciences
     institution: University of Pretoria, South Africa
