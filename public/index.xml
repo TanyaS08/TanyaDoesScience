@@ -77,6 +77,14 @@
     </item>
     
     <item>
+      <title>test</title>
+      <link>/post/test/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/test/</guid>
+      <description>&lt;iframe src=“https://tanyadoesscience.shinyapps.io/AlumniMap/” width=100% height = 800&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Coming to Terms With Being a Theoretical Ecologist</title>
       <link>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>

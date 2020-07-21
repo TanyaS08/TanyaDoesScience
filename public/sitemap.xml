@@ -33,17 +33,22 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-21T13:01:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/test/</loc>
+    <lastmod>2020-07-21T13:01:46+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/coming-to-terms-with-being-a-theoretical-ecologist/coming-to-terms-with-being-a-theoretical-ecologist/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/musings/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,12 +93,27 @@
   </url>
   
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/continued-learning/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/pftcourses/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tanya-strydom/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,11 +138,6 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
@@ -134,11 +149,6 @@
   
   <url>
     <loc>/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/tanya-strydom/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   

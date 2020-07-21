@@ -8,7 +8,7 @@ tags:
   - continued learning
 subtitle: ''
 summary: 'The excitement builds as I prepare for an adventure to Peru to learn more about plant functional traits with the PFTC team.'
-authors: []
+authors: ['admin','PFTC']
 lastmod: '2020-03-04'
 image:
   caption: ''
