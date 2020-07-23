@@ -3,14 +3,9 @@ header:
   caption: ""
   image: ""
 title: Tanya Creates
+
 ---
 A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 
+Notably still under construction though...
 
-  {{< figure src="/assets/images/draws/bateleur.jpg" >}}
-
-  
-  {{< figure src="/assets/images/draws/bateleur.jpg" >}}
-
-
-  {{< figure src="/assets/images/draws/bateleur.jpg" >}}
