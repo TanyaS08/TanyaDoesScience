@@ -36,6 +36,9 @@ social:
 - icon: github-alt
   icon_pack: fab
   link: https://github.com/TanyaS08
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 superuser: true
 title: Tanya Strydom
 user_groups:
