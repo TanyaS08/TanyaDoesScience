@@ -94,34 +94,15 @@ P1 &amp;lt;- ggplot() +
   theme_bw()
 &lt;/code&gt;&lt;/pre&gt;
 
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/points.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/img/points.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/points.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;points.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;So we can see that using the different shades of the same colour for the different sexes works really well - although arguably there is some issue distinguishing between the species so lets add some shapes&amp;hellip;&lt;/p&gt;
 &lt;h1 id=&#34;adding-shapes&#34;&gt;Adding shapes&lt;/h1&gt;
@@ -147,66 +128,28 @@ P1 &amp;lt;- ggplot() +
 &lt;/code&gt;&lt;/pre&gt;
 
 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Symbols.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/Symbols.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;Symbols.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Nice!&lt;/strong&gt; As we can see just adding one line to our code can make all the difference.&lt;/p&gt;
 &lt;h1 id=&#34;playing-with-patterns&#34;&gt;Playing with patterns&lt;/h1&gt;
 &lt;p&gt;This is where it gets fun - time to play with a new package. If we want to call patterns for our geoms instead of using the standard &lt;code&gt;geom_*&lt;/code&gt; function from &lt;code&gt;ggplot2&lt;/code&gt; we will be using the &lt;code&gt;geom_*_pattern&lt;/code&gt; function from the &lt;code&gt;ggpattern&lt;/code&gt; package. But first we can have a look at our original colour palette using a standard boxplot - let&amp;rsquo;s stick to flipper length.&lt;/p&gt;
 
 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/box.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/img/box.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/box.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;box.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Here we can see how the different shades pop out really nicely - arguably we can still distinguish between the Chinstraps and the Gentoos but I think we can play with the aesthetics a bit more and make the plot pretty - not just functional!&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#To download package from GitHub
@@ -243,33 +186,14 @@ P4 &amp;lt;- ggplot() +
 &lt;/code&gt;&lt;/pre&gt;
 
 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/pattern_box.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/pattern_box.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;pattern_box.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Neat!&lt;/strong&gt; We can see that the patterns add a new &amp;lsquo;level&amp;rsquo; to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more &lt;code&gt;_pattern&lt;/code&gt; thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you&amp;rsquo;re comfortable with ggplot) it is something I can see myself trying to use more often when making figures.&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;/p&gt;
