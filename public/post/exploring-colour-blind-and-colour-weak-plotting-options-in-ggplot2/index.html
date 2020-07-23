@@ -759,15 +759,34 @@ P1 &lt;- ggplot() +
   theme_bw()
 </code></pre>
 
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/points.jpg" />
-    </div>
-    <a href="points.jpg" itemprop="contentUrl"></a>
-  </figure>
-</div>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/points.jpg" >
+
+
+  <img src="/img/points.jpg" alt=""  >
+</a>
+
+
+
+</figure>
 
 <p>So we can see that using the different shades of the same colour for the different sexes works really well - although arguably there is some issue distinguishing between the species so lets add some shapes&hellip;</p>
 <h1 id="adding-shapes">Adding shapes</h1>
@@ -793,28 +812,66 @@ P1 &lt;- ggplot() +
 </code></pre>
 
 
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/Symbols.jpg" />
-    </div>
-    <a href="Symbols.jpg" itemprop="contentUrl"></a>
-  </figure>
-</div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/Symbols.jpg" >
+
+
+  <img src="/img/Symbols.jpg" alt=""  >
+</a>
+
+
+
+</figure>
 
 <p><strong>Nice!</strong> As we can see just adding one line to our code can make all the difference.</p>
 <h1 id="playing-with-patterns">Playing with patterns</h1>
 <p>This is where it gets fun - time to play with a new package. If we want to call patterns for our geoms instead of using the standard <code>geom_*</code> function from <code>ggplot2</code> we will be using the <code>geom_*_pattern</code> function from the <code>ggpattern</code> package. But first we can have a look at our original colour palette using a standard boxplot - let&rsquo;s stick to flipper length.</p>
 
 
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/box.jpg" />
-    </div>
-    <a href="box.jpg" itemprop="contentUrl"></a>
-  </figure>
-</div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/box.jpg" >
+
+
+  <img src="/img/box.jpg" alt=""  >
+</a>
+
+
+
+</figure>
 
 <p>Here we can see how the different shades pop out really nicely - arguably we can still distinguish between the Chinstraps and the Gentoos but I think we can play with the aesthetics a bit more and make the plot pretty - not just functional!</p>
 <pre><code class="language-r">#To download package from GitHub
@@ -851,14 +908,33 @@ P4 &lt;- ggplot() +
 </code></pre>
 
 
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/pattern_box.jpg" />
-    </div>
-    <a href="pattern_box.jpg" itemprop="contentUrl"></a>
-  </figure>
-</div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="/img/pattern_box.jpg" >
+
+
+  <img src="/img/pattern_box.jpg" alt=""  >
+</a>
+
+
+
+</figure>
 
 <p><strong>Neat!</strong> We can see that the patterns add a new &lsquo;level&rsquo; to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more <code>_pattern</code> thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you&rsquo;re comfortable with ggplot) it is something I can see myself trying to use more often when making figures.</p>
 <p>Cheers,</p>
