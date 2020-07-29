@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tanya Creates | Tanya Does Science</title>
-    <link>/draws/</link>
-      <atom:link href="/draws/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tanyadoesscience.com/draws/</link>
+      <atom:link href="https://tanyadoesscience.com/draws/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Creates</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon.png</url>
+      <url>https://tanyadoesscience.com/img/icon.png</url>
       <title>Tanya Creates</title>
-      <link>/draws/</link>
+      <link>https://tanyadoesscience.com/draws/</link>
     </image>
     
   </channel>

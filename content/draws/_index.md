@@ -38,13 +38,24 @@ caption = "Squaring off with a leopard (*Panthera padrus*). Might have to add so
 [[gallery_item]]
 album = "2"
 image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/RaceForSpace.png?raw=true"
-caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up taking a bit of a 'Race for Space' angle. Code canbe found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/2020-07-14.R)"
+caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up taking a bit of a 'Race for Space' angle. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/2020-07-14.R)"
+
 +++
 A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 
 ## The creative side
 
 {{< gallery album="1" >}}
+
+### The skeletal critters collection
+
+{{< gallery album="assets/images/draws/skeletal">}}
+
+### Gryphons of the world
+
+Still working on the collection for this one - when thats done we can do a full phylogeny
+
+{{< gallery album="assets/images/draws/gryphons" >}}
 
 ## The 'serious side' - dabbling in #DataViz and general #SciComm
 
