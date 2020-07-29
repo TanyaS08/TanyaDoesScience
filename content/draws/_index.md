@@ -49,13 +49,13 @@ A space for some of my more creative endeavours, both with regards to communicat
 
 ### The skeletal critters collection
 
-{{< gallery album="skeletal">}}
+{{< gallery album="/skeletal">}}
 
 ### Gryphons of the world
 
 Still working on the collection for this one - when thats done we can do a full phylogeny
 
-{{< gallery album="gryphons" >}}
+{{< gallery album="/gryphons" >}}
 
 ## The 'serious side' - dabbling in #DataViz and general #SciComm
 
