@@ -40,6 +40,46 @@ album = "2"
 image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/RaceForSpace.png?raw=true"
 caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up taking a bit of a 'Race for Space' angle. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/2020-07-14.R)"
 
+[[gallery_item]]
+album = "4"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Secretary-Cheetah_King.png?raw=true"
+caption = "Secretary bird-King cheetah gryphon"
+
+[[gallery_item]]
+album = "4"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Toucan-Ocelot.png?raw=true"
+caption = "Toucan-Ocelot gryphon"
+
+[[gallery_item]]
+album = "4"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Kiwi-Tazzy.png?raw=true"
+caption = "Kiwi-Tasmanian devil i.e. the outgroup"
+
+[[gallery_item]]
+album = "3"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Frog.png?raw=true"
+caption = "Frog"
+
+[[gallery_item]]
+album = "3"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Giraffe.png?raw=true"
+caption = "Giraffe"
+
+[[gallery_item]]
+album = "3"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Kiwi.png?raw=true"
+caption = "Kiwi"
+
+[[gallery_item]]
+album = "3"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/MudPuppy.png?raw=true"
+caption = "Mud puppy!!"
+
+[[gallery_item]]
+album = "3"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Puffin.png?raw=true"
+caption = "Puffin"
+
 +++
 A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
 
@@ -49,13 +89,13 @@ A space for some of my more creative endeavours, both with regards to communicat
 
 ### The skeletal critters collection
 
-{{< gallery album="/skeletal">}}
+{{< gallery album="3">}}
 
 ### Gryphons of the world
 
 Still working on the collection for this one - when thats done we can do a full phylogeny
 
-{{< gallery album="/gryphons" >}}
+{{< gallery album="4" >}}
 
 ## The 'serious side' - dabbling in #DataViz and general #SciComm
 
