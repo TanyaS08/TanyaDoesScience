@@ -41,6 +41,11 @@ image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/Race
 caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up taking a bit of a 'Race for Space' angle. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/2020-07-14.R)"
 
 [[gallery_item]]
+album = "2"
+image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/NewDatasetInTown.png?raw=true"
+caption = "TidyTuesday from week 31, 2020 plloking at the new {Penguins} dataset. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/2020-07-28.R)"
+
+[[gallery_item]]
 album = "4"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Secretary-Cheetah_King.png?raw=true"
 caption = "Secretary bird-King cheetah gryphon"
