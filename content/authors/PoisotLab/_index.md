@@ -16,6 +16,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/poisotlab
+- icon: github
+  icon_pack: fab
+  link: https://github.com/PoisotLab
 superuser: false
 title: Poisot Lab
 user_groups:
