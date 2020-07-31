@@ -32,7 +32,7 @@ social:
   link: https://www.instagram.com/tanyas_08/
 - icon: orcid
   icon_pack: ai
-  link: https://orcid.org/0000-0001-6067-1349/citations?user=sIwtMXoAAAAJ
+  link: https://orcid.org/0000-0001-6067-1349
 - icon: github-alt
   icon_pack: fab
   link: https://github.com/TanyaS08
