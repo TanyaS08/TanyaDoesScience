@@ -1,4 +1,11 @@
 +++
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+    
 title =  "Tanya Creates"
 [[gallery_item]]
 album = "2"
@@ -95,16 +102,12 @@ album = "3"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Puffin.png?raw=true"
 caption = ""
 
+
 +++
 
 Personally I'm a firm believer that we all have a creative side and it's all about finding our outlet - mine happens to be using visual media to create.
 
 Admittedly my art is a little bit all over the place - but hey it's all about what the muse 'duct tapes' and as long as I'm having fun then who cares!!
-
-* [The creative side](##The-creative-side)
-  + [The skeletal critters collection](###The-skeletal-critters-collection)
-  + [Gryphons of the world](###Gryphons-of-the-world)
-* [The 'serious side': dabbling in #DataViz and general #SciComm](##The-'serious-side'-dabbling-in-#DataViz-and-general-#SciComm)
 
 ## The creative side
 
