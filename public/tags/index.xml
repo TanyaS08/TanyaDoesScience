@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Tanya Does Science</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tanyadoesscience.com/tags/</link>
+      <atom:link href="https://tanyadoesscience.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon.png</url>
+      <url>https://tanyadoesscience.com/img/icon.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://tanyadoesscience.com/tags/</link>
     </image>
     
   </channel>

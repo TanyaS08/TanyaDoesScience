@@ -5,7 +5,7 @@
     endLevel = 3
     ordered = false
     startLevel = 2
-    
+
 title =  "Tanya Creates"
 [[gallery_item]]
 album = "2"
@@ -60,7 +60,7 @@ caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up 
 [[gallery_item]]
 album = "2"
 image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/NewDatasetInTown.png?raw=true"
-caption = "TidyTuesday from week 31, 2020 plloking at the new {Penguins} dataset. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/2020-07-28.R)"
+caption = "TidyTuesday from week 31, 2020 looking at the {Penguins} dataset. This was more of an excuse to play with some of plotting approaches that I've always admired from afar. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/2020-07-28.R)"
 
 [[gallery_item]]
 album = "4"

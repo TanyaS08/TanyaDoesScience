@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poisot Lab | Tanya Does Science</title>
-    <link>/author/poisot-lab/</link>
-      <atom:link href="/author/poisot-lab/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tanyadoesscience.com/author/poisot-lab/</link>
+      <atom:link href="https://tanyadoesscience.com/author/poisot-lab/index.xml" rel="self" type="application/rss+xml" />
     <description>Poisot Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon.png</url>
+      <url>https://tanyadoesscience.com/img/icon.png</url>
       <title>Poisot Lab</title>
-      <link>/author/poisot-lab/</link>
+      <link>https://tanyadoesscience.com/author/poisot-lab/</link>
     </image>
     
   </channel>
