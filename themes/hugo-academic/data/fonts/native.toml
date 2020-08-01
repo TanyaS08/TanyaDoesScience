@@ -5,7 +5,7 @@
 name = "Native"
 
 # Optional Google font URL
-google_fonts = "Lato|Exo:wght@600|Nova+Mono|Swanky+and+Moo+Moo|Shadows+Into+Light|Patrick+Hand|Josefin+Slab|Fredericka+the+Great"
+google_fonts = "Lato|Exo:wght@600|Nova+Mono|Swanky+and+Moo+Moo|Shadows+Into+Light|Patrick+Hand|Josefin+Slab|Fredericka+the+Great|Permanent+Marker"
 
 # Font families
 heading_font = "Fredericka the Great"

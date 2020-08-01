@@ -12,6 +12,16 @@ caption = "A little critter from the imagination. *Done in Photoshop CC*"
 
 [[gallery_item]]
 album = "1"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/CactusPony.png?raw=true"
+caption = "Cactus ponies!! The result of an obscure conversation and a healthy dose of imagination. *Done in watercolour*"
+
+[[gallery_item]]
+album = "1"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/Badlands.jpg?raw=true"
+caption = "Landscapes + Abstract = Happiness. *Done in Photoshop CC*"
+
+[[gallery_item]]
+album = "1"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/Lioness_FlowerCrown.png?raw=true"
 caption = "A queen deserves a crown after all... *Done in Photoshop CC*"
 
@@ -63,30 +73,38 @@ caption = "Kiwi-Tasmanian devil i.e. the outgroup"
 [[gallery_item]]
 album = "3"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Frog.png?raw=true"
-caption = "Frog"
+caption = ""
 
 [[gallery_item]]
 album = "3"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Giraffe.png?raw=true"
-caption = "Giraffe"
+caption = ""
 
 [[gallery_item]]
 album = "3"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Kiwi.png?raw=true"
-caption = "Kiwi"
+caption = ""
 
 [[gallery_item]]
 album = "3"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/MudPuppy.png?raw=true"
-caption = "Mud puppy!!"
+caption = ""
 
 [[gallery_item]]
 album = "3"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/skeletal/Puffin.png?raw=true"
-caption = "Puffin"
+caption = ""
 
 +++
-A space for some of my more creative endeavours, both with regards to communicating science but also (and possibly more importantly) just because 😊
+
+Personally I'm a firm believer that we all have a creative side and it's all about finding our outlet - mine happens to be using visual media to create.
+
+Admittedly my art is a little bit all over the place - but hey it's all about what the muse 'duct tapes' and as long as I'm having fun then who cares!!
+
+* [The creative side](##The-creative-side)
+  + [The skeletal critters collection](###The-skeletal-critters-collection)
+  + [Gryphons of the world](###Gryphons-of-the-world)
+* [The 'serious side': dabbling in #DataViz and general #SciComm](##The-'serious-side'-dabbling-in-#DataViz-and-general-#SciComm)
 
 ## The creative side
 
@@ -102,6 +120,6 @@ Still working on the collection for this one - when thats done we can do a full 
 
 {{< gallery album="4" >}}
 
-## The 'serious side' - dabbling in #DataViz and general #SciComm
+## The 'serious side': dabbling in #DataViz and general #SciComm
 
 {{< gallery album="2" >}}
