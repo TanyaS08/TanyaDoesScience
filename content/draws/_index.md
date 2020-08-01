@@ -54,13 +54,13 @@ caption = "Squaring off with a leopard (*Panthera padrus*). Might have to add so
 
 [[gallery_item]]
 album = "2"
-image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/RaceForSpace.png?raw=true"
-caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up taking a bit of a 'Race for Space' angle. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Astronaut/2020-07-14.R)"
+image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/week29_Astronaut/RaceForSpace.png?raw=true"
+caption = "TidyTuesday from week 29, 2020 looking at Astronaut data. I ended up taking a bit of a 'Race for Space' angle. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/week29_Astronaut/2020-07-14.R)"
 
 [[gallery_item]]
 album = "2"
-image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/NewDatasetInTown.png?raw=true"
-caption = "TidyTuesday from week 31, 2020 looking at the {Penguins} dataset. This was more of an excuse to play with some of plotting approaches that I've always admired from afar. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/Penguins/2020-07-28.R)"
+image = "https://github.com/TanyaS08/TidyTuesday/blob/master/2020/week31_Penguins/NewDatasetInTown.png?raw=true"
+caption = "TidyTuesday from week 31, 2020 looking at the {Penguins} dataset. This was more of an excuse to play with some of plotting approaches that I've always admired from afar. Code can be found [here](https://github.com/TanyaS08/TidyTuesday/blob/master/2020/week31_Penguins/2020-07-28.R)"
 
 [[gallery_item]]
 album = "4"
