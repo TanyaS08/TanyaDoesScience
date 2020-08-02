@@ -109,6 +109,8 @@ Personally I'm a firm believer that we all have a creative side and it's all abo
 
 Admittedly my art is a little bit all over the place - but hey it's all about what the muse 'duct tapes' and as long as I'm having fun then who cares!!
 
+{{% toc %}}
+
 ## The creative side
 
 {{< gallery album="1" >}}
@@ -123,6 +125,6 @@ Still working on the collection for this one - when thats done we can do a full 
 
 {{< gallery album="4" >}}
 
-## The 'serious side': dabbling in #DataViz and general #SciComm
+## The 'serious side'- dabbling in #DataViz and general #SciComm
 
 {{< gallery album="2" >}}
