@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Tanya Does Science</title>
-    <link>https://tanyadoesscience.com/post/</link>
-      <atom:link href="https://tanyadoesscience.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tanyadoesscience.com/img/icon.png</url>
+      <url>/img/icon.png</url>
       <title>Posts</title>
-      <link>https://tanyadoesscience.com/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Coming to Terms With Being a Theoretical Ecologist</title>
-      <link>https://tanyadoesscience.com/post/coming-to-terms-with-being-a-theoretical-ecologist/</link>
+      <link>/post/coming-to-terms-with-being-a-theoretical-ecologist/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tanyadoesscience.com/post/coming-to-terms-with-being-a-theoretical-ecologist/</guid>
+      <guid>/post/coming-to-terms-with-being-a-theoretical-ecologist/</guid>
       <description>&lt;p&gt;While trawling through the interweb looking at advertised PhD positions (as well as stalking some of my favourite researchers) I started to notice a bit of a trend - the topics that I found interesting weren&amp;rsquo;t always linked to a strong field component but rather had fancy statistical and mathematical terms somewhere in the project description (process based modelling and machine learning anyone??). I love being outside, absolutely adore it actually, and always thought the appeal of ecology was the chance to go out to wild and exotic places and do some cool data collecting along the way. But the more I think about the more I think that was just the sun-loving, adrenaline junkie in me&amp;hellip;&lt;/p&gt;
 &lt;p&gt;My analytical brain (I blame having two engineers as parents for this) on the other hand &lt;em&gt;loves&lt;/em&gt; the data analysis and processing side of things - more specifically playing with and (hopefully) being able to draw meaningful conclusions from the data. I get super excited (and geek out extensively) about all of the cool things and stories I can learn from the data that we&amp;rsquo;ve collected. Only to be (mildly) upset when I discover that we don&amp;rsquo;t &lt;em&gt;really&lt;/em&gt; have enough or all of the data needed to apply the really cool or complex approaches that I would like to take and then being relegated to the more &amp;lsquo;vanilla&amp;rsquo; statistical analyses. But if I think back on it long enough I think it goes back even further than that.&lt;/p&gt;
 &lt;p&gt;I fondly remember one day in first year over a cup of tea a friend and I were joking about developing a &amp;lsquo;master&amp;rsquo; formula that we could use for all of our calculations for the upcoming physics exam (I mean realistically they&amp;rsquo;re all interconnected but in our defence it was first yet and we were exhausted/delirious). Fast forward to my more recent musings I found myself in a philosophy course where I often brought up how we as ecologists really don&amp;rsquo;t seem to have any concrete laws (except maybe the species area relationship) or that they at least require a fair bit of hand waving and that we don&amp;rsquo;t seem to be actively moving towards that (data synthesis) direction either (&lt;em&gt;Although I do think that is changing&lt;/em&gt;). Clearly that is what I crave though - developing and working with a model/formula/program that I can apply to my specific research query.&lt;/p&gt;
@@ -38,9 +38,9 @@
     
     <item>
       <title>Exploring colour blind and colour weak plotting options in ggplot2</title>
-      <link>https://tanyadoesscience.com/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</link>
+      <link>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tanyadoesscience.com/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</guid>
+      <guid>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;On my &amp;lsquo;over breakfast&amp;rsquo; Twitter scroll I cam across 
 &lt;a href=&#34;https://blog.datawrapper.de/colorblindness-part1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; interesting series of blogposts on the Chartable blog (hosted by Datawrapper) that discusses how we can make our plots and visuals more friendly for colour blind and colour weak readers. They raised some interesting points and options to use and I thought it would be a &amp;lsquo;constructive&amp;rsquo; way to spend my Friday trying to implement these ideas in R, specifically using &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/p&gt;
@@ -137,10 +137,10 @@ P1 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/points.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/points.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/points.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/points.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -189,10 +189,10 @@ P1 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/Symbols.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Symbols.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -222,10 +222,10 @@ P1 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/box.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/box.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/box.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/box.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -285,10 +285,10 @@ P4 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/pattern_box.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/pattern_box.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -307,9 +307,9 @@ P4 &amp;lt;- ggplot() +
     
     <item>
       <title>Home is… What your passport says?</title>
-      <link>https://tanyadoesscience.com/post/home-is-what-your-passport-says/</link>
+      <link>/post/home-is-what-your-passport-says/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://tanyadoesscience.com/post/home-is-what-your-passport-says/</guid>
+      <guid>/post/home-is-what-your-passport-says/</guid>
       <description>&lt;div style=&#34;text-align: center&#34;&gt;
 *“Could you pass the tomato sauce?”*
 &lt;p&gt;&lt;em&gt;“The what?!?”&lt;/em&gt;&lt;/p&gt;
@@ -341,10 +341,10 @@ Just a typical conversation at the dinner table between the many international s
 &lt;figure id=&#34;figure-the-empty-streets-of-cusco-during-the-lockdown-normally-these-alleys-would-be-packed-with-locals-and-tourists-alike&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/Streets.jpeg&#34; data-caption=&#34;The empty streets of Cusco during the lockdown. Normally these alleys would be packed with locals and tourists alike.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Streets.jpeg&#34; data-caption=&#34;The empty streets of Cusco during the lockdown. Normally these alleys would be packed with locals and tourists alike.&#34;&gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/Streets.jpeg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Streets.jpeg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -375,9 +375,9 @@ Just a typical conversation at the dinner table between the many international s
     
     <item>
       <title>How COVID-19 possibly enhanced my educational experience: the post-course musings of a COVID-19 refugee</title>
-      <link>https://tanyadoesscience.com/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</link>
+      <link>/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://tanyadoesscience.com/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</guid>
+      <guid>/post/how-covid-19-possibly-enhanced-my-educational-experience-the-post-course-musings-of-a-covid-19-refugee/</guid>
       <description>&lt;p&gt;At the beginning of this course the thought of me sharing my experiences and being a (somewhat) active member of the science community on ‘The Twitter’ never crossed my mind. Yet, after my (unexpectedly) extended stay in Peru for the PFTC 5 course I think I’m getting the hang of this tweeting thing and it might be here to stay…&lt;/p&gt;
 &lt;p&gt;I think it’s fair to say that a reoccurring theme with this course was the unexpected and far reaching consequences of the COVID-19 pandemic. Not only did we have some direct changes to our actual trip and travel itinerary (with some of us leaving early and others having an extended stay), COVID-19 also changed my view of science and showed me the importance of the connections and networks of the scientific community. Essentially (at least to me now) science is more than just doing cool research and getting published, it’s about sharing your data and findings and working in a collaborative environment. I’ve never had to share my code with anyone (and my coding etiquette reflects that) and now I just want to or need to share everything (after extensive revisions of course). In addition, although I’m no longer having my three-hour breakfasts, I do still make an effort to check what is happening on #ScienceTwitter during this time and who knows maybe one day I’ll start tweeting about my own research and not just #Quarantrait or #COVID19refugee life.&lt;/p&gt;
 &lt;p&gt;I guess what I’m getting at is that although my main goals for this course were ‘science’ related – and don’t get me wrong I did learn a lot about the science side of things – I think I stepped away from this course with a much better understanding of both the ‘real’ science behind functional traits along with a better understanding of what it is like doing science in a collaborative world. So as much as the COVID-19 pandemic got in the way of us doing the science we had originally set out to do (but we did make the best of a less than ideal situation) I would dare to say that we (or at least I) still stepped away from this course with an unexpected but comprehensive learning experience. I would even go so far as to speculate that the networks we established during this course may be stronger than those of previous courses given our shared experiences through this pandemic – be it virtual or together in the courtyard of the Royal Inka I. Let’s just say I am very keen to see how far these relationships and collaborative efforts will go!&lt;/p&gt;
@@ -401,10 +401,10 @@ Just a typical conversation at the dinner table between the many international s
 &lt;figure id=&#34;figure-although-our-time-in-the-field-was-cut-short-we-did-manage-to-get-all-of-the-important-things-done-namely-gush-over-adorable-plants-play-in-the-mountains-ogle-microlandscapes-and-some-actual-science-of-course&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/Picture1.png&#34; data-caption=&#34;Although our time in the field was cut short, we did manage to get all of the important things done namely: gush over adorable plants, play in the mountains, ogle microlandscapes and some actual science of course!&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Picture1.png&#34; data-caption=&#34;Although our time in the field was cut short, we did manage to get all of the important things done namely: gush over adorable plants, play in the mountains, ogle microlandscapes and some actual science of course!&#34;&gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/Picture1.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Picture1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -438,10 +438,10 @@ Just a typical conversation at the dinner table between the many international s
 &lt;figure id=&#34;figure-some-typical-scenes-from-the-quarantrait-life-including-zoom-meetingslectures-keeping-the-trait-wheel-turning-chatting-up-a-storm-with-the-breakfast-club-and-carrying-on-with-real-world-work&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/Picture2.png&#34; data-caption=&#34;Some typical scenes from the #Quarantrait life including Zoom meetings/lectures, keeping the trait wheel turning, chatting up a storm with the breakfast club and carrying on with ‘real world’ work&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Picture2.png&#34; data-caption=&#34;Some typical scenes from the #Quarantrait life including Zoom meetings/lectures, keeping the trait wheel turning, chatting up a storm with the breakfast club and carrying on with ‘real world’ work&#34;&gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/Picture2.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Picture2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -464,10 +464,10 @@ Just a typical conversation at the dinner table between the many international s
     
     <item>
       <title>Goodbye icky Swedish winter and hello to mountains and continued learning</title>
-      <link>https://tanyadoesscience.com/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</link>
+      <link>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</link>
       <pubDate>Wed, 04 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://tanyadoesscience.com/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</guid>
-      <description>&lt;p&gt;It’s &lt;em&gt;‘sportlov’&lt;/em&gt; week in Stockholm, which is essentially winter break for the school kids and is traditionally the sports holidays and most families go on their annual ski trip. Although the Masters students don’t officially have a winter holiday to look forward to, I can’t help but share in the excitement of the kids as I to prepare for my own winter holiday of sorts. In less than a week I will be trading in the homogenous urban landscape of Stockholm for the mountainous Puna grasslands of Peru. Here I will be ‘going back to school’ for a bit as I take a break from thesis writing and get my hands dirty as we go out into the field to collect data and conduct mini research projects. Aside from getting to play in the mountains (all in the name of science) I’m also excited to meet the students and instructors from different countries and scientific backgrounds.&lt;/p&gt;
+      <guid>/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/</guid>
+      <description>&lt;p&gt;It’s &lt;em&gt;‘sportlov’&lt;/em&gt; week in Stockholm, which is essentially winter break for the school kids and is traditionally the sports holidays and most families go on their annual ski trip. Although the Masters students don’t officially have a winter holiday to look forward to, I can’t help but share in the excitement of the kids as I to prepare for my own winter holiday of sorts. In less than a week I will be trading in the homogenous urban landscape of Stockholm for the mountainous Puna grasslands of Peru. Here I will be ‘going back to school’ for a bit as I take a break from thesis writing and get my hands dirty as we go out into the field to collect data and conduct mini research projects with the &lt;a href=&#34;/author/pftcourses/&#34;&gt;PFTCourses&lt;/a&gt; team for their fifth Plant Functional traits course. Aside from getting to play in the mountains (all in the name of science) I’m also excited to meet the students and instructors from different countries and scientific backgrounds.&lt;/p&gt;
 
 
 
@@ -489,10 +489,10 @@ Just a typical conversation at the dinner table between the many international s
 &lt;figure id=&#34;figure-some-mountains-from-back-home-in-south-africa-where-i-did-my-undergraduate-research-fun-fact-for-those-that-are-familiar-with-the-marvel-cinematic-universe-this-area-is-canonically-the-foot-slopes-of-wakanda-yes-my-study-area-is-world-famous-how-about-yours-&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/featured_hufeddb77f1eb00da1dd346c1f3e0fb87b_10173630_2000x2000_fit_q90_lanczos.jpeg&#34; data-caption=&#34;Some mountains from back home in South Africa where I did my undergraduate research. Fun fact for those that are familiar with the Marvel cinematic universe this area is canonically the foot slopes of Wakanda. Yes, my study area is world famous how about yours? 😉&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/featured_hufeddb77f1eb00da1dd346c1f3e0fb87b_10173630_2000x2000_fit_q90_lanczos.jpeg&#34; data-caption=&#34;Some mountains from back home in South Africa where I did my undergraduate research. Fun fact for those that are familiar with the Marvel cinematic universe this area is canonically the foot slopes of Wakanda. Yes, my study area is world famous how about yours? 😉&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://tanyadoesscience.com/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/featured_hufeddb77f1eb00da1dd346c1f3e0fb87b_10173630_2000x2000_fit_q90_lanczos.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;5220&#34; height=&#34;2936&#34;&gt;
+  &lt;img data-src=&#34;/post/goodbye-icky-swedish-winter-and-hello-to-mountains-and-continued-learning/featured_hufeddb77f1eb00da1dd346c1f3e0fb87b_10173630_2000x2000_fit_q90_lanczos.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;5220&#34; height=&#34;2936&#34;&gt;
 &lt;/a&gt;
 
 
@@ -526,10 +526,10 @@ Just a typical conversation at the dinner table between the many international s
 &lt;figure id=&#34;figure-one-of-the-best-parts-about-working-with-microclimates-all-of-the-awesome-microlandscapes-you-get-acquainted-with-working-at-such-small-scales-means-you-often-get-to-appreciate-the-little-things-in-life-as-you-sometimes-spend-half-an-hour-without-moving-more-than-a-meter&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/Collage1.png&#34; data-caption=&#34;One of the best parts about working with microclimates? All of the awesome microlandscapes you get acquainted with. Working at such small scales means you often get to appreciate the little things in life as you sometimes spend half an hour without moving more than a meter.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Collage1.png&#34; data-caption=&#34;One of the best parts about working with microclimates? All of the awesome microlandscapes you get acquainted with. Working at such small scales means you often get to appreciate the little things in life as you sometimes spend half an hour without moving more than a meter.&#34;&gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/Collage1.png&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Collage1.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>coding | Tanya Does Science</title>
-    <link>https://tanyadoesscience.com/tag/coding/</link>
-      <atom:link href="https://tanyadoesscience.com/tag/coding/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/coding/</link>
+      <atom:link href="/tag/coding/index.xml" rel="self" type="application/rss+xml" />
     <description>coding</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tanyadoesscience.com/img/icon.png</url>
+      <url>/img/icon.png</url>
       <title>coding</title>
-      <link>https://tanyadoesscience.com/tag/coding/</link>
+      <link>/tag/coding/</link>
     </image>
     
     <item>
       <title>Exploring colour blind and colour weak plotting options in ggplot2</title>
-      <link>https://tanyadoesscience.com/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</link>
+      <link>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tanyadoesscience.com/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</guid>
+      <guid>/post/exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;On my &amp;lsquo;over breakfast&amp;rsquo; Twitter scroll I cam across 
 &lt;a href=&#34;https://blog.datawrapper.de/colorblindness-part1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt; interesting series of blogposts on the Chartable blog (hosted by Datawrapper) that discusses how we can make our plots and visuals more friendly for colour blind and colour weak readers. They raised some interesting points and options to use and I thought it would be a &amp;lsquo;constructive&amp;rsquo; way to spend my Friday trying to implement these ideas in R, specifically using &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/p&gt;
@@ -113,10 +113,10 @@ P1 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/points.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/points.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/points.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/points.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -165,10 +165,10 @@ P1 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/Symbols.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/Symbols.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/Symbols.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -198,10 +198,10 @@ P1 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/box.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/box.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/box.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/box.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -261,10 +261,10 @@ P4 &amp;lt;- ggplot() +
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://tanyadoesscience.com/img/pattern_box.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/pattern_box.jpg&#34; &gt;
 
 
-  &lt;img src=&#34;https://tanyadoesscience.com/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
+  &lt;img src=&#34;/img/pattern_box.jpg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
