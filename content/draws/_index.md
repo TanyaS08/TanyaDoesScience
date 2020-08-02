@@ -44,7 +44,7 @@ caption = "Knysna Turaco (*Tauraco corythaix*) an endemic to South Africa and pa
 
 [[gallery_item]]
 album = "1"
-image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/ManedWolf.png?raw=true"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/ManedWolf-01.png?raw=truee"
 caption = "Maned wolves (*Chrysocyon brachyurus*) - they're super leggy and ginger so what's not to love about them?? *Done in Illustrator CC*"
 
 [[gallery_item]]
