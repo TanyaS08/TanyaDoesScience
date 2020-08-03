@@ -5,12 +5,43 @@
     <link>/tag/datavis/</link>
       <atom:link href="/tag/datavis/index.xml" rel="self" type="application/rss+xml" />
     <description>dataVis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>dataVis</title>
       <link>/tag/datavis/</link>
     </image>
+    
+    <item>
+      <title>Science is the music and data visualisation is the symphony</title>
+      <link>/post/science-is-the-music-and-data-visualisation-is-the-symphony/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/science-is-the-music-and-data-visualisation-is-the-symphony/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I’m definitely not the first (nor will I be the last) person to try and draw links between science and music but a recent(ish) tweet by Richard McElreath got me thinking on the idea a bit more.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Many performers of music cannot read it. Okay. There are other, often more intuitive, ways to learn music.&lt;br&gt;&lt;br&gt;Scientists perform stat models. Most scientists cannot read them. This is less OK, but there are other ways to learn models.&lt;br&gt;&lt;br&gt;Short thread in which I strain this comparison &lt;a href=&#34;https://t.co/WP8m6554PQ&#34;&gt;pic.twitter.com/WP8m6554PQ&lt;/a&gt;
+&lt;/p&gt;
+— Richard McElreath 🦔 (&lt;span class=&#34;citation&#34;&gt;@rlmcelreath&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/rlmcelreath/status/1284426933749653504?ref_src=twsrc%5Etfw&#34;&gt;July 18, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;In this thread McElreath discusses the similarities between reading sheet music and mathematical notations - if you don’t know where to start it can all be pretty daunting and even if you do know where to start you don’t necessarily read it ‘word-for-word’. Now, as someone who dabbles in both sides of this argument I couldn’t agree more. Mathematical notation can be scary but if you look for patterns/elements that you recognise you can work out what the model is telling you and the same can be said when I’m looking at sheet music. The same goes for the ‘degrees of separation’ and sheet music/models that are closer to my area of study/instrument of choice require less work to ‘decode’ than those that may be drastically different. McElreath goes on to discuss ‘maths anxiety’ and how that may be off-putting (or even scary for some) and some have shown this to indeed be the case [refs]. He also mentions maybe making mathematical notation more palatable - and here is where he caught my attention.&lt;/p&gt;
+&lt;p&gt;Hans Rosling has also made links to science and music:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Most of us need to listen to the music to understand how beautiful it is. But often that’s how we present statistics: we just show the notes, we don’t play the music.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;and his argument is perhaps a bit more elegantly phrased and absolutely nails it id you ask me. If statistics (or equations and models) is the sheet music then we as the scientists or researchers are the conductors. It is the responsibility (and vision) of the conductor to translate what he sees on paper and make it art as well as something the general public can perceive and enjoy. The conductor does this by directing and ‘using’ the musicians to create the final product. The reason I use an orchestra as opposed to a single musician here in my analogy is that I feel there are many ‘tools’ we can use to communicate the ‘scary maths’ and what we can learn from it, and much like how some scores play to the strengths of certain instruments so do some of the communication tools.&lt;/p&gt;
+&lt;p&gt;Having just said that I’m going to focus in on my all time favourite way of communicating science - visually! Hans Rosling is well known for his excellent visualisations - and data visualisation is on the rise. A quick google search will yield multiple hits of different websites listing their top dataViz books. Yet why has the sciences lagged behind? With most (if not all) people accessing articles or resources online we do not have to worry about printing of or fitting figures and tables onto pages. We could potentially even embed links that lead to interactive dashboard-type applications or even animations. There are some other concerns such as accessibility and limited connectivity but as it stands there is no reason we can add richer visuals elements to our work. I think visual abstracts are a step in the right direction but what is to say we cannot extend this same ‘light hearted’ approach to the manuscript itself?&lt;/p&gt;
+&lt;p&gt;I’ve always joked that one day I will write a totally visual manuscript (Intro = digram/flowchart, Methods = schematic diagram, Results = plots and tables, and Discussion = diagram/flowchart) The thinking behind this is that I find it easier to articulate myself in a visual manner and almost all of my writing starts with me drawing a picture of what I plan on saying. This of course also means that I find it easier to visualise/draw what I am learning or reading as well - so it only stands to reason that the more visual elements a manuscript has the easier it is for me (and likely others) to get the bigger picture.&lt;/p&gt;
+&lt;p&gt;So I guess what this boils down to is me challenging the scientific community to think about how they can make beautiful music and ask if they are getting the best out of their orchestra. If you have a visual aid that is well designed it can break down at least some of the language barriers and make your work easier to understand for a non-native speaker, you are ‘forced’ to cut out a lot of jargon which makes your work more interpretable across disciplines - or even less experienced individuals (I &lt;em&gt;really&lt;/em&gt; don’t want to say non-scientists) or students and in a way you have to think harder about what your data are telling you, because if you don’t understand what is going it makes it very hard to translate that into a picture. Finally, to bring it back to the music analogy - much like how I would annotate my sheet music to make it easier to interpret we can also add other aids (annotations) along with our visualisations to help make the interpretation process easier.&lt;/p&gt;
+&lt;p&gt;This is me challenging you to play with your data a bit more and see what it wants to show you - and it doesn’t have to be fancy it can start with playing with colours and then the more comfortable you get the more you can stretch you boundaries. This is where projects like &lt;a href=&#34;https://www.tidytuesday.com&#34;&gt;#TidyTuesday&lt;/a&gt;, &lt;a href=&#34;https://www.makeovermonday.co.uk&#34;&gt;#MakeoverMonday&lt;/a&gt; and the &lt;a href=&#34;http://www.storytellingwithdata.com/swdchallenge&#34;&gt;Story Telling with Data challenge&lt;/a&gt; are really - you can play with data in a ‘low pressure’ environment and get inspiration from others as to how they approached the same challenge and help you familiarize yourself with different plot types - helping you develop a library of sorts and a bit of a personal style. So much like how a conductor adds his own flair to sonata/concerto so can you make your data visualisation your own!&lt;/p&gt;
+&lt;p&gt;Have fun creating and pushing the envelope for data visualisation in science&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Exploring colour blind and colour weak plotting options in ggplot2</title>
