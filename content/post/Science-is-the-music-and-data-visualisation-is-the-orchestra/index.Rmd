@@ -7,6 +7,7 @@ categories: []
 tags:
   - musings
   - dataVis
+  - Rethinking academia
 subtitle: ''
 summary: "Much like how the conductor must guide the orchestra to produce music we as scientists should think about how we can better 'guide' our data to tell a story"
 authors: ['admin']
@@ -28,7 +29,7 @@ I'm definitely not the first (nor will I be the last) person to try and draw lin
 
 In this thread McElreath discusses the similarities between reading sheet music and mathematical notations - if you don't know where to start it can all be pretty daunting and even if you do know where to start you don't necessarily read it 'word-for-word'. Now, as someone who dabbles in both sides of this argument I couldn't agree more. Mathematical notation can be pretty scary, but if you look for patterns/elements that you recognise you can work out what the model is telling you and the same can be said when I'm looking at sheet music. The same goes with regards to the 'degrees of separation' and sheet music/models that are closer to my area of study/instrument of choice require less work to 'decode' than those that may be drastically different. McElreath goes on to discuss 'maths anxiety' and how that may be off-putting (or even scary for some) and actually decreases the liklihood of someone reading an article ([Fawcett and  Higginson, 2012](https://www.pnas.org/content/109/29/11735)). He also mentions maybe making mathematical notation more palatable - and here is where he caught my attention.
 
-Hans Rosling has also made links to science and music: 
+Hans Rosling has also made links to science and music:
 
 *“Most of us need to listen to the music to understand how beautiful it is. But often that’s how we present statistics: we just show the notes, we don’t play the music.”*
 
