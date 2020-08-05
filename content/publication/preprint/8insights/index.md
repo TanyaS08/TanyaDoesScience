@@ -13,15 +13,13 @@ image:
 links:
 - name:
   url:
-publication: ""
+publication: "From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond"
 publication_short: ""
 publication_types:
 - "3"
-publishDate: "2017-01-01T00:00:00Z"
-summary: Drawing from our joint experiences during the global lockdown as a result of COVID-19 we provide some insights on how to continue working during these odd times. We also reflect on how we can rethink and reimagine how we traditionally do science.
+summary: PREPRINT A fun exercise with some of the PFTC5 participants. Drawing from our joint experiences during the global lockdown as a result of COVID-19 we provide some insights on how to continue working during these odd times. We also reflect on how we can rethink and reimagine how we traditionally do science.
 tags:
 - COVID-19
 - 'Rethinking academia'
 title: 'From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond'
-url_pdf: https://d197for5662m48.cloudfront.net/documents/publicationstatus/43693/preprint_pdf/db739c4d81a486477dea116fb47ace02.pdf
 ---

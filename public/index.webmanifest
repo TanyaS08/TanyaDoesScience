@@ -2,8 +2,8 @@
   "name": "Tanya Does Science",
   "short_name": "Tanya Does Science",
   "lang": "en-us",
-  "theme_color": "#795548",
-  "background_color": "#795548",
+  "theme_color": "#4caf50",
+  "background_color": "#4caf50",
   "icons": [{
     "src": "/images/icon_hu4e6d3377add4ccea7503a7f63261db8c_64599_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
