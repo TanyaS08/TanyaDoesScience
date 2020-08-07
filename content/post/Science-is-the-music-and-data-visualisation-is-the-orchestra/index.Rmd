@@ -1,8 +1,8 @@
 ---
-title: Data is the sheet music and data visualisation is the symphony
+title: Data are the sheet music and data visualisation is the symphony
 author: Tanya Strydom
 date: '2020-08-03'
-slug: Data-is-the-sheet-music-and-data-visualisation-is-the-symphony
+slug: Data-are-the-sheet-music-and-data-visualisation-is-the-symphony
 categories: []
 tags:
   - musings
