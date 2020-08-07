@@ -38,8 +38,8 @@ Many performers of music cannot read it. Okay. There are other, often more intui
 &lt;p&gt;So I guess what this boils down to is me challenging us to think about how we can make beautiful music that can be appreciated by a broader audience and ask if we are getting the best out of our orchestra. Having a visual aid that is well designed can break down at least some of the language barriers and make out work easier to understand for a non-native speaker, we are ‘forced’ to cut out a lot of jargon which makes our work more interpretable across disciplines - or even less experienced individuals (I &lt;em&gt;really&lt;/em&gt; don’t want to say non-scientists) or students and in a way we have to think harder about what our data are telling us, because if we don’t understand what is going it makes it very hard to translate that into a picture. Finally, to bring it back to the music analogy - much like how I would annotate my sheet music to make it easier to interpret we can also add other aids (annotations) along with our visualisations to help make the interpretation process easier - much like many infographics do.&lt;/p&gt;
 &lt;p&gt;This is me challenging us to play with our data a bit more and see what it wants to show us - and it doesn’t have to be fancy it can start with playing with colours and then the more comfortable you get the more you can stretch you boundaries. This is where projects like &lt;a href=&#34;https://www.tidytuesday.com&#34;&gt;#TidyTuesday&lt;/a&gt;, &lt;a href=&#34;https://www.makeovermonday.co.uk&#34;&gt;#MakeoverMonday&lt;/a&gt; and the &lt;a href=&#34;http://www.storytellingwithdata.com/swdchallenge&#34;&gt;Story Telling with Data challenge&lt;/a&gt; are really fun - you can play with data in a ‘low pressure’ environment and get inspiration from others as to how they approached the same challenge and help you familiarize yourself with different plot types along with what works and what doesn’t. This helps you develop a library of sorts along with a bit of a personal style - much like how a conductor adds his own flair to sonata/concerto you can make your data visualisation your own! The next step of course (and this is me calling myself out) is taking the same playful approach when writing manuscripts for publication and instead of ‘throwing in’ a boxplot or two thinking of a better way that I can use that space (and time) to visually tell my story.&lt;/p&gt;
 &lt;p&gt;Have fun creating and pushing the envelope for data visualisation in science!&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;/p&gt;
-&lt;p&gt;Tanya&lt;/p&gt;
+&lt;p&gt;🐾
+Tanya&lt;/p&gt;
 </description>
     </item>
     
@@ -303,8 +303,8 @@ P4 &amp;lt;- ggplot() +
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Neat!&lt;/strong&gt; We can see that the patterns add a new &amp;lsquo;level&amp;rsquo; to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more &lt;code&gt;_pattern&lt;/code&gt; thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you&amp;rsquo;re comfortable with ggplot) it is something I can see myself trying to use more often when making figures.&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;/p&gt;
-&lt;p&gt;Tanya&lt;/p&gt;
+&lt;p&gt;🐾
+Tanya&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 class=&#34;appendix&#34; id=&#34;footnote&#34;&gt;Footnote&lt;/h2&gt;
 &lt;p&gt;If you want a better look at all of the code feel free to have a peek on GitHub 

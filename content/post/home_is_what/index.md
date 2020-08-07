@@ -18,6 +18,7 @@ image:
 projects: []
 ---
 <div style="text-align: center">
+
 *“Could you pass the tomato sauce?”*
 
 *“The what?!?”*
@@ -27,6 +28,7 @@ projects: []
 *“Oh, you mean the ketchup!”*
 
 *“Yeah that”*
+
 </div>
 
 <div style="text-align: justify">
@@ -42,8 +44,7 @@ Now, one could argue that we put ourselves in this situation. Going off to a dev
 
 Maybe it’s time that institutions actually take some responsibility for their employees. After all, we oftentimes uproot our whole lives to work with them, the least they could do is have our backs in times of crisis. We shouldn’t have to rely on the ‘back-up’ support from consulates and embassies – our institutions should be fighting for us too! I think if we were to ‘localise’ our science within country and institutional borders in fear of unknown disasters we would only be hamstringing that which we hold dear. We would be losing out on input of researchers from different cultural and sociological backgrounds and ultimately their unique take on that which we call science. In addition, localising science would mean missing out on ~~heated~~ extensive conversations regarding the correct pronunciation of words – I’m looking at you Americans! 😉
 
-Cheers,
-
+🐾
 Tanya[^fn:1]
 
 [^fn:1]: For a more eloquent take have a look at this PopSci article that we wrote about our experience [here](https://www.timeshighereducation.com/blog/international-scientists-need-better-support-during-global-emergencies).

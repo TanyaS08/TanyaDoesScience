@@ -20,3 +20,5 @@ title: PFTCourses
 user_groups:
 - Groups
 ---
+
+Plant Functional Traits Courses offer hands-on training in different applications of plant functional traits ecology within a real-life field research project setting. Students collect and explore plant functional trait data in the field and use trait-based approaches within climate change research and ecosystem ecology. Students have the opportunity to work with real-life data and are exposed to reproducible workflows and Open Science principles.

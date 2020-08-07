@@ -272,8 +272,8 @@ P4 &amp;lt;- ggplot() +
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Neat!&lt;/strong&gt; We can see that the patterns add a new &amp;lsquo;level&amp;rsquo; to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more &lt;code&gt;_pattern&lt;/code&gt; thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you&amp;rsquo;re comfortable with ggplot) it is something I can see myself trying to use more often when making figures.&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;/p&gt;
-&lt;p&gt;Tanya&lt;/p&gt;
+&lt;p&gt;🐾
+Tanya&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 class=&#34;appendix&#34; id=&#34;footnote&#34;&gt;Footnote&lt;/h2&gt;
 &lt;p&gt;If you want a better look at all of the code feel free to have a peek on GitHub 

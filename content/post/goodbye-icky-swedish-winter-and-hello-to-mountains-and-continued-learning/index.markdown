@@ -33,7 +33,6 @@ I think if I had to put Peru on the same continuum, they would be closer to Sout
 All in all, I am excited for these next two weeks and look forward to putting some of these questions to bed during my stay and leaving Peru with a whole new set of tools in my toolbox and hopefully some new friends! And if all else fails at least I got to have my own *‘sportlov’* playing in the mountains.
 </div>
 
-Cheers,
-
+🐾
 Tanya
 

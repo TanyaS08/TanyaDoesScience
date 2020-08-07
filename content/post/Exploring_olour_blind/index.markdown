@@ -184,8 +184,7 @@ P4 <- ggplot() +
 
 **Neat!** We can see that the patterns add a new 'level' to our plots and if you look at the syntax of the ggpatterns functions we see that it mirrors that of ggplot - it just has a few more `_pattern` thrown in! This package allows a large degree of freedom with regards to what and how you want your patterns to look like. You can even import images or make your own patterns. Combine this with the somewhat intuitive syntax (if you're comfortable with ggplot) it is something I can see myself trying to use more often when making figures.
 
-Cheers,
-
+🐾
 Tanya
 
 </div>

@@ -37,6 +37,5 @@ So, I think as much of a disturbance (annoyance) the COVID-19 pandemic has been 
 
 See you guys on ‘The Twitter’
 
-Cheers,
-
+🐾
 Tanya
