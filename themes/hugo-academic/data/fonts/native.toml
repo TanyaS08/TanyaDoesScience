@@ -5,10 +5,10 @@
 name = "Native"
 
 # Optional Google font URL
-google_fonts = "Lato|Exo:wght@600|Nova+Mono|Swanky+and+Moo+Moo|Shadows+Into+Light|Patrick+Hand|Josefin+Slab|Fredericka+the+Great|Permanent+Marker"
+google_fonts = "Lato|Exo:wght@600|Nova+Mono|Swanky+and+Moo+Moo|Shadows+Into+Light|Patrick+Hand|Josefin+Slab|Fredericka+the+Great|Permanent+Marker|Caveat+Brush"
 
 # Font families
-heading_font = "Fredericka the Great"
+heading_font = "Caveat Brush"
 body_font = "Josefin Slab"
-nav_font = "Fredericka the Great"
+nav_font = "Permanent Marker"
 mono_font = "Exo"

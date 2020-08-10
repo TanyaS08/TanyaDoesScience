@@ -30,7 +30,8 @@ Some other warning signs probably include the fact that I am very happy when I h
 
 I guess I have to face the music and accept that I probably love sitting in front of my computer thinking about species in abstract terms and numbers more than being out in the field doing the data collecting - and I _think_ I'm okay with that. 
 
-🐾
+Cheers,
+
 Tanya [^fn:1]
 
 [^fn:1]: a self-diagnosed theoretical ecologist.

@@ -6,14 +6,14 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+weight = 21  # Order that this section will appear.
 
-title = "Demos"
+title = ""
 subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -25,11 +25,11 @@ subtitle = ""
   # color = "navy"
 
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = ""
+  # gradient_end = ""
 
   # Background image.
-  image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
+  image = ""  # Name of image in `static/img/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -50,4 +50,8 @@ subtitle = ""
  css_class = ""
 +++
 
-<a class="twitter-timeline" href="https://twitter.com/TanyaS_08?ref_src=twsrc%5Etfw">Tweets by TanyaS_08</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline"
+data-width="350"
+data-height="350"
+href="https://twitter.com/TanyaS_08?ref_src=twsrc%5Etfw">Tweets by TanyaS_08</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tanyas08&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
