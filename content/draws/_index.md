@@ -69,7 +69,7 @@ caption = "TidyTuesday from week 31, 2020 looking at the {Penguins} dataset. Thi
 
 [[gallery_item]]
 album = "4"
-image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Waxbill_BlackFootedCat.png?raw=true"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Waxbill-BlackFootedCat.png?raw=true"
 caption = "A Southern African Endemic - the Voilet-eared - black footed gruphon *Done in Photoshop CC*"
 
 [[gallery_item]]
