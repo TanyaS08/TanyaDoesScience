@@ -69,18 +69,23 @@ caption = "TidyTuesday from week 31, 2020 looking at the {Penguins} dataset. Thi
 
 [[gallery_item]]
 album = "4"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Waxbill_BlackFootedCat.png?raw=true"
+caption = "A Southern African Endemic - the Voilet-eared - black footed gruphon *Done in Photoshop CC*"
+
+[[gallery_item]]
+album = "4"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Secretary-Cheetah_King.png?raw=true"
-caption = "Secretary bird-King cheetah gryphon"
+caption = "Secretary bird-King cheetah gryphon *Done in Photoshop CC*"
 
 [[gallery_item]]
 album = "4"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Toucan-Ocelot.png?raw=true"
-caption = "Toucan-Ocelot gryphon"
+caption = "Toucan-Ocelot gryphon *Done in Photoshop CC*"
 
 [[gallery_item]]
 album = "4"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/content/draws/gryphons/Kiwi-Tazzy.png?raw=true"
-caption = "Kiwi-Tasmanian devil i.e. the outgroup"
+caption = "Kiwi-Tasmanian devil i.e. the outgroup *Done in Photoshop CC*"
 
 [[gallery_item]]
 album = "3"
