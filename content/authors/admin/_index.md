@@ -5,10 +5,10 @@ bio: Self diagnosed theoretical ecologist, code switcher (both spoken and progra
 education:
   courses:
   - course: MSc in Ecology and Biodiversity
-    institution: Stockholms Universitet, Sweden
+    institution: Stockholms Universitet | Sweden
     year: 2020
   - course: BScHons in Plant Sciences
-    institution: University of Pretoria, South Africa
+    institution: University of Pretoria | South Africa
     year: 2017
 email: ""
 interests:

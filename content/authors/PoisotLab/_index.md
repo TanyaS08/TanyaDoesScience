@@ -1,7 +1,7 @@
 ---
 authors:
 - PoisotLab
-bio: Broadly interested in species interactions, network ecology, coevolution using computational methods at Université de Montréal
+bio: Exploring connections in ecological systems - Quantitative & Computational Ecology based at Université de Montréal
 interests:
 - Quantitative and computational ecology
 - Species interactions
