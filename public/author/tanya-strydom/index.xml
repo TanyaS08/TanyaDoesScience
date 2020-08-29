@@ -5,12 +5,20 @@
     <link>/author/tanya-strydom/</link>
       <atom:link href="/author/tanya-strydom/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Strydom</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Tanya Strydom</title>
       <link>/author/tanya-strydom/</link>
     </image>
+    
+    <item>
+      <title>Generalities between ecological networks and complexity</title>
+      <link>/project/svdnetworks/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/svdnetworks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data are the sheet music and data visualisation is the symphony</title>

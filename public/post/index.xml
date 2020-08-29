@@ -5,12 +5,27 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>And we&#39;re off! 🐎</title>
+      <link>/post/and-were-off/</link>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/and-were-off/</guid>
+      <description>&lt;p&gt;I now have an institution email address (and for the first time it&amp;rsquo;s my full name and not just a series of numbers!) and a student number so arguably it&amp;rsquo;s &amp;lsquo;real real&amp;rsquo; and I&amp;rsquo;m now &lt;em&gt;officially&lt;/em&gt; a PhD student. Although I haven&amp;rsquo;t joined the lab yet in the physical sense I&amp;rsquo;m definitely part of the online office space and have successfully navigated a few meetings. The most recent being one with my supervisor where he suggested that we get started with a &amp;lsquo;short but cool project&amp;rsquo; that would help me get familiar with ecological networks, some linear algebra, working in Julia and of course making what would be considered a valuable and interesting contribution to science (Just to add to that we as a lab have a workshop scheduled in October with two other labs looking at making predictions in ecological networks - so a lot lined up for the rest of the year).&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s cool though - instead of bombarding me with a stack of literature and no real &amp;lsquo;idea&amp;rsquo; as to where we are going with my PhD project I have the chance to passively do my required literature reading along with some other skills development in a fun, directed and rewarding (&lt;del&gt;should&lt;/del&gt; when we publish) manner. This also feels more meaningful somehow? The bigger goal of course is so that I can walk into the meeting with my advisory committee later in the winter term with a more concrete product to show them as opposed to (well maybe more in addition to) showcasing what I have read or thought about regarding my PhD project.&lt;/p&gt;
+&lt;p&gt;In addition to this (and as I alluded to earlier) the lab also has a workshop planned for October that is also slated as a way for me to get more familiar with the current state of networks in ecology and the associated prediction methods. This also gives me the opportunity to work with some of the Poisot lab members (which I think given the current situation will be beneficial for me to get to know everyone better and feel like part of the team) as well as meeting students and researchers from the other two labs. Currently the idea is that we produce a paper at the end of this workshop - which will be lead by the students/early career researchers of the different labs. Again an awesome opportunity to feel like I&amp;rsquo;m doing meaningful work while still doing the traditionally &amp;lsquo;required reading&amp;rsquo; as an early PhD student.&lt;/p&gt;
+&lt;p&gt;So all in all I&amp;rsquo;ve started the &amp;lsquo;marathon&amp;rsquo; that is my PhD journey and at this point there are a lot of interesting things front and centre and I&amp;rsquo;m chomping at the bit to get going!&lt;/p&gt;
+&lt;p&gt;#WatchThisSpace&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya 🐾&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Data are the sheet music and data visualisation is the symphony</title>

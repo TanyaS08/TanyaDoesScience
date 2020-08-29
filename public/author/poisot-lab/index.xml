@@ -5,12 +5,20 @@
     <link>/author/poisot-lab/</link>
       <atom:link href="/author/poisot-lab/index.xml" rel="self" type="application/rss+xml" />
     <description>Poisot Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Poisot Lab</title>
       <link>/author/poisot-lab/</link>
     </image>
+    
+    <item>
+      <title>Generalities between ecological networks and complexity</title>
+      <link>/project/svdnetworks/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/svdnetworks/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

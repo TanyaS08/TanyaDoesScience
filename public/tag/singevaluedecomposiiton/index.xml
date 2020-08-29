@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SingeValueDecomposiiton | Tanya Does Science</title>
+    <link>/tag/singevaluedecomposiiton/</link>
+      <atom:link href="/tag/singevaluedecomposiiton/index.xml" rel="self" type="application/rss+xml" />
+    <description>SingeValueDecomposiiton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon.png</url>
+      <title>SingeValueDecomposiiton</title>
+      <link>/tag/singevaluedecomposiiton/</link>
+    </image>
+    
+    <item>
+      <title>Generalities between ecological networks and complexity</title>
+      <link>/project/svdnetworks/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/svdnetworks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
