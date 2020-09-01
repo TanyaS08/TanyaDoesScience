@@ -8,6 +8,8 @@ interests:
 - Network ecology
 - Coevolution
 email: ""
+organizations:
+- name: "Université de Montréal"
 role: "Quantitative and computational ecology lab headed by Timothée Poisot"
 social:
 - icon: home
