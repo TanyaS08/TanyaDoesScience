@@ -10,9 +10,14 @@ tags:
 - MachineLearning
 - SingeValueDecomposiiton
 title: Generalities between ecological networks and complexity
-url_code: "https://github.com/TanyaS08"
+#url_code: "https://github.com/TanyaS08"
 url_pdf: ""
 url_slides: ""
 url_video: ""
+links:
+- icon: github-alt
+  icon_pack: fab
+  link: https://github.com/PoisotLab/ms_svd_networks
 authors: ['admin','PoisotLab']
+lastmod: '2020-09-16'
 ---

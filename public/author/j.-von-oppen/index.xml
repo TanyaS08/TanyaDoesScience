@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. von Oppen | Tanya Does Science</title>
+    <link>/author/j.-von-oppen/</link>
+      <atom:link href="/author/j.-von-oppen/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. von Oppen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon.png</url>
+      <title>J. von Oppen</title>
+      <link>/author/j.-von-oppen/</link>
+    </image>
+    
+    <item>
+      <title>From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond</title>
+      <link>/publication/preprint/8insights/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/8insights/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantitative Biodiversity Lab | Tanya Does Science</title>
+    <link>/author/quantitative-biodiversity-lab/</link>
+      <atom:link href="/author/quantitative-biodiversity-lab/index.xml" rel="self" type="application/rss+xml" />
+    <description>Quantitative Biodiversity Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon.png</url>
+      <title>Quantitative Biodiversity Lab</title>
+      <link>/author/quantitative-biodiversity-lab/</link>
+    </image>
+    
+  </channel>
+</rss>

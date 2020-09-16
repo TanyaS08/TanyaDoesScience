@@ -18,7 +18,7 @@ interests:
 - Dabbling in artistic pursuits
 organizations:
 - name: Département de sciences biologiques, Université de Montréal
-  url: ""
+  url: "https://bio.umontreal.ca/english/home/"
 role: PhD Student
 social:
 - icon: paper-plane
@@ -46,6 +46,6 @@ user_groups:
 - Visitors
 ---
 
-A Scientist in training who loves playing outside in the mountains and very much wants to understand why communities look the way that they do. In order to address the latter I've decided to further my training in (and incorporate) more computational approaches to hopefully help us to begin drawing more global patterns and conclusions.
+A Scientist in training who loves playing outside in the mountains and wants to understand why communities are structured the way that they are. Being the ~~maths geek~~ nerd that I am I've started dabbling in computational approaches to hopefully help us improve our understanding and to begin drawing more global patterns and conclusions. This of course necessitates further training and I am currently undergoing my PhD training at the {{% mention "PoisotLab" %}}, which is headed by Timothée Poisot and focuses on quantitative and computational ecology.
 
- A plant ecologist by inclination I can usually be found gushing about how cute a particular grass (or succulent) is, hanging off of the side of a mountain or going on bike-ventures to various coffee shops. When the weather forces me indoors I'm most likely spending way more time than I need to trying to automate a process that could be done in a few minutes, exercising my creative side (have to keep the scientific illustration option open 😉) or I'm trying to find new (and pretty) ways in which to visualise data and results i.e. combining my love for programming with my inner artist.
+ A plant ecologist by inclination I can usually be found gushing about how cute a particular grass (or succulent) is, hanging off of the side of a mountain or going on bike-ventures to various coffee shops. When the weather forces me indoors I'm most likely spending way more time than I need to trying to automate a process that could be done in a few minutes, exercising my creative side (have to keep the option for scientific illustration open 😉) or I'm trying to find new (and pretty) ways in which to visualise data and results i.e. combining my love for programming with my inner artist.
