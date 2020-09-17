@@ -54,6 +54,11 @@ caption = "Sometimes it's fun to break the mould a bit and see what the muse 'du
 
 [[gallery_item]]
 album = "1"
+image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/TrashPanda.png?raw=true"
+caption = "Trash panda makes art and a mess. *Done with watercolour markers*"
+
+[[gallery_item]]
+album = "1"
 image = "https://github.com/TanyaS08/TanyaDoesScience/blob/master/assets/images/draws/Panthera_Pardus.jpg?raw=true"
 caption = "Squaring off with a leopard (*Panthera padrus*). Might have to add some more portraits of big cats at some point... *Done in Photoshop CC*"
 
