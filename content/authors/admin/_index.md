@@ -30,6 +30,9 @@ social:
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/tanyas_08/
+- icon: behance-square
+  icon_pack: fab
+  link: https://tanyastrydom.myportfolio.com/work
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0001-6067-1349

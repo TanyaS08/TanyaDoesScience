@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 66  # Order that this section will appear.
 
 title = "Tanya Creates"
-subtitle = "[Click here](https://tanyadoesscience.com/draws) for more creations"
+subtitle = "[Click here](https://tanyastrydom.myportfolio.com/work) for more creations"
 +++
 
 {{< gallery >}}
