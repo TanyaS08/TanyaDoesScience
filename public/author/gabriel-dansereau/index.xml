@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gabriel Dansereau | Tanya Does Science</title>
+    <link>/author/gabriel-dansereau/</link>
+      <atom:link href="/author/gabriel-dansereau/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gabriel Dansereau</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon.png</url>
+      <title>Gabriel Dansereau</title>
+      <link>/author/gabriel-dansereau/</link>
+    </image>
+    
+    <item>
+      <title>Making better predictions of ecological networks through machine learning (done right)</title>
+      <link>/project/networkpredictions/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/networkpredictions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

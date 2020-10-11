@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aud H. Halbritter | Tanya Does Science</title>
+    <link>/author/aud-h.-halbritter/</link>
+      <atom:link href="/author/aud-h.-halbritter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aud H. Halbritter</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2020 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon.png</url>
+      <title>Aud H. Halbritter</title>
+      <link>/author/aud-h.-halbritter/</link>
+    </image>
+    
+    <item>
+      <title>Taking FAIR and open science to the field - The evolution of the PFTC field course</title>
+      <link>/talk/example/</link>
+      <pubDate>Tue, 13 Oct 2020 09:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

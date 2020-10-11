@@ -5,12 +5,20 @@
     <link>/author/pftcourses/</link>
       <atom:link href="/author/pftcourses/index.xml" rel="self" type="application/rss+xml" />
     <description>PFTCourses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2020 09:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>PFTCourses</title>
       <link>/author/pftcourses/</link>
     </image>
+    
+    <item>
+      <title>Taking FAIR and open science to the field - The evolution of the PFTC field course</title>
+      <link>/talk/example/</link>
+      <pubDate>Tue, 13 Oct 2020 09:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How COVID-19 possibly enhanced my educational experience: the post-course musings of a COVID-19 refugee</title>

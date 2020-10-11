@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Projects</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Making better predictions of ecological networks through machine learning (done right)</title>
+      <link>/project/networkpredictions/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/networkpredictions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generalities between ecological networks and complexity</title>
       <link>/project/svdnetworks/</link>
-      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/svdnetworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TidyTuesday</title>
+      <link>/project/tidytuesday/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/tidytuesday/</guid>
       <description></description>
     </item>
     

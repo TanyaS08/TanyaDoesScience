@@ -5,12 +5,34 @@
     <link>/category/r/</link>
       <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>R</title>
       <link>/category/r/</link>
     </image>
+    
+    <item>
+      <title>Why RStudio is a great tool for ecologists</title>
+      <link>/post/why-rstudio-is-a-great-tool-for-ecologists/</link>
+      <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/post/why-rstudio-is-a-great-tool-for-ecologists/</guid>
+      <description>&lt;p&gt;&lt;em&gt;I&amp;rsquo;d like to start off with a disclaimer:&lt;/em&gt; This isn&amp;rsquo;t a blog post on R being a better or more superior language (I&amp;rsquo;m a big fan of finding what works for you) but rather more of a discussion around my experience with the RStudio IDE and what makes it great for the researchers that are not big into becoming computer scientists&lt;/p&gt;
+&lt;p&gt;So it&amp;rsquo;s really no secret that science is starting to &amp;lsquo;get with the times&amp;rsquo; when it comes to open science and reproducibility. One of the big shifts is moving towards using a more code-based workflow when doing analyses. However, that being said I think most students embarking on their adventures in science (and specifically ecology) aren&amp;rsquo;t necessarily interested in becoming the next &amp;lsquo;hacker&amp;rsquo; (although there is some appeal to entertaining the fantasy every time I boot up my text editor of choice for the day) and might find the coding aspect of research quite &amp;lsquo;scary&amp;rsquo;. That&amp;rsquo;s (at least in my opinion) where the RStudio environment comes in to be pretty handy&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Some points in favour of RStudio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R is the current language of choice for most ecologists&lt;/li&gt;
+&lt;li&gt;Ecologists have worked on developed packages to preform many analyses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Giving users a very &amp;lsquo;complete&amp;rsquo; library of tools&lt;/li&gt;
+&lt;li&gt;This makes analyses more accessible to those note mathematically/statistically/coding inclined&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Exploring colour blind and colour weak plotting options in ggplot2</title>

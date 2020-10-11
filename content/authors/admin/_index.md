@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: Self diagnosed theoretical ecologist, code switcher (both spoken and programmatic), doodler and peruser of warm beverages.
+bio: Self diagnosed theoretical ecologist, code switcher (both spoken and programmatic), doodler, and peruser of warm beverages.
 education:
   courses:
   - course: MSc in Ecology and Biodiversity

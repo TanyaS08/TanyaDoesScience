@@ -6,7 +6,7 @@ slug: exploring-colour-blind-and-colour-weak-plotting-options-in-ggplot2
 categories:
   - R
 tags:
-  - dataVis
+  - dataViz
   - coding
   - R
 subtitle: ''
