@@ -6,7 +6,7 @@ date: "2020-10-13T09:00:00Z"
 date_end: "2020-10-13T10:15:00Z"
 event: Living Norway Colloquium 2020
 event_url: https://livingnorway.no/towards-open-science-in-applied-ecology/
-featured: true
+featured: false
 image:
   caption: 'Image credit: [**Tanya Strydom**](https://tanyastrydom.myportfolio.com)'
   focal_point: Right
