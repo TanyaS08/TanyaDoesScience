@@ -16,14 +16,14 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Tweets
-  url: https://twitter.com/search?q=%23LivingNorwayConference2020&src=typed_query
+  url: https://twitter.com/hashtag/LN2020?src=hashtag_click&f=live
 location: Norwegian Institute for Nature Research - NINA
 math: true
 summary: A case study on integrating open science and reproducibility into field course training and teaching, and the effect it has on participant experience.
 tags: [OpenScience]
 title: Taking FAIR and open science to the field - The evolution of the PFTC field course
 url_code: ""
-url_pdf: ""
-url_slides: "slides/LivingNorway2020.pdf"
+url_pdf: "slides/LivingNorway2020.pdf"
+url_slides: ""
 url_video: ""
 ---

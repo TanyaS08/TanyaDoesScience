@@ -1,0 +1,244 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{529FA8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Tanya}{Strydom}
+
+\position{PhD Student}
+\address{Département de sciences biologiques, Université de Montréal}
+
+\email{\href{mailto:tanya.strydom@umontreal.ca}{\nolinkurl{tanya.strydom@umontreal.ca}}}
+\homepage{tanyadoesscience.com}
+\orcid{0000-0001-6067-1349}
+\github{TanyaS08}
+\twitter{TanyaS\_08}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{%
+\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}\ifx#5\empty{\vspace{-4.0mm}}\else\fi}
+\def\detailedsection#1{\begin{cventries}#1\end{cventries}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvhonor{}{#1}{#3}{#2}}
+\def\briefsection#1{\begin{cvhonors}#1\end{cvhonors}}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {October 2020}
+    {Tanya Strydom~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{research-interests}{%
+\section{Research Interests}\label{research-interests}}
+
+computational ecology; functional traits; ecological networks; machine learning; FAIR and open science
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\detailedsection{\detaileditem{Université de Montréal}{2020 - Present}{Doctor of Philosophy: Biological Sciences}{Montréal, Canada}{\item{Advisor: T. Poisot, PhD}\item{Thesis: Machine learning in ecology}}\detaileditem{Stockholms Universitet}{2018-20}{Master of Science: Ecology and Biodiversity}{Stockholm, Sweden}{\item{Advisor: K. Hylander, PhD}\item{Thesis: Declines and increases in northern and southern plant populations after changes in the microclimate}}\detaileditem{University of Pretoria}{2017}{Bachelor of Science (Honours): Plant Sciences}{Pretoria, South Africa}{\item{Advisor: P.C. le Roux, PhD}\item{Thesis: Bush encroachment in South Africa’s montane grasslands: the impact of \textit{Leucosidea sericea} on microclimate and vegetation}\item{Graduated \textit{cum laude}}}\detaileditem{University of Pretoria}{2014-16}{Bachelor of Science: Ecology}{Pretoria, South Africa}{\empty}}
+
+\hypertarget{research-experience}{%
+\section{Research Experience}\label{research-experience}}
+
+\detailedsection{\detaileditem{V. Vandvik, PhD and B.J. Enquist, PhD}{2020}{Plant functional trait responses to elevation and fire}{}{\item{Attended the 5th Plants Functional Traits Course in Peru co-hosted by the Univesity of Bergen and Arizona University.}\item{Theory on plant functional traits and their relationships with broader ecological processes.}\item{Practical elements include: experimental design, data collection and curation, and report writing.}}\detaileditem{K. Hylander, PhD}{2019-20}{Plant vital rates along microclimate gradients.}{}{\item{Masters degree research project.}\item{Focused on the variation of plant population vital rates along microclimate gradients and the role of historic climatic conditions.}}\detaileditem{J. Ehrlén, PhD and A. Tack, PhD}{2019}{Plant-pollinator interactions in different microsites}{}{\item{A Masters level course research project.}\item{Independently worked on hypothesis formulation and experimental design.}}\detaileditem{P.C. le Roux, PhD}{2018}{Changes in plant functional traits at fine-scales}{}{\item{Collecting and processing plant functional traits on sub-Antarctic Marion Island.}\item{Research focused on looking at changes in plant functional traits along microclimate gradients.}}\detaileditem{P.C. le Roux, PhD}{2017}{The impact of an encroaching species on vegetation and microclimate}{}{\item{Honours degree research project.}\item{Research focused on the concepts of biotic interactions, ecosystem engineering and habitat modification.}}}
+
+\newpage
+
+\hypertarget{technical-skills}{%
+\section{Technical Skills}\label{technical-skills}}
+
+\begin{cvskills}
+  \cvskill
+    {Statistical Analysis}
+    {generalized and linear mixed-effect models; mulitvariate analysis; Bayesian analysis; primarily using R}
+
+  \cvskill
+    {Spatial Analysis}
+    {spatial analysis in ecology; ArcGIS; Maxent; GBIF}
+    
+  \cvskill
+    {Image Analysis}
+    {ImageJ; Adobe Photoshop}
+    
+  \cvskill
+    {Phylogenetic Analysis}
+    {extracting and cleaning samples from GenBank; MEGA}
+    
+  \cvskill
+    {Academic Writing}
+    {assessed at various levels; peer-reviewed articles; literature reviews; research proposals; reports; popular articles}
+
+  \cvskill
+    {Oral Communication}
+    {masters level course; presented in various settings}
+
+  \cvskill
+    {Peer Review}
+    {as an assistant (PLoS ONE, 2018); second-round reviewer (Plant Ecology, 2019)}
+
+  \cvskill
+    {Language Skills}
+    {English and Afrikaans as a native speaker; conversational in German; basic Swedish and Spanish}
+
+\end{cvskills}
+
+\hypertarget{written-work}{%
+\section{Written Work}\label{written-work}}
+
+\hypertarget{peer-reviewed}{%
+\subsection{\texorpdfstring{\textbf{Peer-reviewed}}{Peer-reviewed}}\label{peer-reviewed}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_journals}{}
+\leavevmode\hypertarget{ref-Kattge_2020}{}%
+Kattge, J., Boenisch, G., Diaz, S., Lavorel, S., Prentice, C., Leadley, P., Wirth, C., \& TRY Consortium. (2020). The TRY plant trait database - enhanced coverage and open access. \emph{Global Change Biology}. \url{https://doi.org/10.1111/gcb.14904}
+
+\endgroup
+
+\hypertarget{under-review}{%
+\subsection{\texorpdfstring{\textbf{Under Review}}{Under Review}}\label{under-review}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_review}{}
+\leavevmode\hypertarget{ref-Chac_2020}{}%
+Chacón-Labella\(^\clubsuit\), J., Boakye, M., Enquist, B. J., Farfan-Rios, W., Gya, R., Halbritter, A. H., Middleton, S. L., von Oppen, J., Pastor-Ploskonka, S., Strydom, T., Vandvik, V., \& Geange\(^\clubsuit\), S. R. (2020). From a crisis to an opportunity: Eight insights for doing science in the covid-19 era and beyond. \emph{Accepted}. \url{https://doi.org/10.22541/au.159569118.87473812}
+
+\leavevmode\hypertarget{ref-Geange_2020}{}%
+Geange\(^\clubsuit\), S. R., von Oppen\(^\clubsuit\), J., \textbf{Strydom, T.\(^\clubsuit\)}, Boakye, M., Gauthier, T.-L. J., Gya, R., Halbritter, A. H., Jessup, L. H., Middleton, S. L., Navarro, J., Pierfederici, M. E., Chacón-Labella, J., Cotner, S., Farfan-Rios, W., Maitner, B. S., Michaletz, S. T., Telford, R. J., Enquist, B. J., \& Vandvik, V. (2020). Next-generation field courses: Integrating open science and online learning. \emph{Accepted}.
+
+\leavevmode\hypertarget{ref-Long-termMJRK}{}%
+Raath-Krüger, M. J., Schöb, C., McGeoch, M. A., Strydom, T., \& le Roux, P. C. (2020). Long-term spatially-replicated data show no cost to a benefactor species in a facilitative plant-plant interaction. \emph{Submitted}.
+
+\endgroup
+
+\hypertarget{popular-articles}{%
+\subsection{\texorpdfstring{\textbf{Popular Articles}}{Popular Articles}}\label{popular-articles}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_popular}{}
+\leavevmode\hypertarget{ref-peru2020}{}%
+Cotner, S., Enquist, B. J., Chacon, J., Maitner, B. S., Farfan-Rios, W., Michaletz, S., Garen, J., Gauthier, T.-L. J., Vandvik, V., Gya, R., Halbritter, A. H., Hošková, K., Pierfederici, M. E., Quinteros-Casaverde, N. L., Diaz, E. S., Jessup, L. H., Strydom, T., \& von Oppen, J. (2020). International scientists need better support during global emergencies. In \emph{Times Higher Education}. \url{https://tinyurl.com/y5ccw9nb}
+
+\endgroup
+
+\(^\clubsuit\) = should be considered equal lead
+
+\hypertarget{talks}{%
+\section{Talks}\label{talks}}
+
+\hypertarget{invited-talks}{%
+\subsection{\texorpdfstring{\textbf{Invited talks}}{Invited talks}}\label{invited-talks}}
+
+\detailedsection{\detaileditem{Living Norway Colloquium 2020: Towards openess and transparency in applied ecology}{Oct. 13, 2020}{Taking FAIR and open science to the field: The evolution of the PFTC field course}{Trondheim, Norway}{\item{Presented as part of the education and open science workshop}\item{Presented alongside Aud H. Halbritter}}}
+
+\newpage
+
+\hypertarget{internships}{%
+\section{Internships}\label{internships}}
+
+\detailedsection{\detaileditem{University of Bergen}{2020}{UiB Internship}{}{\item{Website development for the Plants Functional Courses website. This included content creation as well as some front end development}}\detaileditem{University of Pretoria}{2016}{3rd year Undergraduate Mentorship Program}{}{\item{Worked as an assistant within the M. Robertson lab. This included the sorting and identification of pitfall trap samples as well as extracting information from databases}}}
+
+\hypertarget{funding-and-awards}{%
+\section{Funding and Awards}\label{funding-and-awards}}
+
+\detailedsection{\detaileditem{Awarded by: University of Pretoria}{2018}{Qualified for the UP Postgraduate Masters Research Bursary.}{}{\empty}\detaileditem{Awarded by: University of Pretoria}{2016}{Awarded the 3rd year Undergraduate Mentorship Bursary.}{}{\empty}}
+
+\end{document}
