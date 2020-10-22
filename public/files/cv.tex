@@ -32,7 +32,7 @@
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 
-\definecolor{awesome}{HTML}{414141}
+\definecolor{awesome}{HTML}{529FA8}
 
 % Colors for text
 % Uncomment if you would like to specify your own color
@@ -92,65 +92,7 @@
 %------------------------------------------------------------------------------
 
 
-%%%% BIBLIOGRAPHY
-% Bibliography formatting
 
-\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
-
-\DeclareFieldFormat{url}{\url{#1}}
-\DeclareFieldFormat[article]{pages}{#1}
-\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
-\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
-\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
-\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
-\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
-\DeclareFieldFormat[article]{url}{}
-\DeclareFieldFormat[inproceedings]{title}{#1}
-\DeclareFieldFormat{shorthandwidth}{#1}
-\DeclareFieldFormat{extradate}{}
-
-% No dot before number of articles
-\usepackage{xpatch}
-\xpatchbibmacro{volume+number+eid}{\setunit*{\adddot}}{}{}{}
-
-% Remove In: for an article.
-\renewbibmacro{in:}{%
-  \ifentrytype{article}{}{%
-  \printtext{\bibstring{in}\intitlepunct}}}
-
-%\makeatletter
-%\DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
-%\makeatother
-
-\setlength{\bibitemsep}{1.8pt}
-\setlength{\bibhang}{.9cm}
-%\renewcommand{\bibfont}{\fontsize{12}{14}}
-
-\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.9cm\hbox to 0.9cm{\hfill\arabic{papers}.~\,}}
-\defbibenvironment{bibliography}
-{\list{}
-  {\setlength{\leftmargin}{\bibhang}%
-   \setlength{\itemsep}{\bibitemsep}%
-   \setlength{\parsep}{\bibparsep}}}
-{\endlist}
-{\bibitem}
-
-\renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\selectfont}
-% Counters for keeping track of papers
-\newcounter{papers}
-
-\DeclareSortingTemplate{ty}{
-  \sort{
-    \field{title}
-  }
-  \sort{
-    \field{year}
-  }
-}
-\DeclareBibliographyCategory{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/pubs.bib-108324.7}
-\DeclareBibliographyCategory{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Under_Review.bib-113055.1}
-\DeclareBibliographyCategory{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Popular_Articles.bib-115367.7}
-\bibliography{/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/pubs.bib, /Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Under_Review.bib, /Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Popular_Articles.bib}
 
 \begin{document}
 
@@ -182,7 +124,7 @@ computational ecology; functional traits; ecological networks; machine learning;
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-\detailedsection{\detaileditem{Université de Montréal}{2020 - Present}{Doctor of Philosophy: Biological Sciences}{Montréal, Canada}{\item{Advisor: T. Poisot, PhD}\item{Thesis: Machine learning in ecology}}\detaileditem{Stockholms Universitet}{2018-20}{Master of Science: Ecology and Biodiversity}{Stockholm, Sweden}{\item{Advisor: K. Hylander, PhD}\item{Thesis: Declines and increases in northern and southern plant populations after changes in the microclimate}}\detaileditem{University of Pretoria}{2017}{Bachelor of Science (Honours): Plant Sciences}{Pretoria, South Africa}{\item{Advisor: P.C. le Roux, PhD}\item{Thesis: Bush encroachment in South Africa’s montane grasslands: the impact of Leucosidea sericea on microclimate and vegetation}}\detaileditem{University of Pretoria}{2014-16}{Bachelor of Science: Ecology}{Pretoria, South Africa}{\empty}}
+\detailedsection{\detaileditem{Université de Montréal}{2020 - Present}{Doctor of Philosophy: Biological Sciences}{Montréal, Canada}{\item{Advisor: T. Poisot, PhD}\item{Thesis: Machine learning in ecology}}\detaileditem{Stockholms Universitet}{2018-20}{Master of Science: Ecology and Biodiversity}{Stockholm, Sweden}{\item{Advisor: K. Hylander, PhD}\item{Thesis: Declines and increases in northern and southern plant populations after changes in the microclimate}}\detaileditem{University of Pretoria}{2017}{Bachelor of Science (Honours): Plant Sciences}{Pretoria, South Africa}{\item{Advisor: P.C. le Roux, PhD}\item{Thesis: Bush encroachment in South Africa’s montane grasslands: the impact of \textit{Leucosidea sericea} on microclimate and vegetation}\item{Graduated \textit{cum laude}}}\detaileditem{University of Pretoria}{2014-16}{Bachelor of Science: Ecology}{Pretoria, South Africa}{\empty}}
 
 \hypertarget{research-experience}{%
 \section{Research Experience}\label{research-experience}}
@@ -232,43 +174,60 @@ computational ecology; functional traits; ecological networks; machine learning;
 \hypertarget{written-work}{%
 \section{Written Work}\label{written-work}}
 
-\textbf{Peer-reviwed}
-\defbibheading{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/pubs.bib-108324.7}{}
-\addtocategory{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/pubs.bib-108324.7}{Kattge_2020}
-\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]\printbibliography[category=bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/pubs.bib-108324.7,heading=none]\setcounter{papers}{0}
+\hypertarget{peer-reviewed}{%
+\subsection{\texorpdfstring{\textbf{Peer-reviewed}}{Peer-reviewed}}\label{peer-reviewed}}
 
-\nocite{Kattge_2020}
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
 
-\textbf{Under Review}
+\hypertarget{refs_journals}{}
+\leavevmode\hypertarget{ref-Kattge_2020}{}%
+Kattge, J., Boenisch, G., Diaz, S., Lavorel, S., Prentice, C., Leadley, P., Wirth, C., \& TRY Consortium. (2020). The TRY plant trait database - enhanced coverage and open access. \emph{Global Change Biology}. \url{https://doi.org/10.1111/gcb.14904}
 
-\defbibheading{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Under_Review.bib-113055.1}{}
-\addtocategory{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Under_Review.bib-113055.1}{Chac_2020,
-Geange_2020,
-Long-termMJRK}
-\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Under_Review.bib-113055.1,heading=none]\setcounter{papers}{0}
+\endgroup
 
-\nocite{Chac_2020,
-Geange_2020,
-Long-termMJRK}
+\hypertarget{under-review}{%
+\subsection{\texorpdfstring{\textbf{Under Review}}{Under Review}}\label{under-review}}
 
-\textbf{Popular Articles}
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
 
-\defbibheading{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Popular_Articles.bib-115367.7}{}
-\addtocategory{bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Popular_Articles.bib-115367.7}{peru2020}
-\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/tanyastrydom/Documents/Uni/Admin_Docs/CV/Popular_Articles.bib-115367.7,heading=none]\setcounter{papers}{0}
+\hypertarget{refs_review}{}
+\leavevmode\hypertarget{ref-Chac_2020}{}%
+Chacón-Labella\(^\clubsuit\), J., Boakye, M., Enquist, B. J., Farfan-Rios, W., Gya, R., Halbritter, A. H., Middleton, S. L., von Oppen, J., Pastor-Ploskonka, S., \textbf{Strydom, T.}, Vandvik, V., \& Geange\(^\clubsuit\), S. R. (2020). From a crisis to an opportunity: Eight insights for doing science in the covid-19 era and beyond. \emph{Accepted}. \url{https://doi.org/10.22541/au.159569118.87473812}
 
-\nocite{peru2020}
+\leavevmode\hypertarget{ref-Geange_2020}{}%
+Geange\(^\clubsuit\), S. R., von Oppen\(^\clubsuit\), J., \textbf{Strydom, T.\(^\clubsuit\)}, Boakye, M., Gauthier, T.-L. J., Gya, R., Halbritter, A. H., Jessup, L. H., Middleton, S. L., Navarro, J., Pierfederici, M. E., Chacón-Labella, J., Cotner, S., Farfan-Rios, W., Maitner, B. S., Michaletz, S. T., Telford, R. J., Enquist, B. J., \& Vandvik, V. (2020). Next-generation field courses: Integrating open science and online learning. \emph{Accepted}.
+
+\leavevmode\hypertarget{ref-Long-termMJRK}{}%
+Raath-Krüger, M. J., Schöb, C., McGeoch, M. A., \textbf{Strydom, T.}, \& le Roux, P. C. (2020). Long-term spatially-replicated data show no cost to a benefactor species in a facilitative plant-plant interaction. \emph{Submitted}.
+
+\endgroup
+
+\hypertarget{popular-articles}{%
+\subsection{\texorpdfstring{\textbf{Popular Articles}}{Popular Articles}}\label{popular-articles}}
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+\hypertarget{refs_popular}{}
+\leavevmode\hypertarget{ref-peru2020}{}%
+Cotner, S., Enquist, B. J., Chacon, J., Maitner, B. S., Farfan-Rios, W., Michaletz, S., Garen, J., Gauthier, T.-L. J., Vandvik, V., Gya, R., Halbritter, A. H., Hošková, K., Pierfederici, M. E., Quinteros-Casaverde, N. L., Diaz, E. S., Jessup, L. H., \textbf{Strydom, T.}, \& von Oppen, J. (2020). International scientists need better support during global emergencies. In \emph{Times Higher Education}. \url{https://tinyurl.com/y5ccw9nb}
+
+\endgroup
 
 \(^\clubsuit\) = should be considered equal lead
 
 \hypertarget{talks}{%
 \section{Talks}\label{talks}}
 
-\textbf{Invited talks}
+\hypertarget{invited-talks}{%
+\subsection{\texorpdfstring{\textbf{Invited talks}}{Invited talks}}\label{invited-talks}}
 
-\detailedsection{\detaileditem{Living Norway Colloquium 2020: Towards openess and transparency in applied ecology}{Oct. 13, 2020}{Taking FAIR and open science to the field: The evolution of the PFTC field course}{Trondheim, Norway}{\item{Presenting a case study on how open science anf FAIR principles are incorporated into a field course as part of the education and open science workshop}\item{Presented alongside Aud H. Halbritter}}}
+\detailedsection{\detaileditem{Living Norway Colloquium 2020: Towards openess and transparency in applied ecology}{Oct. 13, 2020}{Taking FAIR and open science to the field: The evolution of the PFTC field course}{Trondheim, Norway}{\item{Presented as part of the education and open science workshop}\item{Presented alongside Aud H. Halbritter}}}
 
 \newpage
 
