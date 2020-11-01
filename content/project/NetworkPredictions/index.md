@@ -10,10 +10,16 @@ tags:
 - MachineLearning
 - EcologicalNetworks
 title: Making better predictions of ecological networks through machine learning (done right)
-#url_code: "https://github.com/TanyaS08"
+#url_code: "https://github.com/PoisotLab/ms_network_prediction"
 url_pdf: ""
 url_slides: ""
 url_video: ""
+links:
+- icon: github-alt
+  icon_pack: fab
+  link: https://github.com/PoisotLab/ms_network_prediction
 authors: ['Francis Banville','Dominique Caron','Michael Catchen','Gabriel Dansereau','Norma Forero','Gracielle Higino','Benjamin Mercier','admin','Timothée Poisot','PoisotLab']
-lastmod: '2020-09-16'
+lastmod: '2020-10-31'
 ---
+
+So after a month of biweekly meetings we have a working draft and let me tell you things are HOT!

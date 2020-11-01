@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Does Science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2020 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Tanya Does Science</title>
@@ -55,6 +55,24 @@
     </item>
     
     <item>
+      <title>Fast-tracking the PhD Experience</title>
+      <link>/post/fast-tracking-the-phd-experience/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/post/fast-tracking-the-phd-experience/</guid>
+      <description>&lt;p&gt;Can I just humorously preface this by saying that the email from the journal saying that they had received the manuscript addressed me as Dr Strydom and can&amp;rsquo;t say that I hate it - although maybe a &lt;em&gt;bit&lt;/em&gt; premature 😉 Oh and maybe as another add on - working in different timezones may be annoying in terms of scheduling meetings but it is pretty great when you wake up in the mornings to &amp;lsquo;good job&amp;rsquo; messages from your supervisor ☺️&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not going to talk about the actual theory/content of the manuscript (because that I&amp;rsquo;m saving for the actual project page) but rather just talk about how being thrown into the deep end by your supervisor (but having him also throw you a very effective form of floatation device) results in quickly learning things in a driven manner, especially some handy collaborative workflow things that are also very Open Science and FAIR aligned.&lt;/p&gt;
+&lt;h1 id=&#34;publishing-so-soon&#34;&gt;Publishing so soon?&lt;/h1&gt;
+&lt;p&gt;Look I&amp;rsquo;m not saying that all graduate students &lt;strong&gt;need&lt;/strong&gt; to publish something right of the bat - and its a case of student readiness and opportunity that needs to be taken into consideration. However, that being said it makes for a fun way to help and encourage the student to get up to speed with literature and have it be in a rewarding manner (in a sense) as the student has a short-term goal to achieve. I also felt like it took away some of the daunting feeling of &amp;lsquo;where do we even start?&amp;rsquo; after starting. It&amp;rsquo;s also a really great confidence boost and makes you feel like a &amp;lsquo;scientist&amp;rsquo;. Ultimately it also means that I have something &amp;lsquo;to show&amp;rsquo; when I take my candidacy exam in a few months time - hopefully impressing the advisory board 😉&lt;/p&gt;
+&lt;h1 id=&#34;new-coding-language---sure-why-not&#34;&gt;New coding language - sure why not?&lt;/h1&gt;
+&lt;p&gt;So I knew going into this that learning how to work in &lt;code&gt;Julia&lt;/code&gt; was going to be inevitable - &lt;em&gt;&amp;lsquo;it&amp;rsquo;s the way&amp;rsquo;&lt;/em&gt; of the Poisot Lab after all. However, that being said learning, and &lt;del&gt;struggling&lt;/del&gt; pottering along with a new coding language when the submission deadline is seemingly in the distance is all fun and games, when its two days before d-day - not so fun. But overall its nice to work on a small, manageable chunk of the Julia-verse and a lot of the functions I was writing were simple arithmetic so it was a nice to work in a &amp;lsquo;low stakes&amp;rsquo; situation with regards to getting to grips with how to write function and the &amp;lsquo;types&amp;rsquo; that you can specify in &lt;code&gt;Julia&lt;/code&gt;. It also helps that after my toddler like attempt at writing a function  my supervisor steps in and directs/shows me where I erred or what is a more &amp;lsquo;grammatically correct&amp;rsquo; way of approaching the problem. Essentially I had a small and &amp;lsquo;contained&amp;rsquo; crash course in a new programming language that will hopefully set me up for success further down the line.&lt;/p&gt;
+&lt;h1 id=&#34;are-you-not-entertained&#34;&gt;Are you not entertained?&lt;/h1&gt;
+&lt;p&gt;You know what&amp;rsquo;s the best part of my fast-tracked experience? It&amp;rsquo;s really helped build back some of the excitement and enjoyment for research and science-ing that I felt my masters had &amp;lsquo;taken&amp;rsquo; from me. It also helps that my supervisor is very excited about everything we&amp;rsquo;ve done and I can&amp;rsquo;t help but feed off of that! It&amp;rsquo;s also very entertaining collaborating over GitHub with someone for both coding and writing and let me tell you its getting even more exciting regarding GitHub collaborating for our next project (The predicting ecological networks one if you&amp;rsquo;re wondering). I think (hopefully one day) I&amp;rsquo;ll write up a quick primer on collaborative writing over GitHub.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya 🐾&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Taking FAIR and open science to the field - The evolution of the PFTC field course</title>
       <link>/talk/example/</link>
       <pubDate>Tue, 13 Oct 2020 09:00:00 +0000</pubDate>
@@ -67,15 +85,50 @@
       <link>/project/networkpredictions/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/networkpredictions/</guid>
-      <description></description>
+      <description>&lt;p&gt;So after a month of biweekly meetings we have a working draft and let me tell you things are HOT!&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Generalities between ecological networks and complexity</title>
+      <title>SVD entropy reveals the high complexity of ecological networks</title>
       <link>/project/svdnetworks/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/svdnetworks/</guid>
-      <description></description>
+      <description>&lt;p&gt;As a quick primer: generally in ecology we have struggled to define the complexity of ecological networks. Many measures have been proposed, with these usually focusing on the &lt;em&gt;structural&lt;/em&gt; complexity of the network as opposed to using the &lt;em&gt;&amp;lsquo;physical&amp;rsquo;&lt;/em&gt; complexity of the network. Here we used SVD entropy (based off of information theory) as well as the relative rank deficiency to quantify complexity.&lt;/p&gt;
+&lt;p&gt;When we use the SVD entropy of a network we are looking at the information that is contained within the interaction matrix of the system - broadly how much information is contained with each species and the interaction strategy it has adopted. Many other attempts at trying to quantify the complexity of ecological networks look more at the structure i.e. the behaviour of the interaction network.&lt;/p&gt;
+&lt;p&gt;Interestingly we found that ecological networks are very complex - in theory SVD entropy can take a value from 0 - 1 yet all of our networks were above 0.8&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/SVD.png&#34; &gt;
+
+
+  &lt;img src=&#34;/img/SVD.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The long and the short of it is that we argue that using an information based approach to quantifying the complexity of a network is a more &amp;lsquo;correct&amp;rsquo; approach than those that focus on structure. If we unify this definition it will hopefully allow us to uncover more general patterns or relationship with complexity - e.g. the argument that complexity begets stability.&lt;/p&gt;
+</description>
     </item>
     
     <item>

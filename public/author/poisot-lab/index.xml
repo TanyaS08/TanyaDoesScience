@@ -17,15 +17,50 @@
       <link>/project/networkpredictions/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/networkpredictions/</guid>
-      <description></description>
+      <description>&lt;p&gt;So after a month of biweekly meetings we have a working draft and let me tell you things are HOT!&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Generalities between ecological networks and complexity</title>
+      <title>SVD entropy reveals the high complexity of ecological networks</title>
       <link>/project/svdnetworks/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/svdnetworks/</guid>
-      <description></description>
+      <description>&lt;p&gt;As a quick primer: generally in ecology we have struggled to define the complexity of ecological networks. Many measures have been proposed, with these usually focusing on the &lt;em&gt;structural&lt;/em&gt; complexity of the network as opposed to using the &lt;em&gt;&amp;lsquo;physical&amp;rsquo;&lt;/em&gt; complexity of the network. Here we used SVD entropy (based off of information theory) as well as the relative rank deficiency to quantify complexity.&lt;/p&gt;
+&lt;p&gt;When we use the SVD entropy of a network we are looking at the information that is contained within the interaction matrix of the system - broadly how much information is contained with each species and the interaction strategy it has adopted. Many other attempts at trying to quantify the complexity of ecological networks look more at the structure i.e. the behaviour of the interaction network.&lt;/p&gt;
+&lt;p&gt;Interestingly we found that ecological networks are very complex - in theory SVD entropy can take a value from 0 - 1 yet all of our networks were above 0.8&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/SVD.png&#34; &gt;
+
+
+  &lt;img src=&#34;/img/SVD.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The long and the short of it is that we argue that using an information based approach to quantifying the complexity of a network is a more &amp;lsquo;correct&amp;rsquo; approach than those that focus on structure. If we unify this definition it will hopefully allow us to uncover more general patterns or relationship with complexity - e.g. the argument that complexity begets stability.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

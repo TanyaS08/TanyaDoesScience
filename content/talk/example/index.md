@@ -23,7 +23,7 @@ summary: A case study on integrating open science and reproducibility into field
 tags: [OpenScience]
 title: Taking FAIR and open science to the field - The evolution of the PFTC field course
 url_code: ""
-doi: "10.5281/zenodo.4117504"
+doi: "https:doi.org/10.5281/zenodo.4117503"
 url_slides: ""
 url_video: ""
 ---
