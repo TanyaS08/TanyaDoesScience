@@ -5,12 +5,20 @@
     <link>/author/tanya-strydom/</link>
       <atom:link href="/author/tanya-strydom/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Strydom</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2020 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Tanya Strydom</title>
       <link>/author/tanya-strydom/</link>
     </image>
+    
+    <item>
+      <title>SVD entropy reveals the high complexity of ecological networks</title>
+      <link>/publication/preprint/svdent/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/svdent/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Taking FAIR and open science to the field - The evolution of the PFTC field course</title>
@@ -26,6 +34,8 @@
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/networkpredictions/</guid>
       <description>&lt;p&gt;So after a month of biweekly meetings we have a working draft and let me tell you things are HOT!&lt;/p&gt;
+&lt;p&gt;Quantifying the complexity of ecological networks has remained elusive. Primarily, complexity has been defined on the basis of the structural (or behavioural) complexity of the system. These definitions ignore the notion of &amp;lsquo;physical complexity&amp;rsquo;, which can measure the amount of information contained in an ecological network, and how difficult it would be to compress. We present relative rank deficiency and SVD entropy as measures of &amp;lsquo;external&amp;rsquo; and &amp;lsquo;internal&amp;rsquo; complexity respectively. Using bipartite ecological networks, we find that they all show a very high, almost maximal, physical complexity. Pollination networks, in particular, are more complex when compared to other types of interactions. In addition, we find that SVD entropy relates to other structural measures of complexity (nestedness, connectance, and spectral radius), but does not inform about the resilience of a network when using simulated extinction cascades, which has previously been reported for structural measures of complexity. We argue that SVD entropy provides a fundamentally more &amp;lsquo;correct&amp;rsquo; measure of network complexity and should be added to the toolkit of descriptors of ecological networks moving forward.&lt;/p&gt;
+&lt;p&gt;mutualistic&lt;/p&gt;
 </description>
     </item>
     
