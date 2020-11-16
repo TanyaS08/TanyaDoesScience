@@ -19,7 +19,6 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
-draft: true
 ---
 *I'd like to start off with a disclaimer:*
 
