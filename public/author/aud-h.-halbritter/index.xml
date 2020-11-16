@@ -5,7 +5,7 @@
     <link>/author/aud-h.-halbritter/</link>
       <atom:link href="/author/aud-h.-halbritter/index.xml" rel="self" type="application/rss+xml" />
     <description>Aud H. Halbritter</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2020 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Aud H. Halbritter</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Next-generation field courses: integrating Open Science and online learning</title>
+      <link>/publication/journal-article/nextgen/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/nextgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Taking FAIR and open science to the field - The evolution of the PFTC field course</title>
       <link>/talk/example/</link>
       <pubDate>Tue, 13 Oct 2020 09:00:00 +0000</pubDate>
       <guid>/talk/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond</title>
+      <link>/publication/preprint/8insights/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/8insights/</guid>
       <description></description>
     </item>
     

@@ -11,10 +11,7 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
-links:
-- icon: github-alt
-  icon_pack: fab
-  link: https://github.com/PoisotLab/ms_svd_networks
+url_code: "https://github.com/PoisotLab/ms_svd_networks"
 publication: "SVD entropy reveals the high complexity of ecological networks"
 publication_short: ""
 publication_types:

@@ -2,11 +2,6 @@
 authors:
 - PoisotLab
 bio: Exploring connections in ecological systems - Quantitative & Computational Ecology based at Université de Montréal
-interests:
-- Quantitative and computational ecology
-- Species interactions
-- Network ecology
-- Coevolution
 email: ""
 organizations:
 - name: "Université de Montréal"

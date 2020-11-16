@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giulio V. Dalla Riva | Tanya Does Science</title>
+    <link>/author/giulio-v.-dalla-riva/</link>
+      <atom:link href="/author/giulio-v.-dalla-riva/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giulio V. Dalla Riva</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon.png</url>
+      <title>Giulio V. Dalla Riva</title>
+      <link>/author/giulio-v.-dalla-riva/</link>
+    </image>
+    
+    <item>
+      <title>The complexity of ecological networks using SVD entropy</title>
+      <link>/project/svdnetworks/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/svdnetworks/</guid>
+      <description>&lt;p&gt;As a quick primer: generally in ecology we have struggled to define the complexity of ecological networks. Many measures have been proposed, with these usually focusing on the &lt;em&gt;structural&lt;/em&gt; complexity of the network as opposed to using the &lt;em&gt;&amp;lsquo;physical&amp;rsquo;&lt;/em&gt; complexity of the network. Here we used SVD entropy (based off of information theory) as well as the relative rank deficiency to quantify complexity.&lt;/p&gt;
+&lt;p&gt;When we use the SVD entropy of a network we are looking at the information that is contained within the interaction matrix of the system - broadly how much information is contained with each species and the interaction strategy it has adopted. Many other attempts at trying to quantify the complexity of ecological networks look more at the structure i.e. the behaviour of the interaction network.&lt;/p&gt;
+&lt;p&gt;Interestingly we found that ecological networks are very complex - in theory SVD entropy can take a value from 0 - 1 yet all of our networks were above 0.8&lt;/p&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/SVD.png&#34; &gt;
+
+
+  &lt;img src=&#34;/img/SVD.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The long and the short of it is that we argue that using an information based approach to quantifying the complexity of a network is a more &amp;lsquo;correct&amp;rsquo; approach than those that focus on structure. If we unify this definition it will hopefully allow us to uncover more general patterns or relationship with complexity - e.g. the argument that complexity begets stability.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,16 +10,12 @@ tags:
 - MachineLearning
 - EcologicalNetworks
 - SingularValueDecomposition
-title: SVD entropy reveals the high complexity of ecological networks
-#url_code: "https://github.com/TanyaS08"
+title: The complexity of ecological networks using SVD entropy
+url_code: "https://github.com/PoisotLab/ms_svd_networks"
 url_DOI: ""
 url_slides: ""
 url_video: ""
-links:
-- icon: github-alt
-  icon_pack: fab
-  link: https://github.com/PoisotLab/ms_svd_networks
-authors: ['admin','Timothée Poisot','PoisotLab']
+authors: ['admin', 'Giulio V. Dalla Riva', 'Timothée Poisot','PoisotLab']
 lastmod: '2020-10-30'
 ---
 

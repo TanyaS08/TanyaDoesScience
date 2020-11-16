@@ -1,13 +1,13 @@
 ---
 authors:
 - admin
-bio: Self diagnosed theoretical ecologist, code switcher (both spoken and programmatic), doodler, and peruser of warm beverages.
+bio: Self-diagnosed theoretical ecologist, code switcher (both spoken and programmatic), artistic alter-ego, and peruser of warm beverages.
 education:
   courses:
   - course: MSc in Ecology and Biodiversity
     institution: Stockholms Universitet | Sweden
     year: 2020
-  - course: BScHons in Plant Sciences
+  - course: BSc (Hons) in Plant Sciences
     institution: University of Pretoria | South Africa
     year: 2017
 email: ""
@@ -49,6 +49,6 @@ user_groups:
 - Visitors
 ---
 
-A Scientist in training who loves playing outside in the mountains and wants to understand why communities are structured the way that they are. Being the ~~maths geek~~ nerd that I am I've started dabbling in computational approaches to hopefully help us improve our understanding and to begin drawing more global patterns and conclusions. Current interests include (but are not limited to): predicting ecological networks, species traits and the role of scale as a member of the amazing (if you ask me) {{% mention "PoisotLab" %}} along with a (seemingly) ever growing list of side projects.
+A Scientist in training (and self-diagnosed theoretical ecologist) who loves playing outside in the mountains and wants to understand why communities are structured the way that they are. Being the ~~maths geek~~ nerd that I am I've started dabbling in the computational side of things as part of my PhD to hopefully help us improve our understanding and ability to begin drawing more global generalisations - although I often find myself reverting back to my microecology roots and getting caught up in the weeds a times 🙈. Current interests include (but are not limited to): ecological networks, species traits, the role of scale and how all *that* fits together as a member of the **amazing** (if you ask me) {{% mention "PoisotLab" %}} along with a (seemingly) ever growing list of side projects.
 
- A plant ecologist by inclination I can usually be found gushing about how cute a particular grass (or succulent) is, hanging off of the side of a mountain or going on bike-ventures to various coffee shops. When the weather forces me indoors I'm most likely spending way more time than I need to trying to automate a process that could be done in a few minutes, exercising my creative side (have to keep the option for scientific illustration open 😉) or I'm trying to find new (and pretty) ways in which to visualise data and results i.e. combining my love for programming with my inner artist.
+ A plant ecologist by inclination I can usually be found gushing about how cute a particular grass (or succulent) is, hanging off of the side of a mountain or going on bike-ventures to various coffee shops. When the weather forces me indoors I'm most likely spending way more time than I need to trying to automate a process that could be done in a few minutes, exercising my creative side (I have a fortnightly comic for the [Ecology for the Masses](https://ecologyforthemasses.com/) blog) or trying to find new (and pretty) ways in which to visualise data and results *i.e.* combining my geeky self with my artistic alter-ego.

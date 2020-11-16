@@ -5,12 +5,20 @@
     <link>/tag/rethinking-academia/</link>
       <atom:link href="/tag/rethinking-academia/index.xml" rel="self" type="application/rss+xml" />
     <description>Rethinking academia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Rethinking academia</title>
       <link>/tag/rethinking-academia/</link>
     </image>
+    
+    <item>
+      <title>Next-generation field courses: integrating Open Science and online learning</title>
+      <link>/publication/journal-article/nextgen/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/nextgen/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data are the sheet music and data visualisation is the symphony</title>

@@ -5,12 +5,20 @@
     <link>/author/tanya-strydom/</link>
       <atom:link href="/author/tanya-strydom/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Strydom</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Tanya Strydom</title>
       <link>/author/tanya-strydom/</link>
     </image>
+    
+    <item>
+      <title>Next-generation field courses: integrating Open Science and online learning</title>
+      <link>/publication/journal-article/nextgen/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/nextgen/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SVD entropy reveals the high complexity of ecological networks</title>
@@ -40,7 +48,7 @@
     </item>
     
     <item>
-      <title>SVD entropy reveals the high complexity of ecological networks</title>
+      <title>The complexity of ecological networks using SVD entropy</title>
       <link>/project/svdnetworks/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/project/svdnetworks/</guid>

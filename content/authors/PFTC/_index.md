@@ -5,7 +5,7 @@ bio: A hands-on, field-based exploration of plant functional traits, along with 
 interests:
 - Hands-on, field based training
 - Plant-trait data
-- Teaching  FAIR and Open principles
+- Teaching FAIR and Open principles
 email: ""
 role: Plant Functional Traits Courses
 social:

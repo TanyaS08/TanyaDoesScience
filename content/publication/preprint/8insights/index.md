@@ -2,18 +2,18 @@
 abstract: The COVID-19 crisis has forced researchers in Ecology to change the way we work almost overnight. Nonetheless, the pandemic has provided us with several novel components for a new way of conducting international Science. In this perspective piece, we summarize eight central insights that are helping us, as early career researchers, navigate the uncertainties, fears and challenges of advancing Science during the COVID-19 pandemic. We highlight how innovative, collaborative and often Open Science-driven developments that have arisen from this crisis can form a blueprint for a community reinvention in academia. Our insights include personal approaches to managing our new reality, maintaining capacity to focus and resilience in our projects, and a variety of tools that facilitate remote collaboration. We also highlight how, at a community level, we can take advantage of online communication platforms for gaining accessibility to conferences and meetings, and for maintaining research networks and community engagement while promoting a more diverse and inclusive community. Overall, we are confident that these practices can support a more inclusive and kinder scientific culture for the longer term.
 authors:
 - 'PFTC'
-- J. Chacón-Labella
-- M. Boakye
-- B.J. Enquist
-- W. Farfan-Rios
-- R. Gya
-- A.H. Halbritter
-- S.L. Middleton
-- J. von Oppen
-- S. Pastor-Ploskonka
+- Julia Chacón-Labella
+- Mickey Boakye
+- Brian J. Enquist
+- William Farfan-Rios
+- Ragnhild Gya
+- Aud H. Halbritter
+- Sara L. Middleton
+- Jonathan von Oppen
+- Samuel Pastor-Ploskonka
 - 'admin'
-- V. Vandvik
-- S.R. Geange
+- Vigdis Vandvik
+- Sonya R. Geange
 date: "2019-04-07T00:00:00Z"
 doi: "10.22541/au.159569118.87473812"
 featured: false
