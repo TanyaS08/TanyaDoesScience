@@ -34,7 +34,7 @@ publishDate: "2020-11-20T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Ecology and Evolution*"
+publication: "*Ecology and Evolution*"
 publication_short: ""
 
 abstract: 'Field courses provide one of the first opportunities for active, practical, and experiential learning for early career researchers. However, the COVID-19 pandemic has disrupted practical training in ecology worldwide, leading us to question to what extent early career researchers are equipped with the skills and competences they need to succeed as ecologists and evolutionary biologists in the future. Using our recent field course experience as a starting point, wWe outline some avenues for enhancing learning outcomes in field courses by integrating Open Science practices and online learning components into the traditional field course framework. Specifically, we highlight the opportunity for field courses to align teaching activities with the research process, including training in: publishing registered reports, collecting data using standardized methods, adopting high-quality data documentation, managing data through reproducible workflows, and sharing and publishing data through appropriate channels. We also show how field courses can use online tools to optimize time in the field, develop open access resources, and cultivate collaborations between early-career researchers and the broader scientific community. Integrating Open Science and online elements into field courses will serve to provide early-career researchers with valuable hands-on experience, while also benefitting course outcomes and impact, both among participants and in the wider community.'
