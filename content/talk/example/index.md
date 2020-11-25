@@ -24,6 +24,6 @@ tags: [OpenScience]
 title: Taking FAIR and open science to the field - The evolution of the PFTC field course
 url_code: ""
 doi: "https:doi.org/10.5281/zenodo.4117503"
-url_slides: ""
+url_slides: "https://tanyadoesscience.com/slides/example/index#1"
 url_video: ""
 ---
