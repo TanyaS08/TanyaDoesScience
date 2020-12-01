@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>A Primer on FAIR &amp; Open Science</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/robot.css" rel="stylesheet" />
+    <link href="libs/remark-css/robot-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="mizzou.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# A Primer on FAIR &amp; Open Science
+## <p>and a brief interlude with GitHub</p>
+### <p><strong>Tanya Strydom</strong>🐾<br> PhD Student<br> <a href="https://poisotlab.io">Poisot Lab</a></p>
+### <table style="border-style:none; padding: 0 0 50px 0; background-color:transparent" class="table">
+<tr>
+<th style="padding:0 30px">
+<a href="https://twitter.com/tanyas_08"><i class="fa fa-twitter"></i></a>
+</th>
+<th style="padding:0 30px">
+<a href="https://github.com/tanyas08"> <i class="fa fa-github"> </i></a>
+</th>
+</tr>
+<tr style="background-color:transparent">
+<th style="padding:0 30px">
+<a href="https://twitter.com/tanyas_08"> <span class="citation">@TanyaS_08</span> </a>
+</th>
+<th style="padding:0 30px">
+<a href="https://github.com/tanyas08"> <span class="citation">@TanyaS08</span> </a>
+</th>
+</tr>
+</table>
+
+---
+
+
+
+
+class: center, middle
+
+Presentation created using **{xaringan}** (the **robot** theme)
+
+Slides available at [mkearney.github.io/dsa_execweek_talk/](https://mkearney.github.io/dsa_execweek_talk/)
+
+---
+
+# The Backstory
+
+.center[species interaction networks 🕸 + fancy maths 🧮 | FAIR &amp; Open Science ⚖️ | part-time doodler 🎨 | warm beverage fan ☕]
+
+--
+.center[
+&lt;br&gt;
+Participant of the 5th [Plant Functional Traits Course](https://plantfunctionaltraitscourses.w.uib.no/)
+
+Placed a lot of focus on doing reproducible science
+
+&lt;br&gt;
+Inspired [this](https://doi.org/10.1002/ece3.7009) manuscript on how we can incorporate
+
+teaching FAIR and Open Science in 
+student training
+]
+
+--
+
+&lt;span style="margin: 0;
+  position: absolute;
+  top: 31%;
+  left: 15%;"&gt;
+  &lt;img src="img/NextGen.png" width="85%" /&gt;&lt;/span&gt;
+  
+--
+
+&lt;span style="margin: 0;
+  position: absolute;
+  top: 31%;
+  left: 27%;"&gt;
+  &lt;img src="img/Panel2.png" width="67%" /&gt;&lt;/span&gt;
+
+---
+
+# What is Open Science?
+
+.center[*A global movement to promote integrity, repeatability, and transparency across all aspects of scientific research*]
+
+--
+
+.pull-left[
+**Which includes:**
+
+- Open access to publications
+
+- Open access to data
+
+- Open source code and data handling
+]
+
+--
+
+&lt;span style="margin-left:-47%; position: absolute; top: 63%"&gt;&lt;img src="img/TheWay.jpeg" width="58%" /&gt;&lt;/span&gt;
+
+---
+
+# Make your Science FAIR
+
+.center[***F**indable, **A**ccessible, **I**nteroperable and **R**eproducible*]
+
+---
+
+# Where to Start Though?
+
+.footnote[[*] Respecting data sharing restrictions and embargoes]
+
+.left-column[data lifecycle.png]
+
+.right-column[
+- Think about how you enter your data
+  * Follow data and metadata standards (e.g. [DarwinCore](https://www.tdwg.org/))
+  * Document it (e.g. README file) think of this as an extensive methods section
+
+
+- Document data processing and analysis
+  * Use code-based workflows
+  * Annotate said code
+  
+  
+- Archive data in an accessible way
+  * Make as open and findable as possible&lt;sup&gt;*&lt;/sup&gt; e.g. a data statement and link to archive/repository
+  * Use non-propriety file formats e.g. .csv/.txt
+  * Include **all** documentation
+  
+  
+- Do some of your own research
+]
+
+---
+class: inverse, middle, center
+
+background-image: url(https://d33wubrfki0l68.cloudfront.net/62bcc8535a06077094ca3c29c383e37ad7334311/a263f/assets/img/logo.svg)
+background-position: bottom
+background-size: 20%
+
+# 1. Scripting changes
+
+---
+background-image: url(https://d33wubrfki0l68.cloudfront.net/62bcc8535a06077094ca3c29c383e37ad7334311/a263f/assets/img/logo.svg)
+background-position: bottom right
+background-size: 20%
+
+# Keep it Scripted
+
+Ultimately after inputting your data into a file&lt;sup&gt;*&lt;/sup&gt; it should remain untouched and unchanged. 
+
+.footnote[[*] Ideally using a non propriety format such as .csv or .txt]
+
+--
+
+**What does that even mean?**
+
+--
+
+- We want to keep `data_raw.csv` intact and end up with `data_clean.csv` on the other side
+
+--
+
+**Why should I script it?**
+--
+
+1. It allows you (and others) to keep track of&lt;br&gt;what you changed
+
+1. Document why you made the changes you&lt;br&gt;did (*sensu lato* a lab book)
+
+1. Avoid the all to common `_cleaned`,&lt;br&gt;`_cleaned2` issue
+
+
+---
+class: inverse, middle, center
+
+background-image: url(https://d33wubrfki0l68.cloudfront.net/62bcc8535a06077094ca3c29c383e37ad7334311/a263f/assets/img/logo.svg)
+background-position: bottom
+background-size: 20%
+
+# 2. Annotating code
+
+---
+
+# Annotations save lives &lt;sub style="font-size: medium;"&gt;(and time)&lt;/sub&gt;
+
+Annotating your code by adding comments makes it easier for you (and others) to understand what or why you decided to do what you did
+
+--
+
+.pull-left[
+- Pseudocode can double up as annotations
+  * Pseudocoding is a way of writing out your code in 'plain language' before you start coding it up
+  
+  
+- Detail specific changes or reasoning
+  * Especially when cleaning or transforming data
+  ]
+
+---
+class: inverse, middle, center
+
+background-image: url(https://d33wubrfki0l68.cloudfront.net/62bcc8535a06077094ca3c29c383e37ad7334311/a263f/assets/img/logo.svg)
+background-position: bottom
+background-size: 20%
+
+# 3. Data Archiving &lt;sub style="font-size: medium;"&gt;(with bonus version control)&lt;/sub&gt; 
+
+---
+
+# Get with GitHub
+
+Think of GitHub as a google drive of sorts that you would keep your projects in - the only difference is that it has some bonus features.
+
+* **It's Open Access:** Like a social media profile that people can click on and explore it *i.e.* you can share and showcase your work/packages/projects&lt;sup&gt;*&lt;/sup&gt;.
+  + This is where your data/analyses can 'live' until needed.
+
+* **It has Version Control:** This means that every time you re-upload a file the older versions are saved (and can be recouped if needed).
+  + You can do this [straight from RStudio](https://happygitwithr.com/rstudio-git-github.html)
+  + This also facilitates collaboration in a big way (no more email chain!)
+
+* **It's Designed for Programming:** Aside form simple storage of files you can design [workflows](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions) that run jobs depending on what happens in the repository.
+
+.footnote[[*] I find this also 'forces' me to make sure my code is readable/shareable]
+
+---
+
+# A GitHub 'Primer'
+
+1. GitHub is the 'norm' in the world of Open Source  - so if you want to go open  go with GitHub
+
+1. [Happy Git and GitHub for the useR](https://happygitwithr.com) is a great starting point if you're interested
+  + especially for installing Git on your device (it can be a bit confusing)
+
+1. You can also have private repositories
+  * So you can keep your work 'hidden' but still cash in on version control and easier collaborating
+  
+1. As university students you qualify for a [free pro account](https://education.github.com/pack) - *go for it it*
+
+---
+
+# Other Ways to Open your Science
+
++ 
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
