@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Does Science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Tanya Does Science</title>
@@ -51,6 +51,25 @@
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>These are not the Boundaries You&#39;re Looking for</title>
+      <link>/post/these-are-not-the-boundaries-youre-looking-for/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/these-are-not-the-boundaries-youre-looking-for/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This post is more of a musings/train of thought as to how we could potentially build on the idea using edge detection to distinguish between different interacting communities (&lt;em&gt;i.e&lt;/em&gt; ecological networks) within a landscape and at different scales&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;step-1-what-is-a-boundary&#34;&gt;Step 1: What is a boundary?&lt;/h2&gt;
+&lt;p&gt;We generally like drawing lines around things (or putting them into boxes - which is essentially the same thing), and to be fair its only logical. Delineating between habitats or communities makes sense - generally these patches/differences are driven by &lt;em&gt;something&lt;/em&gt; (types or intensity of processes for one) and this plays a role in how we would manage different patches and of course this is also provides a &amp;lsquo;unit&amp;rsquo; for understanding other ecological processes. Although that is all good and well the question still remains &lt;em&gt;what&lt;/em&gt; makes a boundary - and this is where it gets interesting/fun. Intuitively we may argue that we would draw boundaries between patches that &lt;em&gt;look&lt;/em&gt; different - since the &lt;em&gt;something&lt;/em&gt; we&amp;rsquo;re interested in is probably driving this difference. But what about in landscapes where changes aren&amp;rsquo;t as clear or abrupt? Additionally what is the difference we are looking for? What is different enough?&lt;/p&gt;
+&lt;h2 id=&#34;step-2-call-on-the-wombats&#34;&gt;Step 2: Call on the wombats!&lt;/h2&gt;
+&lt;p&gt;Okay so maybe not actual wombats (although that would be cool) but rather wombling (which is a subfield of boundary analysis) to help in quantifying our (desired) ecological boundaries. Specifically, wombling is a technique for detecting zones of (a defined) rapid change over geographical or Euclidian space. So for us this would be the &lt;em&gt;thing&lt;/em&gt; that we want to use to define boundaries between our patches. This involves some fancy maths that I will write about in the near future (&lt;em&gt;i.e.&lt;/em&gt; when I fully wrap my head around things&amp;hellip;)&lt;/p&gt;
+&lt;h2 id=&#34;step-3-okay-now-make-it-networks&#34;&gt;Step 3: Okay now make it networks&lt;/h2&gt;
+&lt;p&gt;This is where it starts to get fun - we can draw boundaries between different biomes, communities and populations right? So why not do the same with interaction networks? That is we could potentially look at changes in the composition, interaction types or even structure of networks. Which network property to pick could be a challenge - and this might be something that comes down to a case of scale and what/why we are interested in a specific type of change between different interaction networks&amp;hellip;&lt;/p&gt;
+&lt;p&gt;🐾
+Tanya&lt;/p&gt;
 </description>
     </item>
     
@@ -814,9 +833,9 @@ Tanya&lt;/p&gt;
     
     <item>
       <title>From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond</title>
-      <link>/publication/preprint/8insights/</link>
+      <link>/publication/journal-article/8insights/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/8insights/</guid>
+      <guid>/publication/journal-article/8insights/</guid>
       <description></description>
     </item>
     

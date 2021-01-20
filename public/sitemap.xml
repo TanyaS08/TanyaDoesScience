@@ -18,6 +18,36 @@
   </url>
   
   <url>
+    <loc>/tag/phdjournal/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/spatialboundaries/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/these-are-not-the-boundaries-youre-looking-for/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url>
@@ -48,16 +78,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/tanya-strydom/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url>
@@ -74,11 +94,6 @@
   
   <url>
     <loc>/tag/openscience/</loc>
-    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-11-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -248,11 +263,6 @@
   </url>
   
   <url>
-    <loc>/tag/phdjournal/</loc>
-    <lastmod>2020-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/example/</loc>
     <lastmod>2020-10-13T09:00:00+00:00</lastmod>
   </url>
@@ -393,7 +403,7 @@
   </url>
   
   <url>
-    <loc>/publication/preprint/8insights/</loc>
+    <loc>/publication/journal-article/8insights/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   

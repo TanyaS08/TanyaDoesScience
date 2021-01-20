@@ -16,7 +16,8 @@ links:
 location: Québec, Canada
 math: true
 summary: Here we showcase the value of defining the complexity of networks using a physical approach, namely rank deficiency and SVD Entropy. This reveals some interesting results and challenges how we view the complexity of networks.
-tags: [SVDNetworks]
+tags: ['SVDNetworks']
+projects: ['SVDNetworks']
 title: Exploring the complexity of ecological networks using SVD entropy
 url_code: ""
 doi: ""
