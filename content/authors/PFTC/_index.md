@@ -15,6 +15,6 @@ social:
 superuser: false
 title: PFTCourses
 user_groups:
-- Groups
+- Friends
 external_link: "https://plantfunctionaltraitscourses.w.uib.no"
 ---

@@ -19,5 +19,5 @@ social:
 superuser: false
 title: Poisot Lab
 user_groups:
-- Groups
+- Friends
 ---
