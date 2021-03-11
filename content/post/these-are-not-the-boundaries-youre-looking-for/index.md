@@ -16,7 +16,7 @@ image:
   caption: ''
   focal_point: ''
   preview_only: no
-projects: []
+projects: [ProjectWombat]
 ---
 
 > This post is more of a musings/train of thought as to how we could potentially build on the idea using edge detection to distinguish between different interacting communities (*i.e* ecological networks) within a landscape and at different scales
