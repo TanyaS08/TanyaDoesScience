@@ -17,7 +17,7 @@ image:
   caption: ''
   focal_point: ''
   preview_only: no
-projects: ['SVDNetworks']
+projects: ['ProjectMalcolm']
 ---
 
 Can I just humorously preface this by saying that the email from the journal saying that they had received the manuscript addressed me as Dr Strydom and can't say that I hate it - although maybe a *bit* premature 😉 Oh and maybe as another add on - working in different timezones may be annoying in terms of scheduling meetings but it is pretty great when you wake up in the mornings to 'good job' messages from your supervisor 😁

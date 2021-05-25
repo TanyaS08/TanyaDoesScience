@@ -16,7 +16,7 @@ publication: "SVD entropy reveals the high complexity of ecological networks"
 publication_short: ""
 publication_types:
 - "3"
-projects: ['ProjectMalcom']
+projects: ['ProjectMalcolm']
 summary: Turns out ecological networks are extremely complex, but maybe they could do even a bit better.
 tags:
 - SingularValueDecomposition
