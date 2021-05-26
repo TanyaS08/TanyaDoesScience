@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Tanya Does Science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Tanya Does Science</title>
@@ -52,6 +52,68 @@
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>On estimating the shape and dynamics of phenotypic distributions in ecology</title>
+      <link>/publication/preprint/estsha/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/estsha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What happened to free verse?</title>
+      <link>/post/what-happened-to-free-verse/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/post/what-happened-to-free-verse/</guid>
+      <description>&lt;p&gt;Amongst the ritual Sunday musings and philosophical discussions with a dear friend we stumbled onto the topic of how older manuscripts are such a different read than newer ones. Apart from actively (&lt;em&gt;i.e.&lt;/em&gt; not being afraid to be) dragging another researcher&amp;rsquo;s work through the mud and sometimes using unnecessarily complex language, older manuscripts can almost be poetic when it comes to language use - but definitely free verse.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been reading a lot of older manuscripts lately and have come to enjoy the almost stream of consciousness nature that they have. Although my reading is probably biased I find that the focus of older manuscripts are often more on the theory side of things and if there is an empirical element to it it usually accompanies the the writing as a proof of concept rather than the main focus of the manuscript. Compare that to most manuscripts that you pick up these days that follow the very familiar structure of &lt;em&gt;Introduction, Methods, Results&lt;/em&gt; and &lt;em&gt;Discussion&lt;/em&gt; sections. From an enjoyment perspective I find these very &amp;lsquo;boring&amp;rsquo; to read when compared to the &amp;lsquo;free verse&amp;rsquo; manuscripts that are often much more thought provoking and dedicate time to building and growing the argument or idea.&lt;/p&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t be so bold as to say that the modern way of writing is fundamentally &lt;em&gt;wrong&lt;/em&gt; so to say but it did spark the question of why the way that we choose to report or communicate &amp;lsquo;things&amp;rsquo; has changed so much? I guess theres two ways to look at it&amp;hellip;&lt;/p&gt;
+&lt;p&gt;One, I guess following the iambic pentameter of traditional structure makes it much easier to &amp;lsquo;extract&amp;rsquo; facts or results. That means as a reader I can come in and quickly (most of the time) come in, extract the facts and then digest them/be told of the implication of said results/facts. Or when returning the the manuscript I know exactly where to get what information I need - nice and quick as well as expedient. The second driving force is probably journal requirements/restrictions. And I guess we could break this down a bit more as well - so 2.1 would be that journals often &lt;em&gt;require&lt;/em&gt; a manuscript to follow their rhyme and meter &lt;em&gt;and&lt;/em&gt; they don&amp;rsquo;t have the most leeway when it comes to word count limits &lt;em&gt;i.e.&lt;/em&gt; we don&amp;rsquo;t have the space/freedom to develop thought as for 2.2 with the pressure to publish more as well as bigger who has the time to write reels of free verse when we need to communicate &amp;lsquo;big things&amp;rsquo;, often. Oh and maybe 2.3 should be that if we want to deviate from journal structure and layout it often requires submitting a proposal to the editor before even being allowed to submit the manuscript.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All that being said there are still places where you can submit your lovely piece of free verse, however these are usually reserved for really comprehensive reviews or pieces that you as the reader cannot possibly think to read in one sitting&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Although there are reasons (and some of them probably valid) as to why manuscripts follow a set structure my question is that (blandness aside) are we not hamstringing affectively communicating new work or thoughts? When we try and force our work to fit under the predefined subheadings we might end up losing central themes/messages by having the order of facts appear in a non-sensical manner. Take for example our recent 
+&lt;a href=&#34;https://ecoevorxiv.org/q9v85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SVD Entropy&lt;/a&gt; manuscript. We presented a new method of calculating complexity but also did a few &amp;lsquo;tests&amp;rsquo; showcasing it&amp;rsquo;s performance/value. If we followed a &amp;lsquo;traditional&amp;rsquo; approach of lumping all of our methodology under one heading the new method (the key component of the manuscript) would&amp;rsquo;ve been drowned out by the noise of the other things we would&amp;rsquo;ve had to describe. Instead we present the new methods under the methods section - immediately followed by &amp;lsquo;general performance&amp;rsquo; results. After that we did some more &amp;lsquo;fancy maths&amp;rsquo; which we just described &lt;em&gt;in situ&lt;/em&gt;. Buy eschewing the traditional norms we (hopefully) made it easier to communicate the core concepts/ideas, and by extension the central take home message.&lt;/p&gt;
+&lt;p&gt;As a final &amp;lsquo;stir the post&amp;rsquo; question - is following the traditional manuscript structure lazy writing or does it have its merits?&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya 🐾&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project Wombat</title>
+      <link>/project/projectwombat/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/project/projectwombat/</guid>
+      <description>&lt;h1 id=&#34;space-and-networks-the-wild-frontier&#34;&gt;Space (and networks): The wild frontier&lt;/h1&gt;
+&lt;p&gt;This project will focus on
+the variation of networks across space. More explicitly the idea of trying to
+delineate networks into discrete patches (ecotrophic zones) by drawing boundaries
+based on areas of rapid change. Spatial wombling will be used as the edge
+detection method. This project will have three components.&lt;/p&gt;
+&lt;h2 id=&#34;developing-a-spatial-boundaries-package&#34;&gt;Developing a spatial boundaries package&lt;/h2&gt;
+&lt;p&gt;The first will be to develop a &lt;em&gt;Julia&lt;/em&gt; package that implements the wombling
+algorithm. This will be submitted the &lt;em&gt;The Journal of Open Science&lt;/em&gt; as a
+software package/manuscript.&lt;/p&gt;
+&lt;h2 id=&#34;detecting-boundaries-of-networks-in-the-landscape&#34;&gt;Detecting boundaries of networks in the landscape&lt;/h2&gt;
+&lt;p&gt;The second phase will focus on how network boundaries
+in a landscape compare to other community metrics such as species composition or
+turnover and will result in a methods/perspectives type piece.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-the-within-structure-of-networks-vary&#34;&gt;How does the within structure of networks vary?&lt;/h2&gt;
+&lt;p&gt;The third (and
+arguably most interesting) phase will focus more on structural changes within
+networks across space and lean heavily on using motifs and graphlet theory.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A primer on predicting species interaction networks (across space and time)</title>
+      <link>/publication/preprint/pripre/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/pripre/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -186,55 +248,72 @@ Tanya&lt;/p&gt;
     </item>
     
     <item>
-      <title>Making better predictions of ecological networks through machine learning (done right)</title>
-      <link>/project/networkpredictions/</link>
+      <title>Project One Ring</title>
+      <link>/project/projectonering/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/project/networkpredictions/</guid>
-      <description>&lt;p&gt;So after a month of biweekly meetings we have a working draft and let me tell you things are HOT!&lt;/p&gt;
-&lt;p&gt;Quantifying the complexity of ecological networks has remained elusive. Primarily, complexity has been defined on the basis of the structural (or behavioural) complexity of the system. These definitions ignore the notion of &amp;lsquo;physical complexity&amp;rsquo;, which can measure the amount of information contained in an ecological network, and how difficult it would be to compress. We present relative rank deficiency and SVD entropy as measures of &amp;lsquo;external&amp;rsquo; and &amp;lsquo;internal&amp;rsquo; complexity respectively. Using bipartite ecological networks, we find that they all show a very high, almost maximal, physical complexity. Pollination networks, in particular, are more complex when compared to other types of interactions. In addition, we find that SVD entropy relates to other structural measures of complexity (nestedness, connectance, and spectral radius), but does not inform about the resilience of a network when using simulated extinction cascades, which has previously been reported for structural measures of complexity. We argue that SVD entropy provides a fundamentally more &amp;lsquo;correct&amp;rsquo; measure of network complexity and should be added to the toolkit of descriptors of ecological networks moving forward.&lt;/p&gt;
-&lt;p&gt;mutualistic&lt;/p&gt;
+      <guid>/project/projectonering/</guid>
+      <description>&lt;p&gt;Providing an overview of the
+toolset that we would need to predict networks across both time and space.
+The core idea behind this project is to produce a roadmap for grad student by
+grad students envisioning the future quests we could conceivably go on. The
+primary focus is on the need to develop a multi-faceted way to begin the
+conceptualisation network prediction as well as taking advantage of the growth
+of complex computational tools and the availability of data to facilitate the
+prediction process&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>The complexity of ecological networks using SVD entropy</title>
-      <link>/project/svdnetworks/</link>
+      <title>Project Pokédex</title>
+      <link>/project/projectpokedex/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/project/projectpokedex/</guid>
+      <description>&lt;p&gt;This project focuses on assembling the Canadian terrestrial metaweb and will,
+in a way, be a &amp;lsquo;testing ground&amp;rsquo; for some of the concepts from other projects
+(&lt;em&gt;i.e&lt;/em&gt; phylogenetic inference of ecological interactions through network
+embedding, more so the idea of using a &lt;em&gt;t-SVD&lt;/em&gt; as the basis of this process)
+as well as incorporating some of the points outlined and discussed in chapter two. This
+project forms part of a CIEE working group and, in addition to this prediction focused
+component will also feature an expert elicitation project which will be
+and used as a complement to the computational approach. These different approaches
+will ultimately be combined into one metaweb to rule them all.&lt;/p&gt;
+&lt;h1 id=&#34;icouldnevertaketheplaceofyourmammal&#34;&gt;ICouldNeverTakeThePlaceofyourMammal&lt;/h1&gt;
+&lt;p&gt;We&amp;rsquo;ve been doing some interim work with the mammalian component of the&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project Malcolm</title>
+      <link>/project/projectmalcolm/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/project/svdnetworks/</guid>
-      <description>&lt;p&gt;As a quick primer: generally in ecology we have struggled to define the complexity of ecological networks. Many measures have been proposed, with these usually focusing on the &lt;em&gt;structural&lt;/em&gt; complexity of the network as opposed to using the &lt;em&gt;&amp;lsquo;physical&amp;rsquo;&lt;/em&gt; complexity of the network. Here we used SVD entropy (based off of information theory) as well as the relative rank deficiency to quantify complexity.&lt;/p&gt;
-&lt;p&gt;When we use the SVD entropy of a network we are looking at the information that is contained within the interaction matrix of the system - broadly how much information is contained with each species and the interaction strategy it has adopted. Many other attempts at trying to quantify the complexity of ecological networks look more at the structure i.e. the behaviour of the interaction network.&lt;/p&gt;
-&lt;p&gt;Interestingly we found that ecological networks are very complex - in theory SVD entropy can take a value from 0 - 1 yet all of our networks were above 0.8&lt;/p&gt;
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/img/SVD.png&#34; &gt;
-
-
-  &lt;img src=&#34;/img/SVD.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;The long and the short of it is that we argue that using an information based approach to quantifying the complexity of a network is a more &amp;lsquo;correct&amp;rsquo; approach than those that focus on structure. If we unify this definition it will hopefully allow us to uncover more general patterns or relationship with complexity - e.g. the argument that complexity begets stability.&lt;/p&gt;
+      <guid>/project/projectmalcolm/</guid>
+      <description>&lt;h1 id=&#34;singular-value-decomposition-a-multitool-for-network-ecology&#34;&gt;Singular value decomposition: a multitool for network ecology&lt;/h1&gt;
+&lt;p&gt;Ecological networks can be represented by their adjacency matrices, &lt;em&gt;i.e.&lt;/em&gt;
+a matrix for which every entry represents a species pair, and takes either
+a value of 1 if there is an interaction between the two species, or 0
+when there is none. Singular Value Decomposition ([SVD)
+is the factorisation of a matrix $\mathbf{A}$
+(where $\mathbf{A}_{m,n} \in\mathbb{B}$, in the context of adjacency matrices) into the form:&lt;/p&gt;
+&lt;p&gt;$$ \mathbf{U}\cdot\mathbf{\Sigma}\cdot\mathbf{V}^T $$&lt;/p&gt;
+&lt;p&gt;Where $\mathbf{U}$ is an $m \times m$ orthogonal matrix and
+$\mathbf{V}$ an $n \times n$ orthogonal matrix. The columns in these matrices
+are, respectively, the left- and right-singular vectors of $\mathbf{A}$.
+$\mathbf{\Sigma}$ is a diagonal matrix that contains only non-negative $\sigma$
+values. Where $\sigma_{i} = \Sigma{ii}$, and contains the singular values of
+$\mathbf{A}$. When the values of $\mathbf{\sigma}$ are arranged in
+descending order, the singular values ($\mathbf{\Sigma}$) are
+unique. These singular values can broadly be viewed as a measure of
+how informative that rank of the matrix is.&lt;/p&gt;
+&lt;h2 id=&#34;svd-entropy-as-a-measure-of-complexity&#34;&gt;SVD Entropy as a measure of complexity&lt;/h2&gt;
+&lt;p&gt;We can use SVD and more specifically SVD entropy as a measure of network complexity.
+This approach looks at the &amp;lsquo;physical complexity&amp;rsquo; of networks - which is in
+contrast to more traditional measures such as connectence and nestedness which
+look at the &amp;lsquo;behavioural complexity&amp;rsquo; of networks.&lt;/p&gt;
+&lt;h2 id=&#34;svd-entropy-and-network-assembly&#34;&gt;SVD Entropy and network assembly&lt;/h2&gt;
+&lt;p&gt;An additional concept that I want to explore (if there is enough time) is the
+relationship between network assembly and constraints on complexity (SVD entropy).
+This will be building on a small section of the SVD entropy manuscript&lt;br&gt;
+relating to network assembly and the constraints on complexity.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L.S. Pollock | Tanya Does Science</title>
+    <link>/author/l.s.-pollock/</link>
+      <atom:link href="/author/l.s.-pollock/index.xml" rel="self" type="application/rss+xml" />
+    <description>L.S. Pollock</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon.png</url>
+      <title>L.S. Pollock</title>
+      <link>/author/l.s.-pollock/</link>
+    </image>
+    
+    <item>
+      <title>A primer on predicting species interaction networks (across space and time)</title>
+      <link>/publication/preprint/pripre/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/pripre/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

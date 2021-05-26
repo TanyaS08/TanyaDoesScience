@@ -5,12 +5,38 @@
     <link>/tag/spatialboundaries/</link>
       <atom:link href="/tag/spatialboundaries/index.xml" rel="self" type="application/rss+xml" />
     <description>SpatialBoundaries</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>SpatialBoundaries</title>
       <link>/tag/spatialboundaries/</link>
     </image>
+    
+    <item>
+      <title>Project Wombat</title>
+      <link>/project/projectwombat/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/project/projectwombat/</guid>
+      <description>&lt;h1 id=&#34;space-and-networks-the-wild-frontier&#34;&gt;Space (and networks): The wild frontier&lt;/h1&gt;
+&lt;p&gt;This project will focus on
+the variation of networks across space. More explicitly the idea of trying to
+delineate networks into discrete patches (ecotrophic zones) by drawing boundaries
+based on areas of rapid change. Spatial wombling will be used as the edge
+detection method. This project will have three components.&lt;/p&gt;
+&lt;h2 id=&#34;developing-a-spatial-boundaries-package&#34;&gt;Developing a spatial boundaries package&lt;/h2&gt;
+&lt;p&gt;The first will be to develop a &lt;em&gt;Julia&lt;/em&gt; package that implements the wombling
+algorithm. This will be submitted the &lt;em&gt;The Journal of Open Science&lt;/em&gt; as a
+software package/manuscript.&lt;/p&gt;
+&lt;h2 id=&#34;detecting-boundaries-of-networks-in-the-landscape&#34;&gt;Detecting boundaries of networks in the landscape&lt;/h2&gt;
+&lt;p&gt;The second phase will focus on how network boundaries
+in a landscape compare to other community metrics such as species composition or
+turnover and will result in a methods/perspectives type piece.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-the-within-structure-of-networks-vary&#34;&gt;How does the within structure of networks vary?&lt;/h2&gt;
+&lt;p&gt;The third (and
+arguably most interesting) phase will focus more on structural changes within
+networks across space and lean heavily on using motifs and graphlet theory.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>These are not the Boundaries You&#39;re Looking for</title>

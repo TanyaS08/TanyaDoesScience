@@ -5,12 +5,28 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>On estimating the shape and dynamics of phenotypic distributions in ecology</title>
+      <link>/publication/preprint/estsha/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/estsha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A primer on predicting species interaction networks (across space and time)</title>
+      <link>/publication/preprint/pripre/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/pripre/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Next-generation field courses: integrating Open Science and online learning</title>

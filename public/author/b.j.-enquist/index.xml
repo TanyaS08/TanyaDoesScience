@@ -5,7 +5,7 @@
     <link>/author/b.j.-enquist/</link>
       <atom:link href="/author/b.j.-enquist/index.xml" rel="self" type="application/rss+xml" />
     <description>B.J. Enquist</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>B.J. Enquist</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond</title>
-      <link>/publication/preprint/8insights/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/8insights/</guid>
+      <title>On estimating the shape and dynamics of phenotypic distributions in ecology</title>
+      <link>/publication/preprint/estsha/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/estsha/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,32 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>What happened to free verse?</title>
+      <link>/post/what-happened-to-free-verse/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/post/what-happened-to-free-verse/</guid>
+      <description>&lt;p&gt;Amongst the ritual Sunday musings and philosophical discussions with a dear friend we stumbled onto the topic of how older manuscripts are such a different read than newer ones. Apart from actively (&lt;em&gt;i.e.&lt;/em&gt; not being afraid to be) dragging another researcher&amp;rsquo;s work through the mud and sometimes using unnecessarily complex language, older manuscripts can almost be poetic when it comes to language use - but definitely free verse.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been reading a lot of older manuscripts lately and have come to enjoy the almost stream of consciousness nature that they have. Although my reading is probably biased I find that the focus of older manuscripts are often more on the theory side of things and if there is an empirical element to it it usually accompanies the the writing as a proof of concept rather than the main focus of the manuscript. Compare that to most manuscripts that you pick up these days that follow the very familiar structure of &lt;em&gt;Introduction, Methods, Results&lt;/em&gt; and &lt;em&gt;Discussion&lt;/em&gt; sections. From an enjoyment perspective I find these very &amp;lsquo;boring&amp;rsquo; to read when compared to the &amp;lsquo;free verse&amp;rsquo; manuscripts that are often much more thought provoking and dedicate time to building and growing the argument or idea.&lt;/p&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t be so bold as to say that the modern way of writing is fundamentally &lt;em&gt;wrong&lt;/em&gt; so to say but it did spark the question of why the way that we choose to report or communicate &amp;lsquo;things&amp;rsquo; has changed so much? I guess theres two ways to look at it&amp;hellip;&lt;/p&gt;
+&lt;p&gt;One, I guess following the iambic pentameter of traditional structure makes it much easier to &amp;lsquo;extract&amp;rsquo; facts or results. That means as a reader I can come in and quickly (most of the time) come in, extract the facts and then digest them/be told of the implication of said results/facts. Or when returning the the manuscript I know exactly where to get what information I need - nice and quick as well as expedient. The second driving force is probably journal requirements/restrictions. And I guess we could break this down a bit more as well - so 2.1 would be that journals often &lt;em&gt;require&lt;/em&gt; a manuscript to follow their rhyme and meter &lt;em&gt;and&lt;/em&gt; they don&amp;rsquo;t have the most leeway when it comes to word count limits &lt;em&gt;i.e.&lt;/em&gt; we don&amp;rsquo;t have the space/freedom to develop thought as for 2.2 with the pressure to publish more as well as bigger who has the time to write reels of free verse when we need to communicate &amp;lsquo;big things&amp;rsquo;, often. Oh and maybe 2.3 should be that if we want to deviate from journal structure and layout it often requires submitting a proposal to the editor before even being allowed to submit the manuscript.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All that being said there are still places where you can submit your lovely piece of free verse, however these are usually reserved for really comprehensive reviews or pieces that you as the reader cannot possibly think to read in one sitting&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Although there are reasons (and some of them probably valid) as to why manuscripts follow a set structure my question is that (blandness aside) are we not hamstringing affectively communicating new work or thoughts? When we try and force our work to fit under the predefined subheadings we might end up losing central themes/messages by having the order of facts appear in a non-sensical manner. Take for example our recent 
+&lt;a href=&#34;https://ecoevorxiv.org/q9v85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SVD Entropy&lt;/a&gt; manuscript. We presented a new method of calculating complexity but also did a few &amp;lsquo;tests&amp;rsquo; showcasing it&amp;rsquo;s performance/value. If we followed a &amp;lsquo;traditional&amp;rsquo; approach of lumping all of our methodology under one heading the new method (the key component of the manuscript) would&amp;rsquo;ve been drowned out by the noise of the other things we would&amp;rsquo;ve had to describe. Instead we present the new methods under the methods section - immediately followed by &amp;lsquo;general performance&amp;rsquo; results. After that we did some more &amp;lsquo;fancy maths&amp;rsquo; which we just described &lt;em&gt;in situ&lt;/em&gt;. Buy eschewing the traditional norms we (hopefully) made it easier to communicate the core concepts/ideas, and by extension the central take home message.&lt;/p&gt;
+&lt;p&gt;As a final &amp;lsquo;stir the post&amp;rsquo; question - is following the traditional manuscript structure lazy writing or does it have its merits?&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Tanya 🐾&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>These are not the Boundaries You&#39;re Looking for</title>
