@@ -29,7 +29,7 @@ publication_short: ""
 publication_types:
 - "3"
 projects:
-summary: Preprint
+summary: 'Preprint'
 tags:
 - FunctionalTraits
 - PFTC

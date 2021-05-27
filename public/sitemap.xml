@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>/author/pftcourses/</loc>
+    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -359,11 +364,6 @@
   
   <url>
     <loc>/publication/journal-article/nextgen/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/pftcourses/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   

@@ -27,7 +27,7 @@ publication_short: ""
 publication_types:
 - "3"
 projects: ['ProjectOneRing']
-summary: Preprint
+summary: 'Preprint'
 tags:
 - MachineLearning
 - EcologicalNetworks

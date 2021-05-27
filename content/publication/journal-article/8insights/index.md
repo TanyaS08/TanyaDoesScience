@@ -28,7 +28,7 @@ publication: "From a crisis to an opportunity: Eight insights for doing science 
 publication_short: ""
 publication_types:
 - "2"
-summary: In *Ecology and Evolution, Special Issue: Taking learning online in ecology and evolution*
+summary: 'In *Ecology and Evolution, Special Issue: Taking learning online in ecology and evolution*'
 tags:
 - COVID-19
 - 'Rethinking academia'

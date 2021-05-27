@@ -4,7 +4,7 @@ authors:
 - 'admin'
 - G.V Dalla Riva
 - T. Poisot
-date: "2020-11-02T00:00:00Z"
+date: "2021-04-27T00:00:00Z"
 doi: "10.32942/osf.io/q9v85"
 featured: false
 image:
@@ -17,7 +17,7 @@ publication_short: ""
 publication_types:
 - "3"
 projects: ['ProjectMalcolm']
-summary: Accepted at *Frontiers in Ecology and Evolution*
+summary: 'Accepted at *Frontiers in Ecology and Evolution*'
 tags:
 - SingularValueDecomposition
 - EcologicalNetworks
