@@ -29,7 +29,7 @@ publication_short: ""
 publication_types:
 - "3"
 projects:
-summary: To put it bluntly - using community weighted estimates in functional traits analyses isn't great. Here we show that bootstrapping provides much closer estimates to the true trait moments for a community all within a neat R package traitstrap which makes implementing bootstrapping trivially easy.
+summary: Preprint
 tags:
 - FunctionalTraits
 - PFTC

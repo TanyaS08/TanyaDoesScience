@@ -15,7 +15,7 @@ authors:
 - Vigdis Vandvik
 - Sonya R. Geange
 date: "2019-04-07T00:00:00Z"
-doi: "10.22541/au.159569118.87473812"
+doi: "https://doi.org/10.1002/ece3.7026"
 featured: false
 image:
   caption: ''
@@ -28,7 +28,7 @@ publication: "From a crisis to an opportunity: Eight insights for doing science 
 publication_short: ""
 publication_types:
 - "2"
-#summary: PREPRINT A fun exercise with some of the PFTC5 participants. Drawing from our joint experiences during the global lockdown as a result of COVID-19 we provide some insights on how to continue working during these odd times. We also reflect on how we can rethink and reimagine how we traditionally do science.
+summary: In *Ecology and Evolution, Special Issue: Taking learning online in ecology and evolution*
 tags:
 - COVID-19
 - 'Rethinking academia'

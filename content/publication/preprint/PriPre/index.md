@@ -1,5 +1,5 @@
 ---
-abstract: 
+abstract:
 authors:
 - 'admin'
 - M.D. Catchen
@@ -27,7 +27,7 @@ publication_short: ""
 publication_types:
 - "3"
 projects: ['ProjectOneRing']
-summary: Some ideas we won't do, probably some bad ones as well. This is not a review. This is not a methods paper. This is our semi-educated guess at where our field should be heading. We don't want to go fast alone, we want to go far together.
+summary: Preprint
 tags:
 - MachineLearning
 - EcologicalNetworks
