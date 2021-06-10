@@ -4,8 +4,8 @@ authors:
 - 'admin'
 - G.V Dalla Riva
 - T. Poisot
-date: "2021-04-27T00:00:00Z"
-doi: "10.32942/osf.io/q9v85"
+date: "2021-06-10T00:00:00Z"
+doi: "10.3389/fevo.2021.623141"
 featured: false
 image:
   caption: ''
@@ -14,10 +14,9 @@ image:
 url_code: "https://github.com/PoisotLab/ms_svd_networks"
 publication: "SVD entropy reveals the high complexity of ecological networks"
 publication_short: ""
-publication_types:
-- "3"
+publication_types: ["2"]
 projects: ['ProjectMalcolm']
-summary: 'Accepted at *Frontiers in Ecology and Evolution*'
+summary: 'In *Frontiers in Ecology and Evolution*'
 tags:
 - SingularValueDecomposition
 - EcologicalNetworks
