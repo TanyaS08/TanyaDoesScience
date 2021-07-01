@@ -22,7 +22,7 @@ image:
   focal_point: ""
   preview_only: false
 url_code: "https://osf.io/6jp4b/"
-publication: "A primer on predicting species interaction networks (across space and time)"
+publication: "A Roadmap Toward Predicting Species Interaction Networks (Across Space and Time)"
 publication_short: ""
 publication_types:
 - "3"
