@@ -5,12 +5,20 @@
     <link>/author/mickey-boakye/</link>
       <atom:link href="/author/mickey-boakye/index.xml" rel="self" type="application/rss+xml" />
     <description>Mickey Boakye</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Mickey Boakye</title>
       <link>/author/mickey-boakye/</link>
     </image>
+    
+    <item>
+      <title>Designing a Collective Prototype of Future Tropical and Subtropical Science</title>
+      <link>/talk/2021_atbc/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/2021_atbc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Next-generation field courses: integrating Open Science and online learning</title>

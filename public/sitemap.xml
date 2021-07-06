@@ -18,6 +18,91 @@
   </url>
   
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/2021_atbc/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/gracielle-higino/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mickey-boakye/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/norma-forero/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tanya-strydom/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ecologicalnetworks/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/g.v-dalla-riva/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/singularvaluedecomposition/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/svdent/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/t.-poisot/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/3/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -29,11 +114,6 @@
   
   <url>
     <loc>/author/a.j.-kerkhoff/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,32 +183,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/r.j.-telford/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/tanya-strydom/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -150,11 +205,6 @@
   <url>
     <loc>/post/what-happened-to-free-verse/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/ecologicalnetworks/</loc>
-    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -248,11 +298,6 @@
   </url>
   
   <url>
-    <loc>/author/t.-poisot/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/phdjournal/</loc>
     <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
@@ -269,11 +314,6 @@
   
   <url>
     <loc>/author/giulio-v.-dalla-riva/</loc>
-    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,11 +353,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/aud-h.-halbritter/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
@@ -354,11 +389,6 @@
   
   <url>
     <loc>/author/maria-elisa-pierfederici/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/mickey-boakye/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -418,21 +448,6 @@
   </url>
   
   <url>
-    <loc>/author/g.v-dalla-riva/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/singularvaluedecomposition/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/preprint/svdent/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/fast-tracking-the-phd-experience/</loc>
     <lastmod>2020-10-30T00:00:00+00:00</lastmod>
   </url>
@@ -468,11 +483,6 @@
   </url>
   
   <url>
-    <loc>/author/gracielle-higino/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/laura-s.-pollock/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
@@ -484,11 +494,6 @@
   
   <url>
     <loc>/tag/networkprediction/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/norma-forero/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   

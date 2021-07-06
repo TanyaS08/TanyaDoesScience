@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>SVD entropy reveals the high complexity of ecological networks</title>
+      <link>/publication/journal-article/svdent/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/svdent/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On estimating the shape and dynamics of phenotypic distributions in ecology</title>
@@ -33,14 +41,6 @@
       <link>/publication/journal-article/nextgen/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/nextgen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SVD entropy reveals the high complexity of ecological networks</title>
-      <link>/publication/preprint/svdent/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/svdent/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>/tag/ecologicalnetworks/</link>
       <atom:link href="/tag/ecologicalnetworks/index.xml" rel="self" type="application/rss+xml" />
     <description>EcologicalNetworks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>EcologicalNetworks</title>
       <link>/tag/ecologicalnetworks/</link>
     </image>
+    
+    <item>
+      <title>SVD entropy reveals the high complexity of ecological networks</title>
+      <link>/publication/journal-article/svdent/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/svdent/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Project Wombat</title>
@@ -43,14 +51,6 @@ networks across space and lean heavily on using motifs and graphlet theory.&lt;/
       <link>/publication/preprint/pripre/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       <guid>/publication/preprint/pripre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SVD entropy reveals the high complexity of ecological networks</title>
-      <link>/publication/preprint/svdent/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/svdent/</guid>
       <description></description>
     </item>
     

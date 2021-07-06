@@ -5,12 +5,20 @@
     <link>/author/norma-forero/</link>
       <atom:link href="/author/norma-forero/index.xml" rel="self" type="application/rss+xml" />
     <description>Norma Forero</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>Norma Forero</title>
       <link>/author/norma-forero/</link>
     </image>
+    
+    <item>
+      <title>Designing a Collective Prototype of Future Tropical and Subtropical Science</title>
+      <link>/talk/2021_atbc/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/2021_atbc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Project One Ring</title>
