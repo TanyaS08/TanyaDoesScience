@@ -5,12 +5,20 @@
     <link>/tag/ecologicalnetworks/</link>
       <atom:link href="/tag/ecologicalnetworks/index.xml" rel="self" type="application/rss+xml" />
     <description>EcologicalNetworks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon.png</url>
       <title>EcologicalNetworks</title>
       <link>/tag/ecologicalnetworks/</link>
     </image>
+    
+    <item>
+      <title>Food web reconstruction through phylogenetic transfer of low-rank network representation</title>
+      <link>/publication/preprint/recfoo/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/recfoo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SVD entropy reveals the high complexity of ecological networks</title>
@@ -47,7 +55,7 @@ networks across space and lean heavily on using motifs and graphlet theory.&lt;/
     </item>
     
     <item>
-      <title>A primer on predicting species interaction networks (across space and time)</title>
+      <title>A Roadmap Toward Predicting Species Interaction Networks (Across Space and Time)</title>
       <link>/publication/preprint/pripre/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       <guid>/publication/preprint/pripre/</guid>

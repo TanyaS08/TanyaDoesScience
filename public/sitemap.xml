@@ -18,8 +18,113 @@
   </url>
   
   <url>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/b.-mercier/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/c.-berros/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/d.-caron/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ecologicalnetworks/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/f.-banville/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/preprint/recfoo/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/g.v.-dalla-riva/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/l.s.-pollock/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/m-j.-fortin/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/m.j.-farrell/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/machinelearning/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/r.-runghen/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/s.-bouskilla/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/t.-poisot/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tanya-strydom/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/v.-hemming/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,37 +153,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/tanya-strydom/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/ecologicalnetworks/</loc>
-    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/g.v-dalla-riva/</loc>
-    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -90,21 +170,6 @@
   <url>
     <loc>/publication/journal-article/svdent/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/t.-poisot/</loc>
-    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -208,11 +273,6 @@
   </url>
   
   <url>
-    <loc>/tag/machinelearning/</loc>
-    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/phd/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -248,22 +308,7 @@
   </url>
   
   <url>
-    <loc>/author/b.-mercier/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/d.-caron/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/d.-gravel/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/f.-banville/</loc>
     <lastmod>2021-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -274,11 +319,6 @@
   
   <url>
     <loc>/author/g.-higino/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/l.s.-pollock/</loc>
     <lastmod>2021-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -595,6 +635,10 @@
   <url>
     <loc>/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bios2/</loc>
   </url>
   
   <url>

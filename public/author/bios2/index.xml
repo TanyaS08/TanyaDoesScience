@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BIOS2 | Tanya Does Science</title>
+    <link>/author/bios2/</link>
+      <atom:link href="/author/bios2/index.xml" rel="self" type="application/rss+xml" />
+    <description>BIOS2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon.png</url>
+      <title>BIOS2</title>
+      <link>/author/bios2/</link>
+    </image>
+    
+  </channel>
+</rss>
