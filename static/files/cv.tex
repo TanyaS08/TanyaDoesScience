@@ -59,7 +59,9 @@
 \name{Tanya}{Strydom}
 
 \position{PhD Student}
-\address{Département de sciences biologiques, Université de Montréal, Pavillon Marie-Victorin, PO Box 6128 Centre-ville Stn, Montréal, QC, H3C 3J7 Canada}
+\address{Département de sciences biologiques, Université de Montréal,
+Pavillon Marie-Victorin, PO Box 6128 Centre-ville Stn, Montréal, QC, H3C
+3J7 Canada}
 
 \email{\href{mailto:tanya.strydom@umontreal.ca}{\nolinkurl{tanya.strydom@umontreal.ca}}}
 \homepage{tanyadoesscience.com}
@@ -75,18 +77,6 @@
 
 \usepackage{booktabs}
 
-% Templates for detailed entries
-% Arguments: what when with where why
-\usepackage{etoolbox}
-\def\detaileditem#1#2#3#4#5{%
-\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}\ifx#5\empty{\vspace{-4.0mm}}\else\fi}
-\def\detailedsection#1{\begin{cventries}#1\end{cventries}}
-
-% Templates for brief entries
-% Arguments: what when with
-\def\briefitem#1#2#3{\cvhonor{}{#1}{#3}{#2}}
-\def\briefsection#1{\begin{cvhonors}#1\end{cvhonors}}
-
 \providecommand{\tightlist}{%
 	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
@@ -95,6 +85,27 @@
 
 \usepackage{fontawesome5}
 
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \begin{document}
 
@@ -106,7 +117,7 @@
 % Leave any of these blank if they are not needed
 % 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
 \makecvfooter
-  {August 2021}
+  {September 2021}
     {Tanya Strydom~~~·~~~Curriculum Vitae}
   {\thepage}
 
@@ -121,22 +132,57 @@
 \hypertarget{research-interests}{%
 \section{Research Interests}\label{research-interests}}
 
-computational ecology; functional traits; ecological networks; species interactions; FAIR and open science
+computational ecology; functional traits; ecological networks; species
+interactions; FAIR and open science
 
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-\detailedsection{\detaileditem{Université de Montréal}{2020 - Present}{Doctor of Philosophy: Biological Sciences}{Montréal, Canada}{\item{Advisor: T. Poisot, PhD}\item{Thesis: Decoding Ecological Networks (in terms of the information from within)}}\detaileditem{Stockholms Universitet}{2018-20}{Master of Science: Ecology and Biodiversity}{Stockholm, Sweden}{\item{Advisor: K. Hylander, PhD}\item{Thesis: Declines and increases in northern and southern plant populations after changes in the microclimate}}\detaileditem{University of Pretoria}{2017}{Bachelor of Science (Honours): Plant Sciences}{Pretoria, South Africa}{\item{Advisor: P.C. le Roux, PhD}\item{Thesis: Bush encroachment in South Africa’s montane grasslands: the impact of \textit{Leucosidea sericea} on microclimate and vegetation}}\detaileditem{University of Pretoria}{2014-16}{Bachelor of Science: Ecology}{Pretoria, South Africa}{\empty}}
+\begin{cventries}
+    \cventry{Université de Montréal}{Doctor of Philosophy: Biological Sciences}{Montréal, Canada}{2020 - Present}{\begin{cvitems}
+\item Advisor: T. Poisot, PhD
+\item Thesis: Decoding Ecological Networks (in terms of the information from within)
+\end{cvitems}}
+    \cventry{Stockholms Universitet}{Master of Science: Ecology and Biodiversity}{Stockholm, Sweden}{2018-20}{\begin{cvitems}
+\item Advisor: K. Hylander, PhD
+\item Thesis: Declines and increases in northern and southern plant populations after changes in the microclimate
+\end{cvitems}}
+    \cventry{University of Pretoria}{Bachelor of Science (Honours): Plant Sciences}{Pretoria, South Africa}{2017}{\begin{cvitems}
+\item Advisor: P.C. le Roux, PhD
+\item Thesis: Bush encroachment in South Africa’s montane grasslands: the impact of \textit{Leucosidea sericea} on microclimate and vegetation
+\end{cvitems}}
+    \cventry{University of Pretoria}{Bachelor of Science: Ecology}{Pretoria, South Africa}{2014-16}{}\vspace{-4.0mm}
+\end{cventries}
 
 \hypertarget{fellowships-and-internships}{%
-\section{Fellowships and Internships}\label{fellowships-and-internships}}
+\section{Fellowships and
+Internships}\label{fellowships-and-internships}}
 
-\detailedsection{\detaileditem{Computational Biodiversity Science and Services  (BIOS\textsuperscript{2}) training program}{2021 - present}{BIOS\textsuperscript{2} Fellow}{}{\empty}\detaileditem{University of Bergen}{2020}{UiB Internship}{}{\item{Website development for the Plants Functional Courses website. This included content creation as well as some front end development}}\detaileditem{University of Pretoria}{2016}{3rd year Undergraduate Mentorship Program}{}{\item{Worked as an assistant within the M. Robertson lab. This included the sorting and identification of pitfall trap samples as well as extracting information from databases}}}
+\begin{cventries}
+    \cventry{Computational Biodiversity Science and Services  (BIOS\textsuperscript{2}) training program}{BIOS\textsuperscript{2} Fellow}{}{2021 - present}{}\vspace{-4.0mm}
+    \cventry{University of Bergen}{UiB Internship}{}{2020}{\begin{cvitems}
+\item Website development for the Plants Functional Courses website. This included content creation as well as some front end development
+\end{cvitems}}
+    \cventry{University of Pretoria}{3rd year Undergraduate Mentorship Program}{}{2016}{\begin{cvitems}
+\item Worked as an assistant within the M. Robertson lab. This included the sorting and identification of pitfall trap samples as well as extracting information from databases
+\end{cvitems}}
+\end{cventries}
 
 \hypertarget{international-collaboration-and-working-groups}{%
-\section{International Collaboration and Working Groups}\label{international-collaboration-and-working-groups}}
+\section{International Collaboration and Working
+Groups}\label{international-collaboration-and-working-groups}}
 
-\detailedsection{\detaileditem{PIs: T. Poisot (Université de Montréal) and L.J. Pollock, (McGill University)}{2021}{Canadian metaweb construction working group}{}{\item{Leader of one of the sub-projects focused on using machine learning for prediction}}\detaileditem{PIs: T. Poisot (Université de Montréal) and L.J. Pollock, (McGill University)}{2020}{Network prediction synthesis working group}{}{\item{Co-lead author of resulting publication}}\detaileditem{PIs: V. Vandvik (University of Bergen) and B.J. Enquist, (University of Arizona)}{2020}{Plant Functional Trait Course 5 in Peru}{}{\item{Plant functional responses to fire}}}
+\begin{cventries}
+    \cventry{PIs: T. Poisot (Université de Montréal) and L.J. Pollock, (McGill University)}{Canadian metaweb construction working group}{}{2021}{\begin{cvitems}
+\item Leader of one of the sub-projects focused on using machine learning for prediction
+\end{cvitems}}
+    \cventry{PIs: T. Poisot (Université de Montréal) and L.J. Pollock, (McGill University)}{Network prediction synthesis working group}{}{2020}{\begin{cvitems}
+\item Co-lead author of resulting publication
+\end{cvitems}}
+    \cventry{PIs: V. Vandvik (University of Bergen) and B.J. Enquist, (University of Arizona)}{Plant Functional Trait Course 5 in Peru}{}{2020}{\begin{cvitems}
+\item Plant functional responses to fire
+\end{cvitems}}
+\end{cventries}
 
 \newpage
 
@@ -156,16 +202,35 @@ computational ecology; functional traits; ecological networks; species interacti
 
 \hypertarget{refs_journals}{}
 \leavevmode\hypertarget{ref-StrydomSVDEnt2020}{}%
-\textbf{Strydom, T.}, Dalla Riva, G. V., \& Poisot, T. (2021). SVD entropy reveals the high complexity of ecological networks. \emph{Frontiers in Ecology and Evolution}, \emph{9}. \url{https://doi.org/10.3389/fevo.2021.623141}
+\textbf{Strydom, T.}, Dalla Riva, G. V., \& Poisot, T. (2021). SVD
+entropy reveals the high complexity of ecological networks.
+\emph{Frontiers in Ecology and Evolution}, \emph{9}.
+\url{https://doi.org/10.3389/fevo.2021.623141}
 
 \leavevmode\hypertarget{ref-Chac_2020}{}%
-Chacón-Labella, J., Boakye, M., Enquist, B. J., Farfan-Rios, W., Gya, R., Halbritter, A. H., Middleton, S. L., von Oppen, J., Pastor-Ploskonka, S., \textbf{Strydom, T.}, Vandvik, V., \& Geange, S. R. (2021). From a crisis to an opportunity: {Eight} insights for doing science in the {COVID}-19 era and beyond. \emph{Ecology and Evolution: Academic Practice in Ecology and Evolution}, \emph{11}(8), 3588--3596. \url{https://doi.org/10.1002/ece3.7026}
+Chacón-Labella, J., Boakye, M., Enquist, B. J., Farfan-Rios, W., Gya,
+R., Halbritter, A. H., Middleton, S. L., von Oppen, J.,
+Pastor-Ploskonka, S., \textbf{Strydom, T.}, Vandvik, V., \& Geange, S.
+R. (2021). From a crisis to an opportunity: {Eight} insights for doing
+science in the {COVID}-19 era and beyond. \emph{Ecology and Evolution:
+Academic Practice in Ecology and Evolution}, \emph{11}(8), 3588--3596.
+\url{https://doi.org/10.1002/ece3.7026}
 
 \leavevmode\hypertarget{ref-Geange_2020}{}%
-Geange*, S. R., von Oppen*, J., \textbf{Strydom*, T.}, Boakye, M., Gauthier, T.-L. J., Gya, R., Halbritter, A. H., Jessup, L. H., Middleton, S. L., Navarro, J., Pierfederici, M. E., Chacón-Labella, J., Cotner, S., Farfan-Rios, W., Maitner, B. S., Michaletz, S. T., Telford, R. J., Enquist, B. J., \& Vandvik, V. (2021). Next-generation field courses: {Integrating Open Science} and online learning. \emph{Ecology and Evolution: Academic Practice in Ecology and Evolution}, \emph{11}(8), 3577--3587. \url{https://doi.org/10.1002/ece3.7009}
+Geange*, S. R., von Oppen*, J., \textbf{Strydom*, T.}, Boakye, M.,
+Gauthier, T.-L. J., Gya, R., Halbritter, A. H., Jessup, L. H.,
+Middleton, S. L., Navarro, J., Pierfederici, M. E., Chacón-Labella, J.,
+Cotner, S., Farfan-Rios, W., Maitner, B. S., Michaletz, S. T., Telford,
+R. J., Enquist, B. J., \& Vandvik, V. (2021). Next-generation field
+courses: {Integrating Open Science} and online learning. \emph{Ecology
+and Evolution: Academic Practice in Ecology and Evolution},
+\emph{11}(8), 3577--3587. \url{https://doi.org/10.1002/ece3.7009}
 
 \leavevmode\hypertarget{ref-Kattge_2020}{}%
-Kattge, J., Boenisch, G., Diaz, S., Lavorel, S., Prentice, C., Leadley, P., Wirth, C., \& the TRY Consortium. (2020). \emph{Global Change Biology}, \emph{26}(1), 119--188. \url{https://doi.org/10.1111/gcb.14904}
+Kattge, J., Boenisch, G., Diaz, S., Lavorel, S., Prentice, C., Leadley,
+P., Wirth, C., \& the TRY Consortium. (2020). \emph{Global Change
+Biology}, \emph{26}(1), 119--188.
+\url{https://doi.org/10.1111/gcb.14904}
 
 \endgroup
 \vspace{\baselineskip}
@@ -179,13 +244,28 @@ Kattge, J., Boenisch, G., Diaz, S., Lavorel, S., Prentice, C., Leadley, P., Wirt
 
 \hypertarget{refs_review}{}
 \leavevmode\hypertarget{ref-MaitnerEstSha2021}{}%
-Maitner, B. S., Halbritter, A. H., Telford, R. J., \textbf{Strydom, T.}, Chacón-Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E., Vandvik, V., \& Enquist, B. J. (2021). On estimating the shape and dynamics of phenotypic distributions in ecology and evolution. \emph{Preprint}. \url{https://doi.org/10.22541/au.162196147.76797968/v1}
+Maitner, B. S., Halbritter, A. H., Telford, R. J., \textbf{Strydom, T.},
+Chacón-Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L.,
+Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E.,
+Vandvik, V., \& Enquist, B. J. (2021). On estimating the shape and
+dynamics of phenotypic distributions in ecology and evolution.
+\emph{Preprint}. \url{https://doi.org/10.22541/au.162196147.76797968/v1}
 
 \leavevmode\hypertarget{ref-StrydomFooWeb2021}{}%
-\textbf{Strydom*, T.}, Bouskila*, S., Banville, F., Barros, C., Caron, D., Farrell, M. J., Fortin, M.-J., Hemming, V., Mercier, B., Pollock, L. S., Runghen, R., Dalla Riva, G. V., \& Poisot, T. (2021). Food web reconstruction through phylogenetic transfer of low-rank network representation. \emph{Preprint}. \url{https://doi.org/10.32942/osf.io/y7sdz}
+\textbf{Strydom*, T.}, Bouskila*, S., Banville, F., Barros, C., Caron,
+D., Farrell, M. J., Fortin, M.-J., Hemming, V., Mercier, B., Pollock, L.
+S., Runghen, R., Dalla Riva, G. V., \& Poisot, T. (2021). Food web
+reconstruction through phylogenetic transfer of low-rank network
+representation. \emph{Preprint}.
+\url{https://doi.org/10.32942/osf.io/y7sdz}
 
 \leavevmode\hypertarget{ref-StrydomPriPre2021}{}%
-\textbf{Strydom*, T.}, Catchen*, M. D., Banville, F., Caron, D., Dansereau, G., Desjardins-Proulx, P., Forero-Muñoz, N. R., Higino, G., Mercier, B., Gonzalez, A., Gravel, D., Pollock, L. S., \& Poisot, T. (2021). A roadmap toward predicting species interaction networks (across space and time). \emph{In Press}. \url{https://doi.org/10.32942/osf.io/eu7k3}
+\textbf{Strydom*, T.}, Catchen*, M. D., Banville, F., Caron, D.,
+Dansereau, G., Desjardins-Proulx, P., Forero-Muñoz, N. R., Higino, G.,
+Mercier, B., Gonzalez, A., Gravel, D., Pollock, L. S., \& Poisot, T.
+(2021). A roadmap toward predicting species interaction networks (across
+space and time). \emph{In Press}.
+\url{https://doi.org/10.32942/osf.io/eu7k3}
 
 \endgroup
 
@@ -197,43 +277,69 @@ Maitner, B. S., Halbritter, A. H., Telford, R. J., \textbf{Strydom, T.}, Chacón
 \vspace{\baselineskip}
 
 \hypertarget{invited-talks}{%
-\subsection{\texorpdfstring{\textbf{Invited talks}}{Invited talks}}\label{invited-talks}}
+\subsection{\texorpdfstring{\textbf{Invited
+talks}}{Invited talks}}\label{invited-talks}}
 
-\detailedsection{\detaileditem{Living Norway Colloquium 2020: Towards openess and transparency in applied ecology}{Oct., 2020}{Taking FAIR and open science to the field: The evolution of the PFTC field course}{Virtual}{\item{Presented as part of the education and open science workshop}\item{\textbf{Tanya Strydom} alongside Aud H. Halbritter, 109 PFTC Participants}\item{\href{https:doi.org/10.5281/zenodo.4117503}{Link to slides}}}}
+\begin{cventries}
+    \cventry{Living Norway Colloquium 2020: Towards openess and transparency in applied ecology}{Taking FAIR and open science to the field: The evolution of the PFTC field course}{Virtual}{Oct., 2020}{\begin{cvitems}
+\item Presented as part of the education and open science workshop
+\item \textbf{Tanya Strydom} alongside Aud H. Halbritter, 109 PFTC Participants
+\item \href{https:doi.org/10.5281/zenodo.4117503}{Link to slides}
+\end{cvitems}}
+\end{cventries}
 \vspace{\baselineskip}
 
 \hypertarget{talks}{%
 \subsection{\texorpdfstring{\textbf{Talks}}{Talks}}\label{talks}}
 
-\detailedsection{\detaileditem{11th Annual QCBS Symposium}{Dec., 2020}{Exploring the complexity of ecological networks using SVD entropy}{Virtual}{\item{\textbf{Tanya Strydom}, Giulio V. Dalla Riva and Timothée Poisot}\item{\href{https://tanyas08.github.io/Talks/2020_Dec_QCBS/index.html}{Link to slides}}}}
+\begin{cventries}
+    \cventry{11th Annual QCBS Symposium}{Exploring the complexity of ecological networks using SVD entropy}{Virtual}{Dec., 2020}{\begin{cvitems}
+\item \textbf{Tanya Strydom}, Giulio V. Dalla Riva and Timothée Poisot
+\item \href{https://tanyas08.github.io/Talks/2020_Dec_QCBS/index.html}{Link to slides}
+\end{cvitems}}
+\end{cventries}
 
 \vspace{\baselineskip}
 
 \hypertarget{short-presentations}{%
-\subsection{\texorpdfstring{\textbf{Short Presentations}}{Short Presentations}}\label{short-presentations}}
+\subsection{\texorpdfstring{\textbf{Short
+Presentations}}{Short Presentations}}\label{short-presentations}}
 
-\detailedsection{\detaileditem{CSEE-SCEE 2021 Annual Meeting}{Aug., 2021}{Reconstructing food webs using transfer learning}{Virtual}{\item{\textbf{Tanya Strydom}, Salomé Bouskila and Timothée Poisot}}}
+\begin{cventries}
+    \cventry{CSEE-SCEE 2021 Annual Meeting}{Reconstructing food webs using transfer learning}{Virtual}{Aug., 2021}{\begin{cvitems}
+\item \textbf{Tanya Strydom}, Salomé Bouskila and Timothée Poisot
+\end{cvitems}}
+\end{cventries}
 
 \vspace{\baselineskip}
 
 \hypertarget{workshops}{%
 \subsection{\texorpdfstring{\textbf{Workshops}}{Workshops}}\label{workshops}}
 
-\detailedsection{\detaileditem{ATBC Annual Meeting}{Jul., 2021}{Designing a collective prototype of future tropical and subtropical science}{Virtual}{\item{Gracielle Higino, Mickey Boakye, Norma Forero, \textbf{Tanya Strydom}}\item{\href{https://graciellehigino.github.io/future.ecology/}{Link to webpage}}}}
+\begin{cventries}
+    \cventry{ATBC Annual Meeting}{Designing a collective prototype of future tropical and subtropical science}{Virtual}{Jul., 2021}{\begin{cvitems}
+\item Gracielle Higino, Mickey Boakye, Norma Forero, \textbf{Tanya Strydom}
+\item \href{https://graciellehigino.github.io/future.ecology/}{Link to webpage}
+\end{cvitems}}
+\end{cventries}
 
 \hypertarget{science-communication-engagement}{%
-\section{Science Communication \& Engagement}\label{science-communication-engagement}}
+\section{Science Communication \&
+Engagement}\label{science-communication-engagement}}
 
 \vspace{\baselineskip}
 
 \hypertarget{communication}{%
 \subsection{\texorpdfstring{\textbf{Communication}}{Communication}}\label{communication}}
 
-\detailedsection{\detaileditem{Fortnightly cartoonist for Ecology for the Masses blog}{2020 - present}{Cartoonist}{}{\empty}}
+\begin{cventries}
+    \cventry{Fortnightly cartoonist for Ecology for the Masses blog}{Cartoonist}{}{2020 - present}{}\vspace{-4.0mm}
+\end{cventries}
 \vspace{\baselineskip}
 
 \hypertarget{popular-articles}{%
-\subsection{\texorpdfstring{\textbf{Popular Articles}}{Popular Articles}}\label{popular-articles}}
+\subsection{\texorpdfstring{\textbf{Popular
+Articles}}{Popular Articles}}\label{popular-articles}}
 
 \begingroup
 \setlength{\parindent}{-0.5in}
@@ -241,10 +347,20 @@ Maitner, B. S., Halbritter, A. H., Telford, R. J., \textbf{Strydom, T.}, Chacón
 
 \hypertarget{refs_popular}{}
 \leavevmode\hypertarget{ref-NextGen2021}{}%
-von Oppen, J., Gya, R., Geange, S., \textbf{Strydom, T.}, Middleton, S., \& Maitner, B. S. (2021). Next generation field courses: Enhancing ECR development through open science and online learning. In \emph{\href{https://ecologyforthemasses.com/2021/03/08/next-generation-field-courses-enhancing-ecr-development-through-open-science-and-online-learning/}{Ecology for the Masses}}.
+von Oppen, J., Gya, R., Geange, S., \textbf{Strydom, T.}, Middleton, S.,
+\& Maitner, B. S. (2021). Next generation field courses: Enhancing ECR
+development through open science and online learning. In
+\emph{\href{https://ecologyforthemasses.com/2021/03/08/next-generation-field-courses-enhancing-ecr-development-through-open-science-and-online-learning/}{Ecology
+for the Masses}}.
 
 \leavevmode\hypertarget{ref-peru2020}{}%
-Cotner, S., Enquist, B. J., Chacon, J., Maitner, B. S., Farfan-Rios, W., Michaletz, S., Garen, J., Gauthier, T.-L. J., Vandvik, V., Gya, R., Halbritter, A. H., Hošková, K., Pierfederici, M. E., Quinteros-Casaverde, N. L., Diaz, E. S., Jessup, L. H., \textbf{Strydom, T.}, \& von Oppen, J. (2020). International scientists need better support during global emergencies. In \emph{\href{https://tinyurl.com/y5ccw9nb}{Times Higher Education}}.
+Cotner, S., Enquist, B. J., Chacon, J., Maitner, B. S., Farfan-Rios, W.,
+Michaletz, S., Garen, J., Gauthier, T.-L. J., Vandvik, V., Gya, R.,
+Halbritter, A. H., Hošková, K., Pierfederici, M. E.,
+Quinteros-Casaverde, N. L., Diaz, E. S., Jessup, L. H.,
+\textbf{Strydom, T.}, \& von Oppen, J. (2020). International scientists
+need better support during global emergencies. In
+\emph{\href{https://tinyurl.com/y5ccw9nb}{Times Higher Education}}.
 
 \endgroup
 
@@ -253,11 +369,18 @@ Cotner, S., Enquist, B. J., Chacon, J., Maitner, B. S., Farfan-Rios, W., Michale
 \hypertarget{academic-service}{%
 \section{Academic Service}\label{academic-service}}
 
-\detailedsection{\detaileditem{Member}{2021 - Present}{Societry for Open, Reliable, and Transparent Ecology and Evolutionary Biology}{}{\empty}\detaileditem{Student Member}{2020 - Present}{Québec Centre for Biodiversity Sciences}{}{\empty}\detaileditem{Plant Ecology, PLoS ONE}{}{Reviewed Journals}{}{\empty}}
+\begin{cventries}
+    \cventry{Member}{Societry for Open, Reliable, and Transparent Ecology and Evolutionary Biology}{}{2021 - Present}{}\vspace{-4.0mm}
+    \cventry{Student Member}{Québec Centre for Biodiversity Sciences}{}{2020 - Present}{}\vspace{-4.0mm}
+    \cventry{Plant Ecology, PLoS ONE}{Reviewed Journals}{}{}{}\vspace{-4.0mm}
+\end{cventries}
 
 \hypertarget{funding-and-awards}{%
 \section{Funding and Awards}\label{funding-and-awards}}
 
-\detailedsection{\detaileditem{Awarded by: University of Pretoria}{2018}{Qualified for the UP Postgraduate Masters Research Bursary}{}{\empty}\detaileditem{Awarded by: University of Pretoria}{2016}{Awarded the 3rd year Undergraduate Mentorship Bursary}{}{\empty}}
+\begin{cventries}
+    \cventry{Awarded by: University of Pretoria}{Qualified for the UP Postgraduate Masters Research Bursary}{}{2018}{}\vspace{-4.0mm}
+    \cventry{Awarded by: University of Pretoria}{Awarded the 3rd year Undergraduate Mentorship Bursary}{}{2016}{}\vspace{-4.0mm}
+\end{cventries}
 
 \end{document}
