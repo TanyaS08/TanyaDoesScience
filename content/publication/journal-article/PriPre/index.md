@@ -14,8 +14,8 @@ authors:
 - D. Gravel
 - L.S. Pollock
 - T. Poisot
-date: "2021-02-24T00:00:00Z"
-doi: "10.32942/osf.io/eu7k3"
+date: "2021-09-20T00:00:00Z"
+doi: "10.1098/rstb.2021.0063"
 featured: false
 image:
   caption: ''
@@ -25,9 +25,9 @@ url_code: "https://osf.io/6jp4b/"
 publication: "A Roadmap Toward Predicting Species Interaction Networks (Across Space and Time)"
 publication_short: ""
 publication_types:
-- "3"
+- "2"
 projects: ['ProjectOneRing']
-summary: 'Preprint'
+summary: 'In *Philosophical Transactions of the Royal Society B*'
 tags:
 - MachineLearning
 - EcologicalNetworks
