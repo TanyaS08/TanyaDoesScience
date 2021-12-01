@@ -22,7 +22,7 @@ image:
   focal_point: ""
   preview_only: false
 url_code: "https://osf.io/2zwqm/"
-url_poster: "poster.pdf"
+url_poster: "poster.png"
 publication: "Food web reconstruction through phylogenetic transfer of low-rank network representation"
 publication_short: ""
 publication_types:
