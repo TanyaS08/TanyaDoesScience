@@ -19,7 +19,7 @@ interests:
 organizations:
 - name: Département de sciences biologiques, Université de Montréal
   url: "https://bio.umontreal.ca/english/home/"
-role: PhD Student
+role: PhD Candidate
 social:
 - icon: paper-plane
   icon_pack: fas
