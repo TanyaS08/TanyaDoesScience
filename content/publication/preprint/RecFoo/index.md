@@ -14,7 +14,7 @@ authors:
 - R. Runghen
 - G.V. Dalla Riva
 - T. Poisot
-date: "2021-08-16T00:00:00Z"
+date: "2022-02-21T00:00:00Z"
 doi: "10.32942/osf.io/y7sdz"
 featured: false
 image:
@@ -28,7 +28,7 @@ publication_short: ""
 publication_types:
 - "3"
 projects: ['ProjectPokedex']
-summary: 'Preprint'
+summary: 'Accepted at *Methods in Ecology and Evolution*'
 tags:
 - MachineLearning
 - EcologicalNetworks
