@@ -15,7 +15,7 @@ authors:
 - G.V. Dalla Riva
 - T. Poisot
 date: "2022-02-21T00:00:00Z"
-doi: "10.32942/osf.io/y7sdz"
+doi: "10.1111/2041-210X.13835"
 featured: false
 image:
   caption: ''
@@ -26,9 +26,9 @@ url_poster: "poster.png"
 publication: "Food web reconstruction through phylogenetic transfer of low-rank network representation"
 publication_short: ""
 publication_types:
-- "3"
+- "2"
 projects: ['ProjectPokedex']
-summary: 'Accepted at *Methods in Ecology and Evolution*'
+summary: '*Methods in Ecology and Evolution*'
 tags:
 - MachineLearning
 - EcologicalNetworks
