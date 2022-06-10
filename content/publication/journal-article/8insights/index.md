@@ -24,7 +24,7 @@ image:
 #links:
 #- name:
 #  url:
-publication: "From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond"
+publication: "*Ecology and Evolution*"
 publication_short: ""
 publication_types:
 - "2"
