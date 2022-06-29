@@ -15,7 +15,7 @@ authors:
 - G.V. Dalla Riva
 - T. Poisot
 date: "2022-02-18T00:00:00Z"
-doi: "10.32942/osf.io/ vyzgr"
+doi: "10.32942/osf.io/vyzgr"
 featured: false
 image:
   caption: ''
