@@ -24,7 +24,7 @@ social:
 - icon: paper-plane
   icon_pack: fas
   link: 'mailto:tanya.strydom@umontreal.ca'
-- icon: twitter
+- icon: mastodon
   icon_pack: fab
   link: https://twitter.com/TanyaS_08
 - icon: instagram
