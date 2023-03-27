@@ -26,7 +26,7 @@ social:
   link: 'mailto:tanya.strydom@umontreal.ca'
 - icon: mastodon
   icon_pack: fab
-  link: https://twitter.com/TanyaS_08
+  link: https://ecoevo.social/@TanyaS08
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/tanyas_08/
