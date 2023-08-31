@@ -8,7 +8,6 @@ authors:
 - D. Caron
 - M.J. Farrell
 - M-J. Fortin
-- V. Hemming
 - B. Mercier
 - L.S. Pollock
 - R. Runghen
@@ -22,7 +21,7 @@ image:
   focal_point: ""
   preview_only: false
 url_code: "https://osf.io/2zwqm/"
-publication: "Predicting metawebs: Transfer of graph embeddings can help alleviate spatial data deficiencies"
+publication: "Graph embedding and transfer learning can help predict potential species interaction networks despite data limitations"
 publication_short: ""
 publication_types:
 - "3"
