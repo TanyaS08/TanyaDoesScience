@@ -4,6 +4,9 @@ authors:
 bio: Self-diagnosed theoretical ecologist, code switcher (both spoken and programmatic), artistic alter-ego, and peruser of warm beverages.
 education:
   courses:
+  - course: PhD in Biological Sciences
+    institution: Université de Montréal | Canada
+    year: 2024
   - course: MSc in Ecology and Biodiversity
     institution: Stockholms Universitet | Sweden
     year: 2020
@@ -17,13 +20,13 @@ interests:
 - Data visualisation
 - Dabbling in artistic pursuits
 organizations:
-- name: Département de sciences biologiques, Université de Montréal
-  url: "https://bio.umontreal.ca/english/home/"
-role: PhD Candidate
+- name: School of Biosciences, University of Sheffield
+  url: "https://andbeck.github.io/beckslab/"
+role: Postdoctoral Researcher
 social:
 - icon: paper-plane
   icon_pack: fas
-  link: 'mailto:tanya.strydom@umontreal.ca'
+  link: 'mailto:t.strydom@sheffield.ac.uk'
 - icon: mastodon
   icon_pack: fab
   link: https://ecoevo.social/@TanyaS08
@@ -49,6 +52,6 @@ user_groups:
 - Visitors
 ---
 
-A Scientist in training (and self-diagnosed theoretical ecologist) who loves playing outside in the mountains and wants to understand why communities are structured the way that they are. Being the ~~maths geek~~ nerd that I am my PhD has taken on a distinctly computational flavour and aims to help us improve our understanding and ability to make more global generalisations about ecological communities - although I sometimes find myself reverting back to my 'microecology' roots and getting caught up in the weeds at times 🙈. Current interests include (but are not limited to): ecological networks, species traits, the role of scale and how *all that* fits together as a member of the **amazing** (if you ask me) {{% mention "PoisotLab" %}} along with a (seemingly) ever growing list of side projects.
+A Scientist in training (and self-diagnosed theoretical ecologist) who loves playing outside in the mountains and wants to understand why communities are structured the way that they are. Being the ~~maths geek~~ nerd that I am my PhD has taken on a distinctly computational flavour and aims to help us improve our understanding and ability to make more global generalisations about ecological communities - although I sometimes find myself reverting back to my 'microecology' roots and getting caught up in the weeds at times 🙈. Current interests include (but are not limited to): ecological networks, species traits, the role of scale and how *all that* fits together. Now also featuring dinosaurs! 🦖
 
  A plant ecologist by inclination I can usually be found gushing about how cute a particular grass (or succulent) is, hanging off of the side of a mountain or going on bike-ventures to various coffee shops. When the weather forces me indoors I'm most likely spending way more time than I need to trying to automate a process that could be done in a few minutes, exercising my creative side or trying to find new (and pretty) ways in which to visualise data and results *i.e.* combining my geeky self with my artistic alter-ego.
