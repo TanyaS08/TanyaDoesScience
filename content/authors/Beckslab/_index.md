@@ -5,7 +5,7 @@ bio:
 email: ""
 organizations:
 - name: "University of Sheffield"
-role: "Quantitative and computational ecology lab headed by Andrew Beckerman"
+role: "Theoretical ecology lab headed by Andrew Beckerman"
 social:
 - icon: home
   icon_pack: fas
