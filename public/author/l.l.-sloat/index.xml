@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L.L. Sloat | Tanya Does Science</title>
+    <link>https://tanyadoesscience.com/author/l.l.-sloat/</link>
+      <atom:link href="https://tanyadoesscience.com/author/l.l.-sloat/index.xml" rel="self" type="application/rss+xml" />
+    <description>L.L. Sloat</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tanyadoesscience.com/img/icon.png</url>
+      <title>L.L. Sloat</title>
+      <link>https://tanyadoesscience.com/author/l.l.-sloat/</link>
+    </image>
+    
+    <item>
+      <title>On estimating the shape and dynamics of phenotypic distributions in ecology</title>
+      <link>https://tanyadoesscience.com/publication/preprint/estsha/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/preprint/estsha/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

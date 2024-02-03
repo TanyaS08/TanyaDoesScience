@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julia Chacón-Labella | Tanya Does Science</title>
+    <link>https://tanyadoesscience.com/author/julia-chacon-labella/</link>
+      <atom:link href="https://tanyadoesscience.com/author/julia-chacon-labella/index.xml" rel="self" type="application/rss+xml" />
+    <description>Julia Chacón-Labella</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tanyadoesscience.com/img/icon.png</url>
+      <title>Julia Chacón-Labella</title>
+      <link>https://tanyadoesscience.com/author/julia-chacon-labella/</link>
+    </image>
+    
+    <item>
+      <title>Next-generation field courses: integrating Open Science and online learning</title>
+      <link>https://tanyadoesscience.com/publication/journal-article/nextgen/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/journal-article/nextgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond</title>
+      <link>https://tanyadoesscience.com/publication/journal-article/8insights/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/journal-article/8insights/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

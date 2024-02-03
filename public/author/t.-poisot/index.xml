@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T. Poisot | Tanya Does Science</title>
+    <link>https://tanyadoesscience.com/author/t.-poisot/</link>
+      <atom:link href="https://tanyadoesscience.com/author/t.-poisot/index.xml" rel="self" type="application/rss+xml" />
+    <description>T. Poisot</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 08 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tanyadoesscience.com/img/icon.png</url>
+      <title>T. Poisot</title>
+      <link>https://tanyadoesscience.com/author/t.-poisot/</link>
+    </image>
+    
+    <item>
+      <title>SpatialBoundaries.jl: Edge detection using spatial wombling</title>
+      <link>https://tanyadoesscience.com/publication/journal-article/spaedg/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/journal-article/spaedg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food web reconstruction through phylogenetic transfer of low-rank network representation</title>
+      <link>https://tanyadoesscience.com/publication/journal-article/recfoo/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/journal-article/recfoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting metawebs: Transfer of graph embeddings can help alleviate spatial data deficiencies</title>
+      <link>https://tanyadoesscience.com/publication/preprint/premet/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/preprint/premet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Roadmap Toward Predicting Species Interaction Networks (Across Space and Time)</title>
+      <link>https://tanyadoesscience.com/publication/journal-article/pripre/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/journal-article/pripre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SVD entropy reveals the high complexity of ecological networks</title>
+      <link>https://tanyadoesscience.com/publication/journal-article/svdent/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/publication/journal-article/svdent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the complexity of ecological networks using SVD entropy</title>
+      <link>https://tanyadoesscience.com/talk/2020_qcbs/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://tanyadoesscience.com/talk/2020_qcbs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
