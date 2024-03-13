@@ -6,7 +6,7 @@ education:
   courses:
   - course: PhD in Biological Sciences
     institution: Université de Montréal | Canada
-    year: 2023
+    year: 2024
   - course: MSc in Ecology and Biodiversity
     institution: Stockholms Universitet | Sweden
     year: 2020
