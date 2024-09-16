@@ -13,20 +13,20 @@ authors:
 - R. Runghen
 - G.V. Dalla Riva
 - T. Poisot
-date: "2022-02-18T00:00:00Z"
-doi: "10.32942/osf.io/vyzgr"
+date: "2023-02-18T00:00:00Z"
+doi: "10.1111/2041-210X.14228"
 featured: false
 image:
   caption: ''
   focal_point: ""
   preview_only: false
 url_code: "https://osf.io/2zwqm/"
-publication: "Graph embedding and transfer learning can help predict potential species interaction networks despite data limitations"
+publication: "Graph embedding and transfer learning can help predict potential species interaction networks despite data limitations."
 publication_short: ""
 publication_types:
-- "3"
+- "2"
 projects: ['ProjectPokedex']
-summary: 'Preprint'
+summary: 'In *Methods in Ecology and Evolution*'
 tags:
 - MachineLearning
 - EcologicalNetworks

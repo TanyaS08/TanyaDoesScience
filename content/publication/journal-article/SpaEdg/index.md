@@ -16,7 +16,7 @@ publication_short: ""
 publication_types:
 - "2"
 projects: ['ProjectWombat']
-summary: 'Ecography'
+summary: 'In *Ecography*'
 tags:
 - Software
 - EcologicalNetworks
