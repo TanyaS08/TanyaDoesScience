@@ -27,9 +27,9 @@ social:
 - icon: paper-plane
   icon_pack: fas
   link: 'mailto:t.strydom@sheffield.ac.uk'
-- icon: mastodon
+- icon: bluesky
   icon_pack: fab
-  link: https://ecoevo.social/@TanyaS08
+  link: https://bsky.app/profile/tanyadoesscience.bsky.social
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/tanyas_08/
