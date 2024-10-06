@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 9a106607-a1d5-486d-9e2c-9cdfc2d259a5
+      url: 'https://resilient-florentine-8d03d0.netlify.app'
