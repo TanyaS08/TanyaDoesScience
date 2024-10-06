@@ -1,0 +1,148 @@
+---
+editor: source
+cap-location: margin
+---
+
+# Organized sessions
+
+##### 2. Complexity matters: subjectivity as practice in contemporary biology
+
+Leroux, E., Mélançon, V., **Banville, F.**, Brémaud, J., Robitaille, F., & Gholamhosseini, M. (2023, March 16-17)\
+33rd Biology Symposium of the University of Montreal, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://event.fourwaves.com/fr/udemsymposiumbiologie/pages)
+
+![I was part of the student committee in charge of organizing the 33rd symposium of the department of biological sciences of the University of Montreal. This event aims to promote students' research in the department and dedicates its annual theme to key contemporary scientifical and societal questions. We invited keynote speakers and organized a round table on the issues of subjectivity and complexity in science. We also  organized a fully vegetarian buffet for more than 200 ravenous participants with waste minimization in mind. Picture credit: Tanya Strydom.](pictures/conf/symposium_bio.jpg){width=500}
+
+##### 1. Space Oddity: Thinking about ecological networks across space
+
+Dansereau, G., **Banville, F.**, & Strydom, T. (2022, August 14-19)\
+ESA & CSEE Joint Meeting (Inspire session), Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://www.esa.org/montreal2022/),
+[{{< fa star >}} inspire session](https://www.esa.org/montreal2022/program/past-calls-for-submissions/inspire-sessions/),
+[{{< fa rocket >}} Space Oddity](https://www.eventscribe.net/2022/ESA/fsPopup.asp?Mode=sessionInfo&PresentationID=1077466)
+
+
+# Contributed talks
+
+##### 8. Quoi, quand et où manger ? À la découverte des interactions trophiques entre contraintes et incertitudes
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2024, March 21-22)\
+34th Biology Symposium of the University of Montreal, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://event.fourwaves.com/fr/34esymposiumbioudem/pages),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1uMO1P9T6c-h9yQuSR1MNB2INzoDvBN_gz2p_6nwYu3k/edit?usp=sharing)
+
+##### 7. Quoi, quand et où manger ? À la découverte des interactions trophiques entre contraintes et incertitudes
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2024, February 19-21)\
+2024 QCBS Symposium, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://qcbs.ca/symposium-2024/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1-yFDbnM18t3pqEc9kgjXTWK-uwjLbwiMoGFbX8krXSA/edit?usp=sharing)
+
+
+##### 6. Comment les réseaux de prédateurs et de proies sont-ils structurés dans les milieux naturels?
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2023, May 8-12)\
+90e congrès de l'ACFAS, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://www.acfas.ca/evenements/congres/archives/90),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/16I-6Z-kFA666lmRx42eI7fVamLPrQMJ1VCI5aB6VdVM/edit?usp=sharing),
+[{{< fa play >}} video](https://www.youtube.com/watch?v=AX7Mgg-Vf38&ab_channel=FrancisBanville)
+
+
+##### 5. What constrains food webs? A maximum entropy model for predicting their structure with minimal biases
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2022, August 14-19)\
+2022 Annual Meeting of the Ecological Society of America (ESA), Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://www.esa.org/montreal2022/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1Wgh_tyXo8S8PACvjndLECwOjRI_WJSGpUuBUS_nXiB8/edit?usp=sharing)
+
+##### 4. Food webs of maximum entropy: A story of ecology and stochasticity
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2022, March 25)\
+32nd Biology Symposium of the University of Montreal, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://event.fourwaves.com/fr/symposiumbioudem/pages),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1aC8BDD-zoqNO0-_F1asNHfGrDQO7Yna6OX80f1Xcvvo/edit?usp=sharing)
+
+##### 3. Predicting networks of species interactions
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2020, October 22)\
+IVADO Digital October 2020, virtual\
+[{{< fa comments >}} event](https://ivado.ca/en/events/octobre-numerique-ivado-2020/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1mvP1XfH3I6JbTjsG6O9M-4Pm9NEL5fqGI0Yp60UrzGE/edit?usp=sharing),
+[{{< fa play >}} video](https://www.youtube.com/watch?v=vIQDgTy8Gks&ab_channel=IVADO)
+
+##### 2. How to estimate network structure without interaction data
+**Banville, F.**, MacDonald, A., Gravel, D., & Poisot, T. (2020, February 19)\
+Extreme Climate Events Symposium 2020, Toronto, On, Canada\
+[{{< fa comments >}} event](https://afilazzola.github.io/ECESymposium2020/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1YSaLvs3TrKZW-3zVcMJ_mSMzpYUgyfVgyJz0TYGnLoE/edit?usp=sharing)
+
+##### 1. How to estimate network structure without data
+
+**Banville, F.**, MacDonald, A., Gravel, D., & Poisot, T. (2019, December 18-20)\
+10th Annual QCBS Symposium, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://qcbs.ca/symposium-2019/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1jhkYkzW_LVdY7WZVsOD9oHbV1KfV-4NxV3Sm2og-3ho/edit?usp=sharing)
+
+![That was my first scientific talk! I presented our framework to predict food-web structure across space using simple food-web models and data on species richness, without using species interactions data. Since then, our framework greatly evolved, going from mechanistic ecological models to maximum entropy. I remember listening to Les Antipodes (the new album of Les Cowboys Fringants) on loop (and quite loudly to the detriment of my eardrums) as a stress coping mechanism before presenting.](pictures/conf/qcbs2019.jpg){width=600}
+
+# Lightning talks
+
+##### 4. Interactions entre espèces : une histoire d'écologie et de hasard
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2022, March 29)\
+My IVADO research project in 180 seconds, Montreal, Qc, Canada\
+[{{< fa comments >}} event](https://ivado.ca/en/events/my-ivado-project-in-180-seconds/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1K-RBySV9EPU0eTtuDQvxlNuDNliTW89ubPATXaIL7cM/edit?usp=sharing),
+[{{< fa play >}} video](https://www.youtube.com/watch?v=xzsvDie1y5A&ab_channel=IVADO)
+
+![A fascinating predator-prey food web flourishes in the Lion King universe, where insects were opportunistically incorporated into a lion's diet after a drastic change in its lifestyle. Could this exceptional interaction have been anticipated? To document feeding interactions across large spatial and temporal scales, we often need to rely on statistical models, which are more powerful when the structure of the entire food web is known beforehand. The principle of maximum entropy can help us reconstruct the emerging structure of food webs by finding the most complex network configuration given prior ecological information about that system.](pictures/conf/maxent.png){width=600}
+
+##### 3. Predicting food webs across space: First estimates of food-web structure derived from species richness 
+
+**Banville, F.**, Gravel, D., & Poisot, T. (2021, October 28)\
+IVADO Digital October 2021, virtual\
+[{{< fa comments >}} event](https://ivado.ca/en/events/octobre-numerique-ivado-2020/),
+[{{< fa play >}} video](https://www.youtube.com/watch?v=XFqDtf2BTg8&list=PLnI094tgrXpxIQ_p9IGpb-ukUUNK6x9A2&index=9&ab_channel=IVADO)
+
+##### 2. Trophic-METE: A parsimonious theory of food-web structure
+
+**Banville, F.**, Gravel, D. & Poisot, T. (2020, December 14-16)\
+11th Annual QCBS Symposium, virtual\
+[{{< fa comments >}} event](https://qcbs.ca/symposium-2020/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1pd5WOTw31OvoUCjDsVnLWbJPYEbnaEigeNyXjRxuJfg/edit?usp=sharing)
+
+##### 1. Analyzing species interaction networks in Julia
+
+**Banville, F.**, Vissault, S., Bélisle, Z., Hoebeke, L., Stock, M., Szefer, P., & Poisot, T. (2020, July 29-31)\
+Juliacon 2020, virtual\
+[{{< fa comments >}} event](https://juliacon.org/2020/),
+[{{< fa file-powerpoint >}} slides](https://docs.google.com/presentation/d/1L2ivlpBCr-YTTLnvvBPPuhfHTxjs-8gpzH4sNyp6sp0/edit?usp=sharing),
+[{{< fa play >}} video](https://www.youtube.com/watch?v=2HxWYi2IJb0&ab_channel=TheJuliaProgrammingLanguage)\
+[{{< fa code >}} Mangal.jl](https://github.com/PoisotLab/Mangal.jl), 
+[{{< fa code >}}EcologicalNetworks.jl](https://github.com/PoisotLab/EcologicalNetworks.jl), [{{< fa code >}} EcologicalNetworksPlots.jl](https://github.com/PoisotLab/EcologicalNetworksPlots.jl)
+
+[![JuliaCon 2020 was supposed to take place in Lisbon (Portugal), but that was before a global pandemic would occur. I ended up presenting virtually three packages built by the Poisot Lab (`Mangal.jl`, `EcologicalNetworks.jl` and `EcologicalNetworksPlots.jl`) to analyze and visualize species interaction networks in Julia. I'm still dreaming about Lisbon's beaches to this day. ](pictures/conf/juliacon2020.png)](https://www.youtube.com/watch?v=2HxWYi2IJb0&ab_channel=TheJuliaProgrammingLanguage)
+
+
+# Posters
+
+##### 2. Given limited knowledge, what can we say about a food web’s properties?
+
+**Banville, F.**, Gravel, D. & Poisot, T. (2021, December 8-10)\
+12th Annual QCBS Symposium, virtual\
+[{{< fa comments >}} event](https://qcbs.ca/symposium-2021/),
+[{{< fa file-powerpoint >}} poster](https://docs.google.com/presentation/d/1PW-SHzVHHfpY5a0e7f1zCVriL0t-0LYaUHnQckEBDM4/edit?usp=sharing)
+
+##### 1. Trophic-METE: A parsimonious theory of food-web structure
+
+**Banville, F.**, Gravel, D. & Poisot, T. (2020, December 14-16)\
+11th Annual QCBS Symposium, virtual\
+[{{< fa comments >}} event](https://qcbs.ca/symposium-2020/),
+[{{< fa file-powerpoint >}} poster](https://docs.google.com/presentation/d/1Sjmu_z8UdiLm94PxEVa1ir71yGtRdA2uLiuu1BfxHhw/edit?usp=sharing)
+
+![The structure of food webs can be derived using known ecological information such as the total numbers of species, interactions, and individuals, as well as the network's area and total energy transfer. These variables constrain the space of feasible networks by narrowing down the number of plausible configurations. Although the project of building a maximum entropy theory of food-web structure based on these five variables is still a work in progress, we were able to develop a robust framework to predict food-web structure based solely on the total numbers of species and interactions.](pictures/conf/trophic-mete2.png){width=400}
+
+
+
+
+

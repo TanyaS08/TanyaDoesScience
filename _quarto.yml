@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Francis Banville"
+  favicon: pictures/icons/fisher.png
+  navbar:
+    title: false
+    logo: pictures/logo/logo_fisher2.png
+    background: primary
+    left:
+      - href: index.qmd
+        text: home
+      - href: about.qmd
+        text: about
+      - href: projects.qmd
+        text: projects
+      - href: publications.qmd
+        text: publications
+      - href: talks.qmd
+        text: talks
+      - href: courses.qmd
+        text: courses
+      - href: posts.qmd
+        text: blog
+      - href: resources.qmd
+        text: resources
+    right: 
+      - href: CV/CV.pdf
+        text: CV
+      - icon: github
+        href: https://github.com/FrancisBanville
+      - icon: twitter
+        href: https://twitter.com/francisbanv
+  page-footer:     
+      background: light 
+      left: 
+        - "Copyright 2023, Francis Banville"
+      right: 
+        - icon: github
+          href: https://github.com/FrancisBanville
+        - icon: twitter
+          href: https://twitter.com/francisbanv
+
+format:
+  html:
+    theme: [Solar, mystyles.scss]
+    mainfont: Gelasio
+    css: styles.css
+    toc: false
+    code-background: true
+    code-fold: true
+
+editor: visual
+
+

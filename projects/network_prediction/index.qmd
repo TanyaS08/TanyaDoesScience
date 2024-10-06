@@ -1,0 +1,26 @@
+---
+title: "Network prediction"
+image: bee_spider.jpg
+description: " " 
+date: 01-03-2000
+date-format: " "
+draft: false
+editor: source
+---
+
+Understanding how different species interact within ecological networks can be quite difficult. To observe these interactions in nature, we need to observe both species at the same time and place, which is not always easy. Even if two potentially interacting species come across each other, it does not mean that they will interact. For example, a predator might not be feeling hungry when meeting its prey. If the predator gets hungry later and decides to go hunting, the researcher might not notice this interaction happening. This leads to many interactions going unnoticed, leaving important gaps in our knowledge of species interactions. Additionally, the expensive process of sampling interactions adds to this challenge by leaving many environments without any collected data. In this context, ecologists must rely on computer-based methods to fill in these knowledge gaps and verify if the data we have might have missed some interactions (known as false negatives). In this project, we develop different ways to predict species interactions using available ecological information. 
+
+## Papers
+
+* In [MacDonald et al. (2020)](https://doi.org/10.1016/j.patter.2020.100079), we use our knowledge of the number of species present in food webs to predict their total number of interactions while taking into account meaningful constraints on the number of interactions. 
+
+* In [Strydom et al. (2021)](https://doi.org/10.1098/rstb.2021.0063), we review computational tools used to predict and forecast species interactions, with a specific focus on machine learning approaches.
+
+* In [Strydom et al. (2022)](https://doi.org/10.1111/2041-210X.13835) and [Strydom et al. (2023)](https://doi.org/10.1111/2041-210X.14228), we present a method based on graph embedding and transfer learning to reconstruct the food network of Canadian mammals. 
+
+* In [Higino et al. (2023)](https://doi.org/10.7717/peerj.14620), we show how to find missing information about species interactions by using maps of species ranges.
+
+[![A wasp lies caught on a spider web. Both animals are predators that must eat other animals to live; in this case, the wasp may or may not become food for the spider. How certain is this interaction between species? We can think of this uncertainty as a probability, and the aggregate of all such interactions among organisms in one place as a statistical distribution. We show how to estimate the parameters of this distribution with accuracy, while respecting the biological constraints of real food webs. This makes it easier to describe and predict the structure of these important ecological networks (MacDonald, Banville, and Poisot, 2020). Photo credit: Yves Banville.](bee_spider.jpg){width=300}](https://www.cell.com/patterns/issue?pii=S2666-3899(20)X0008-0)
+
+
+
