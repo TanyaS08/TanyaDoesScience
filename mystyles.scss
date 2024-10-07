@@ -90,7 +90,7 @@ p, .ul {
 }
 
 .figure-caption {
-  color: $blue;
+  color: $purple;
   font-size: 0.8rem;
   font-family: montserrat;
 }
@@ -119,20 +119,5 @@ p, .ul {
   font-family: montserrat;
   font-size: 0.9rem;
 }
-
-/*-- The hero image --*/
-.hero-image {
-  background-image: url("images/interests.png");
-
-  /* Set a specific height */
-  height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 
 
