@@ -12,14 +12,10 @@ website:
     left:
       - href: index.qmd
         text: home
-      - href: about.qmd
-        text: about
       - href: projects.qmd
         text: projects
       - href: draws.qmd
         text: draws
-      - href: posts.qmd
-        text: blog
       - href: resources.qmd
         text: resources
     right: 
