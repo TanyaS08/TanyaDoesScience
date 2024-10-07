@@ -30,8 +30,7 @@ website:
 
 format:
   html:
-    theme: mystyles.scss
-    mainfont: montserrat
+    theme: [Journal, mystyles.scss]
     css: styles.css
     toc: false
     code-background: true
