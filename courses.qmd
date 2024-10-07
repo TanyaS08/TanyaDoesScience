@@ -1,143 +1,24 @@
 ---
-editor: source
-cap-location: margin
+format: html
+filters:
+   - lightbox
+lightbox: auto
 ---
 
-# Teaching experience
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
 
-## Undergraduate courses (teaching assistance)
+![](images/gallery/bateleur.jpg){group="my-gallery"}
 
-##### BIO1001 Méthodes de recherche en biologie (TP)
-Grader (fall 2021)\
-*Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/AUTOMNE_2021/BIO1001__Automne2021_PC_HarveyE.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-1001/)
+![](images/gallery/5756f93c-3914-4ed7-9c15-9dce8c2344d2_rw_1920.jpg){group="my-gallery"}
 
-##### BIO2041 Biostatistique 1
-Head teaching assistant (falls 2022-23, summer 2024) and Teaching assistant (summers 2022-23)\
-*Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/AUTOMNE_2022/BIO2041.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-2041/)
+![](images/gallery/c7881f7e-5537-42fc-9885-c25f32e16859_rw_1920-2.jpeg){group="my-gallery"}
 
-##### BIO2042 Biostatistique 2
-Head teaching assistant (winter 2024) and Teaching assistant (winter 2023)\
-*Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/HIVER_2023/BIO2042.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-2042/)
+![](images/gallery/CactusPony.png){group="my-gallery"}
 
-##### BIO2811 Dynamique des populations
-Grader (winters 2021-22)\
-*Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/HIVER_2022/cycles_sup%C3%A9rieurs/BIO2811_6034.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-2811/)
+![](images/gallery/IMG_0241.JPG){group="my-gallery"}
 
-##### BIO3043 Théorie des réseaux
-Teaching assistant (fall 2020)\
-*Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/AUTOMNE_2020/cycles_sup%C3%A9rieurs/BIO3043-6037_PCA20_TPoisot.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-3043/)
+![](images/gallery/KnysnaLourie.jpg){group="my-gallery"}
 
-##### BIO6065 École d'été en synthèse écologique de données
-Teaching assistant (summer 2021)\
-*Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/ETE_2021/cycles_sup%C3%A9rieurs/BIO6065_E2021_PC_PoisotT.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6065/)
+![](images/gallery/TigerFace.jpg){group="my-gallery"}
 
-## Workshops
-
-##### Data.Trek
-Institute for Data Valorization (IVADO)\
-Co-presentation of 2 workshops in *Montreal, Canada*\
-[{{< fa laptop >}} Data.Trek challenge](https://ivado.ca/en/events/the-100-days-of-data-trek-challenge-2/),
-[{{< fa code >}}Mangal.jl](https://nextjournal.com/francisbanville/mangaljl---introduction?change-id=Cn7Gz8vBKYoU35uCVocWy5), 
-[{{< fa code >}}EcologicalNetworks.jl](https://nextjournal.com/francisbanville/introduction-%C3%A0-ecologicalnetworks?change-id=Cms9YrJvJjKLbuMEQaYiXn), and
-[{{< fa code >}}Flux.jl](https://nextjournal.com/francisbanville/training-neural-networks-using-fluxjl-master?change-id=DSPowrWu4kn8RY1souLZax) introduction\
-
-##### QCBS R workshops
-Quebec Centre for Biodiversity Science (QCBS)\
-Co-presentation of 3 workshops in *Montreal, Canada* and virtually\
-[{{< fa frog >}} R workshops](https://r.qcbs.ca/)
-
-##### Software carpentry
-Computational Biodiversity Science & Services program (BIOS²)\
-Co-presentation of 2 workshops in *Rimouski, Canada*\
-[{{< fa laptop >}} software carpentry](https://software-carpentry.org/), [{{< fa building-columns >}} information](https://bios2.usherbrooke.ca/2021/10/13/software-carpentry-workshop-2021/)
-
-##### Twitch workshops
-Poisot lab\
-Co-presentation of 1 virtual workshop\
-[<i class="fa-brands fa-youtube"></i> Twitch channel](https://www.twitch.tv/poisotlab)\
-
-# Completed graduate courses
-
-## Credited courses 
-
-##### BIO6004 Communication scientifique
-Fall 2018, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/AUTOMNE_2018/BIO4000_A18_c1_c2.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6004/)
-
-##### BIO6032 Biologie computationnelle et modélisation
-Winter 2019, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/HIVER_2020/cycles_sup%C3%A9rieurs/BIO6032_PC_H20-TPoisot.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6032/)
-
-##### BIO6033 Méthodes quantitatives en biologie
-Winter 2019, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/HIVER_2018/BIO3033_Timothe__e_Poisot.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6033/)
-
-##### BIO6037 Analyse des réseaux écologiques
-Fall 2019, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/AUTOMNE_2019/BIO3043_PC_A19-TPoisot.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6037/)
-
-##### BIO6063 Travail dirigé 1
-Supervisors: Pr. Jean-François Lapierre and Pr. Roxanne Maranger\
-Summer 2019, *Université de Montréal*\
-[{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6063/)
-
-##### BIO6065 École d'été en synthèse écologique de données
-Summer 2019, *Université de Montréal*\
-[{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6065/)
-
-##### BIO6077 Analyse quantitative des données
-Fall 2018, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/HIVER_2019/Cycles_superieurs/BIO6077_H2019_PC_LegendreP.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6077/)
-
-##### BIO6115 Progrès en phylogénie systématique
-Winter 2019, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/HIVER_2019/BIO3115-6115_PC_H19_ABrunneau.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6115/)
-
-##### BIO6260 Génomique microbienne
-Fall 2018, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://bio.umontreal.ca/public/FAS/biologie/Documents/1-Programmes-cours/Cours_et_horaires/AUTOMNE_2018/Cycles_superieurs/BIO3260-6260_A18.pdf
-), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/bio-6260/)
-
-##### BIO860M Séminaire thématique en écologie
-Winter 2021, *UQAM*\
-[{{< fa building-columns >}} admission](https://etudier.uqam.ca/cours?sigle=BIO860M)
-
-##### GEO6321 Travaux pratiques en géomatique 
-Fall 2018, *Université de Montréal*\
-[{{< fa building-columns >}} admission](https://studium.umontreal.ca/enrol/index.php?id=85500)
-
-##### MSO6028 Introduction aux théories de la mesure
-Winter 2019, *Université de Montréal*\
-[{{< fa road >}} course syllabus](https://espum.umontreal.ca/fileadmin/espum/documents/ESPUM/SYLLABUS/30_MSO6028_H17.pdf), [{{< fa building-columns >}} admission](https://admission.umontreal.ca/cours-et-horaires/cours/mso-6028/)
-
-## Extracurricular courses
-
-##### ECL807 École d’été en modélisation de la biodiversité 2021
-Summer 2021, *Université de Sherbrooke*\
-[{{< fa building-columns >}} admission](https://www.usherbrooke.ca/admission/fiches-cours/ECL807/modelisation-de-la-biodiversite/), [{{< fa apple-whole >}} material](https://bios2.github.io/biodiversity_modelling_2021/)
-
-##### ECL807 Advanced Field School in Computational Ecology 2023
-Summer 2023, *Université de Sherbrooke and Université Laval*\
-[{{< fa building-columns >}} admission](https://sentinellenord.ulaval.ca/en/ecology2023), [{{< fa star >}} Sentinelle Nord](https://sentinellenord.ulaval.ca/en
-)
-
-![We played the TrophIE Game during the Advanced Field School in Computational Ecology. This game simulates predator-prey dynamics by dividing players into three groups: top predators, intermediate predators, and prey. Prey could protect themselves from top predators in pre-installed shelters, but not from intermediate predators (!). The goal of the game was to avoid being killed and collect enough resources to survive. We played in Parc Eco (Quebec), a forest environment. We collected geographical and interaction data using electronic devices during the game and analyzed them for a class project. Picture credit: Sentinelle Nord, Université Laval.](pictures/courses/group_dead.jpg){width=400px}
-
-##### Scientific collaboration in ecology and evolution
-Fall 2022, *Living Data Project (LDP)*\
-[{{< fa graduation-cap >}} LDP certificates](https://www.ciee-icee.ca/ldp-certificates.html)
-
-##### Synthesis statistics for ecology and evolution
-Fall 2021, *Living Data Project (LDP)*\
-[{{< fa road >}} syllabus](https://osf.io/a9k5b/), [{{< fa graduation-cap >}} LDP certificates](https://www.ciee-icee.ca/ldp-certificates.html)
-
-##### Short Course on Forecasting for Decision-Making: An Epidemiological & Ecological Perspective
-Summer 2023, *Ecological Forecasting Initiative (EFI)*\
-Fields Institute, Toronto\
-[{{< fa building-columns >}} admission](http://www.fields.utoronto.ca/activities/23-24/forecasting), [{{< fa brands github >}} repo](https://github.com/CanadianEFI/shortcourse-2023), [{{< fa virus >}} ecoforecast](https://ecoforecast.org/)
+:::

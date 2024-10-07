@@ -33,7 +33,7 @@ website:
 format:
   html:
     theme: mystyles.scss
-    mainfont: Gelasio
+    mainfont: montserrat
     css: styles.css
     toc: false
     code-background: true

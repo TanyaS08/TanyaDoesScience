@@ -2,14 +2,14 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('"https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"');
 
 // Colors
 $black: #0C1A1A;
 $blue: #031425;
-$blue-light: #EFFAFD;
+$blue-light: #04ADBF;
 $blue-picton: #6d94cd;
-$cream: #F0F7F4;
+$pink: #F263A6;
 $eggplant: #A0006D;
 $white: #ffffff;
 
@@ -20,19 +20,19 @@ $my-width: 500px;
 
 // Base document colors
 $navbar-bg: $blue; // navbar
-$navbar-fg: $cream; // navbar foreground elements
-$navbar-hl: $blue-picton; // highlight color when hovering over navbar links
+$navbar-fg: $pink; // navbar foreground elements
+$navbar-hl: $blue-light; // highlight color when hovering over navbar links
 $body-bg: $white; // page background 
 $body-color: $black; // page text 
 $footer-bg: $blue; // footer 
 $link-color: $blue-picton; // hyperlinks 
 
 // Inline code
-$code-bg: $cream; // inline code background color
+$code-bg: $pink; // inline code background color
 $code-color: $eggplant; // inline code text color
 
 // Code blocks
-$code-block-bg: $cream; // code block background color
+$code-block-bg: $pink; // code block background color
 
 /*-- scss:rules --*/
 
@@ -40,7 +40,7 @@ $code-block-bg: $cream; // code block background color
 
 h1 {
   color: $blue;
-  font-family: merriweather;
+  font-family: monserrat;
   font-size: 2.3rem;
 }
 
@@ -122,7 +122,19 @@ p, .ul {
   font-size: 0.9rem;
 }
 
+/*-- The hero image --*/
+.hero-image {
+  background-image: url("images/interests.png");
 
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 
 

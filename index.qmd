@@ -27,6 +27,10 @@ about:
     - text: CV
       url: "CV/CV.pdf"
 ---
+```{=html}
+<div class="hero-image">
+</div>
+```
 
 ## Howzit!
 
