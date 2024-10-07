@@ -3,11 +3,11 @@ project:
   output-dir: docs
 
 website:
-  title: "Francis Banville"
-  favicon: pictures/icons/fisher.png
+  title: "TanyaDoesScience"
+  favicon: images/icon.png
   navbar:
-    title: false
-    logo: pictures/logo/logo_fisher2.png
+    title: "TanyaDoesScience"
+    logo: images/logo.png
     background: primary
     left:
       - href: index.qmd
@@ -29,23 +29,10 @@ website:
     right: 
       - href: CV/CV.pdf
         text: CV
-      - icon: github
-        href: https://github.com/FrancisBanville
-      - icon: twitter
-        href: https://twitter.com/francisbanv
-  page-footer:     
-      background: light 
-      left: 
-        - "Copyright 2023, Francis Banville"
-      right: 
-        - icon: github
-          href: https://github.com/FrancisBanville
-        - icon: twitter
-          href: https://twitter.com/francisbanv
 
 format:
   html:
-    theme: [Solar, mystyles.scss]
+    theme: mystyles.scss
     mainfont: Gelasio
     css: styles.css
     toc: false

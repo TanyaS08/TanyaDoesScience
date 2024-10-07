@@ -3,6 +3,7 @@ title: "Tanya Strydom"
 description: "Postdoctoral Researcher"
 image: images/avatar.png
 editor: source
+body-header: "images/interests.png"
 about: 
   template: trestles
   image-shape: round
@@ -23,6 +24,8 @@ about:
     - icon: orcid 
       text: "{{< fa brands orcid >}} ORCiD"
       href: https://orcid.org/0000-0001-6067-1349
+    - text: CV
+      url: "CV/CV.pdf"
 ---
 
 ## Howzit!
