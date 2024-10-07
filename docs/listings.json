@@ -2,12 +2,9 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/stochastic_food_webs/index.html",
-      "/projects/maximum_entropy/index.html",
-      "/projects/network_prediction/index.html",
       "/projects/working_groups/index.html",
-      "/projects/internships/index.html",
-      "/projects/book_club/index.html"
+      "/projects/thesis/index.html",
+      "/projects/cascade/index.html"
     ]
   },
   {

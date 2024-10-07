@@ -18,10 +18,8 @@ website:
         text: projects
       - href: publications.qmd
         text: publications
-      - href: talks.qmd
-        text: talks
-      - href: courses.qmd
-        text: courses
+      - href: draws.qmd
+        text: draws
       - href: posts.qmd
         text: blog
       - href: resources.qmd

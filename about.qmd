@@ -1,9 +1,8 @@
 ---
 editor: source
 cap-location: margin
+title: "The Fun Stuff"
 ---
-
-# About
 
 ### {{< fa heart >}} My values 
 
