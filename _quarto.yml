@@ -16,8 +16,6 @@ website:
         text: about
       - href: projects.qmd
         text: projects
-      - href: publications.qmd
-        text: publications
       - href: draws.qmd
         text: draws
       - href: posts.qmd
