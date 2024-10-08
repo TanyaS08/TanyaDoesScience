@@ -170,10 +170,10 @@ Banville, F., **Strydom, T.**, Blyth, P., Brimacombe, C., Catchen, M.D., Dansere
 
 <br>
 
-##### Deciphering probabilistic species interaction networks
+##### Designing a collective prototype of future (sub)tropical science
 
 ::: {.column-margin}
-[![](images/publications/atbc-commentary.png){height=220, width=220}](https://doi.org/10.32942/X28G8Z)
+[![](images/publications/atbc-commentary.png){height=220, width=220}](https://doi.org/10.32942/X2VC86)
 :::
 
 Higino, G. T., Anujan, K., Boakye, M., Degano, M. E., Forero‑Muñoz, N.‑R., & **Strydom, T.** (2023)\
