@@ -4,7 +4,7 @@ project:
 
 website:
   title: "TanyaDoesScience"
-  favicon: images/icon.png
+  favicon: images/logo.png
   navbar:
     title: "TanyaDoesScience"
     logo: images/logo.png
@@ -16,8 +16,6 @@ website:
         text: projects
       - href: draws.qmd
         text: draws
-      - href: resources.qmd
-        text: resources
     right: 
       - href: CV/CV.pdf
         text: CV

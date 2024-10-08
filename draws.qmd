@@ -1,8 +1,5 @@
 ---
 format: html
-filters:
-   - lightbox
-lightbox: auto
 title: Draws
 ---
 

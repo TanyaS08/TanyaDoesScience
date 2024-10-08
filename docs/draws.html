@@ -40,9 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,10 +104,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./draws.html" aria-current="page"> 
 <span class="menu-text">draws</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">resources</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -152,13 +145,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 0.1em; display: flex; flex-wrap: wrap">
-<p><a href="images/gallery/bateleur.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/bateleur.jpg" class="img-fluid"></a></p>
-<p><a href="images/gallery/5756f93c-3914-4ed7-9c15-9dce8c2344d2_rw_1920.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/5756f93c-3914-4ed7-9c15-9dce8c2344d2_rw_1920.jpg" class="img-fluid"></a></p>
-<p><a href="images/gallery/c7881f7e-5537-42fc-9885-c25f32e16859_rw_1920-2.jpeg" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/c7881f7e-5537-42fc-9885-c25f32e16859_rw_1920-2.jpeg" class="img-fluid"></a></p>
-<p><a href="images/gallery/CactusPony.png" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/CactusPony.png" class="img-fluid"></a></p>
-<p><a href="images/gallery/IMG_0241.JPG" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/IMG_0241.JPG" class="img-fluid"></a></p>
-<p><a href="images/gallery/KnysnaLourie.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/KnysnaLourie.jpg" class="img-fluid"></a></p>
-<p><a href="images/gallery/TigerFace.jpg" class="lightbox" data-gallery="my-gallery"><img src="images/gallery/TigerFace.jpg" class="img-fluid"></a></p>
+<p><img src="images/gallery/bateleur.jpg" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="images/gallery/5756f93c-3914-4ed7-9c15-9dce8c2344d2_rw_1920.jpg" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="images/gallery/c7881f7e-5537-42fc-9885-c25f32e16859_rw_1920-2.jpeg" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="images/gallery/CactusPony.png" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="images/gallery/IMG_0241.JPG" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="images/gallery/KnysnaLourie.jpg" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="images/gallery/TigerFace.jpg" class="img-fluid" data-group="my-gallery"></p>
 </div>
 
 
@@ -552,31 +545,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 
