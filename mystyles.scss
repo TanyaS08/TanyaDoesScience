@@ -142,3 +142,12 @@ p, .ul {
   background-repeat: no-repeat;
   padding: 1vh 0;
 }
+
+.image-credit {
+  position: absolute;
+  text-align: right;
+  right: 0.5%;
+  bottom: 0.5%;
+  font-size: 12px;
+  color: $white;
+}
