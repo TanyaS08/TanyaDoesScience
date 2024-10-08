@@ -10,11 +10,9 @@ editor: source
 
 ## Tools’ O the Times: Understanding the common properties of species interaction networks across space
 
-![](thesis.jpg){width=100%}
- 
-My thesis can be thought of in terms of two acts, which are driven by the central problem that we lack both information about species interactions and have a limited understanding of large scale 'patterns'. Act 1 focuses on the development of tools that can help us fill in the gaps that we have when it comes to knowing which species interact and Act 2 represents a development of tools that we can use to interrogate networks
+![My thesis can be thought of in terms of two acts, which are driven by the central problem that we lack both information about species interactions and have a limited understanding of large scale 'patterns'. Act 1 focuses on the development of tools that can help us fill in the gaps that we have when it comes to knowing which species interact and Act 2 represents a development of tools that we can use to interrogate networks](thesis.jpg){width=100%}
 
-## Publications
+### Publications
 
 #### Tools for predicting species interactions
 
