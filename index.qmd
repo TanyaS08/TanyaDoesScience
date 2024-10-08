@@ -36,39 +36,6 @@ A Scientist in training (and self-diagnosed theoretical ecologist) who loves pla
 
  A plant ecologist by inclination I can usually be found gushing about how cute a particular grass (or succulent) is, hanging off of the side of a mountain or going on bike-ventures to various coffee shops. When the weather forces me indoors I'm most likely spending way more time than I need to trying to automate a process that could be done in a few minutes, exercising my creative side or trying to find new (and pretty) ways in which to visualise data and results *i.e.* combining my geeky self with my artistic alter-ego.
 
-I use she/they pronouns.  
-
-------------------------------------------------------------------------
-
-## Education
-
-{{< fa graduation-cap >}} PhD in Biological Sciences (2024)\
-*Université de Montréal, Canada*\
-
-{{< fa graduation-cap >}} MSc in Ecology and Biodiversity (2020)\
-*Stockholms Universitet, Sweden*\
-
-{{< fa graduation-cap >}} BSc (Hons) in Plant Sciences (2017)\
-*University of Pretoria, South Africa*\
-
-------------------------------------------------------------------------
-
-## Friends
-
-[![BecksLab (*University of Sheffield, United Kingdom*)\
-Lab member](images/beckslab.jpeg){height=60 fig-align="left"}](https://andbeck.github.io/beckslab/)
-
-[![PoisotLab (*Université de Montréal, Canada*)\
-Former padawan](images/poisotlab.jpg){height=60 fig-align="left"}](https://poisotlab.io/)
-
-[![Plant Functional Trait Courses (*Norway*)\
-Collaborator](images/pftc.jpg){height=60 fig-align="left"}](https://plantfunctionaltraitscourses.w.uib.no)
-
-[![Computational Biodiversity Science & Services program (*Canada*)\
-Former fellow](images/bios2.jpeg){height=60 fig-align="left"}](https://bios2.usherbrooke.ca/)
-
-[![Quebec Centre for Biodiversity Science (*Quebec, Canada*)\
-Former member](images/qcbs.png){height=60 fig-align="left"}](https://qcbs.ca/)
-
+I use she/they pronouns.
 
 

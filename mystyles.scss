@@ -124,7 +124,7 @@ p, .ul {
 .hero-container {
   overflow: hidden;
   position: relative;
-  max-height: 100%;
+  max-height: 52vh;
   height: 52vh;
 }
 
@@ -135,7 +135,7 @@ p, .ul {
   background-size: cover;
   height: 100%;
   width: 100%;
-  background-color: #141c25;
+  background-color: $blue;
   display: flex; /* Change to `display: none` for no hero image */
   justify-content: center;
   align-items: center;

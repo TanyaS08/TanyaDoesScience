@@ -1,10 +1,10 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/research.html",
     "items": [
-      "/projects/working_groups/index.html",
-      "/projects/thesis/index.html",
-      "/projects/cascade/index.html"
+      "/research/working_groups/index.html",
+      "/research/thesis/index.html",
+      "/research/cascade/index.html"
     ]
   },
   {
@@ -12,14 +12,6 @@
     "items": [
       "/posts/2023-03-07-digital-intelligence/index.html",
       "/posts/2023-03-07-forecasting-lcbd/index.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/research/working_groups/index.html",
-      "/research/thesis/index.html",
-      "/research/cascade/index.html"
     ]
   }
 ]
