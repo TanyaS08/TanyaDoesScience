@@ -27,7 +27,7 @@ website:
 format:
   html:
     theme: [Journal, mystyles.scss]
-    css: styles.css
+    css: css/styles.css
     toc: false
     code-background: true
     code-fold: true

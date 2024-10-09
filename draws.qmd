@@ -1,9 +1,7 @@
 ---
 format:
   html:
-    keep-md: false
-    theme: litera
-    css: gallery.css
+    css: css/gallery.css
     toc: false
 title: Draws
 editor: source
