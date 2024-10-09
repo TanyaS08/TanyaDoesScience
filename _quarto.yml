@@ -14,6 +14,8 @@ website:
         text: home
       - href: research.qmd
         text: research
+      - href: visual.qmd
+        text: seeing science
       - href: draws.qmd
         text: draws
     right: 

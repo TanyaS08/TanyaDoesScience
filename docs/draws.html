@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="gallery.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -101,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./visual.html"> 
+<span class="menu-text">seeing science</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./draws.html" aria-current="page"> 
 <span class="menu-text">draws</span></a>
   </li>  
@@ -123,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -144,14 +152,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 0.1em; display: flex; flex-wrap: wrap">
-<p><img src="images/gallery/bateleur.jpg" class="img-fluid" data-group="my-gallery"></p>
-<p><img src="images/gallery/5756f93c-3914-4ed7-9c15-9dce8c2344d2_rw_1920.jpg" class="img-fluid" data-group="my-gallery"></p>
-<p><img src="images/gallery/c7881f7e-5537-42fc-9885-c25f32e16859_rw_1920-2.jpeg" class="img-fluid" data-group="my-gallery"></p>
-<p><img src="images/gallery/CactusPony.png" class="img-fluid" data-group="my-gallery"></p>
-<p><img src="images/gallery/IMG_0241.JPG" class="img-fluid" data-group="my-gallery"></p>
-<p><img src="images/gallery/KnysnaLourie.jpg" class="img-fluid" data-group="my-gallery"></p>
-<p><img src="images/gallery/TigerFace.jpg" class="img-fluid" data-group="my-gallery"></p>
+<div class="gallery page-columns page-full">
+<div class="column-page">
+<p><a href="images/gallery/01_CheetahDots.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/01_CheetahDots.png" class="img-fluid" style="column-span: all;"></a> <a href="images/gallery/CactusPony.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/CactusPony.png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/HoD .png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/HoD .png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/NightSoho.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/NightSoho.png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/NyanKitty.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/NyanKitty.png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/Roadrunner.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/Roadrunner.png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/SchrödingersKitty.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/SchrödingersKitty.png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/SouthwestCritters .png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/SouthwestCritters .png" class="img-fluid" style="column-span: none;"></a> <a href="images/gallery/Zebra.png" class="lightbox" data-gallery="draw-gallery"><img src="images/gallery/Zebra.png" class="img-fluid" style="column-span: none;"></a></p>
+</div>
 </div>
 
 
@@ -545,6 +549,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

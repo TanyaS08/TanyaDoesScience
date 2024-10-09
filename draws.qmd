@@ -1,22 +1,41 @@
 ---
-format: html
+format:
+  html:
+    keep-md: false
+    theme: litera
+    css: gallery.css
+    toc: false
 title: Draws
+editor: source
+lightbox: auto
 ---
 
-::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 0.1em; display: flex; flex-wrap: wrap"}
 
-![](images/gallery/bateleur.jpg){group="my-gallery"}
+::: gallery
 
-![](images/gallery/5756f93c-3914-4ed7-9c15-9dce8c2344d2_rw_1920.jpg){group="my-gallery"}
+::: column-page
 
-![](images/gallery/c7881f7e-5537-42fc-9885-c25f32e16859_rw_1920-2.jpeg){group="my-gallery"}
+```{r, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+library(glue)
+library(fs)
+library(here)
+localurl =  path('images/gallery')
+photos = fs::dir_ls(path = localurl, glob = '*.png')
+baseurl = localurl
 
-![](images/gallery/CactusPony.png){group="my-gallery"}
+if(file.exists('custom_order')){
+reordering = intersect(as.integer(readLines('custom_order')), seq_along(photos))
+photos = photos[reordering]
+}
+  
+for (i in seq_along(photos)){
+  if(i %in% c(1)) span = 'all' else span = 'none'
 
-![](images/gallery/IMG_0241.JPG){group="my-gallery"}
+  cat(glue('![]({{ baseurl }}/{{ fs::path_file(photos[i]) }}){.lightbox style="column-span: {{ span }};" group="draw-gallery"}', .open = '{{', .close = '}}'), '
+')
 
-![](images/gallery/KnysnaLourie.jpg){group="my-gallery"}
-
-![](images/gallery/TigerFace.jpg){group="my-gallery"}
+}
+```
+:::
 
 :::
