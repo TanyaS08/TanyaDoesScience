@@ -2,13 +2,11 @@
 format:
   html:
     theme: [Journal, mystyles.scss]
-    toc: false 
 title: Seeing Science
 ---
 
-## EcoMass
-
-Fun stuff test
+## Science through comics
+[{{< fa box-archive >}} Archive](https://ecologyforthemasses.com/category/elology-for-the-masses/)\
 
 ```{=html}
 
@@ -23,6 +21,12 @@ Fun stuff test
     <div class="carousel-item">
       <img src="images/ecomass/seaslugs.webp" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="images/ecomass/my_boy.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ecomass/t-party.webp" class="d-block w-100" alt="...">
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -34,4 +38,17 @@ Fun stuff test
   </button>
 </div>
 
+<br>
+
 ```
+
+From 2020 - 2022 I had an awesome time creating a fortnightly comic strip for the [Ecology for the Masses](https://ecologyforthemasses.com/) blog, where the goal was to inject a bit of humour while still communicating the central message of recent publications or ecology related news - creating some eLOLogy for the masses.
+
+## Seeing data
+[{{< fa brands github-alt >}} repo](https://github.com/TanyaS08/TidyTuesday)
+
+TidyTuesday stuff
+
+## Seeing concepts
+
+Something about all of my sexy conceptual figures?
