@@ -21,6 +21,8 @@ website:
     right: 
       - href: CV/CV.pdf
         text: CV
+      - icon: github
+        href: https://github.com/TanyaS08
 
 format:
   html:
