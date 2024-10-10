@@ -18,7 +18,7 @@ library(glue)
 library(fs)
 library(here)
 localurl =  path('images/gallery')
-photos = fs::dir_ls(path = localurl, glob = '*.png')
+photos = fs::dir_ls(path = localurl)
 baseurl = localurl
 
 if(file.exists('custom_order')){
