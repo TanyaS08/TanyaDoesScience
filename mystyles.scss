@@ -6,6 +6,16 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+// Modify carousel css
+#carouselTidyTuesday .carousel-item img {  
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height:50vh;
+  max-height: 50vh;
+  width: 100%
+}
+
 // Colors
 $black: #0C1A1A;
 $blue: #031425;
