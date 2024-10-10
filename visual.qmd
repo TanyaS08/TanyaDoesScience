@@ -10,7 +10,7 @@ title: Seeing Science
 
 ```{=html}
 
-<div id="carouselExample" class="carousel slide">
+<div id="carouselEcoMass" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/ecomass/beeaurocracy.webp" class="d-block w-100" alt="...">
@@ -49,11 +49,11 @@ title: Seeing Science
         </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselEcoMass" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselEcoMass" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -68,7 +68,36 @@ From 2020 - 2022 I had an awesome time creating a fortnightly comic strip for th
 ## Seeing data
 <p style="width:70px;color:#2c6060;text-decoration:none;border:solid 1px;font-size:.8em;padding:.25em .5em;border-radius:4px">[{{< fa brands github-alt >}} Repo](https://github.com/TanyaS08/TidyTuesday)</p>
 
-TidyTuesday stuff
+```{=html}
+
+<div id="carouselTidyTuesday" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/tidytuesday/AnnapurnaMassif.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/tidytuesday/LastWord_withArt.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/tidytuesday/NewDatasetInTown.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/tidytuesday/RaceForSpace.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTidyTuesday" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselTidyTuesday" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+
+```
 
 ## Seeing concepts
 
