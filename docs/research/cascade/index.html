@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -163,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="cascade_wf.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><a href="cascade_wf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="The CASCaDE project is an exploration into how ancient climate change has driven patterns of diversity in, and the stability and resilience of paleo communities. Food webs provide us with a means to understand community structure and stability, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events. But first we need to develop the right tools that will allow us to construct those prehistoric networks - which is made just a bit more challenging because we can’t actually observe two extinct species interacting…"><img src="cascade_wf.png" class="img-fluid figure-img" style="width:100.0%" alt="The CASCaDE project is an exploration into how ancient climate change has driven patterns of diversity in, and the stability and resilience of paleo communities. Food webs provide us with a means to understand community structure and stability, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events. But first we need to develop the right tools that will allow us to construct those prehistoric networks - which is made just a bit more challenging because we can’t actually observe two extinct species interacting…"></a></p>
 <figcaption class="margin-caption">The CASCaDE project is an exploration into how ancient climate change has driven patterns of diversity in, and the stability and resilience of paleo communities. Food webs provide us with a means to understand community structure and stability, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events. But first we need to develop the right tools that will allow us to construct those prehistoric networks - which is made just a bit more challenging because we can’t actually observe two extinct species interacting…</figcaption>
 </figure>
 </div>
@@ -177,6 +180,9 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="anchored" data-anchor-id="model-resilience-to-mass-extinction-cascades-in-a-variety-of-phanerozoic-and-modern-marine-ecosystems">3. Model resilience to mass extinction cascades in a variety of Phanerozoic and modern marine ecosystems</h5>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">The CASCaDE project is an exploration into how ancient climate change has driven patterns of diversity in, and the stability and resilience of paleo communities. Food webs provide us with a means to understand community structure and stability, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events. But first we need to develop the right tools that will allow us to construct those prehistoric networks - which is made just a bit more challenging because we can’t actually observe two extinct species interacting…</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -568,6 +574,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

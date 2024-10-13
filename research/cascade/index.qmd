@@ -6,6 +6,7 @@ date: 01-01-2024
 date-format: " "
 draft: false
 editor: source
+lightbox: auto
 ---
 
 ![The CASCaDE project is an exploration into how ancient climate change has driven patterns of diversity in, and the stability and resilience of paleo communities. Food webs provide us with a means to understand community structure and stability, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events. But first we need to develop the right tools that will allow us to construct those prehistoric networks - which is made just a bit more challenging because we can't actually observe two extinct species interacting... ](cascade_wf.png){width=100%}

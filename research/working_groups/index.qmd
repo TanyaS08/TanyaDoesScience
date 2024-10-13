@@ -6,6 +6,7 @@ date: 01-04-2000
 date-format: " "
 draft: false
 editor: source
+lightbox: auto
 ---
 
 #### Black holes and revelations: Identifying priority sampling locations for local food webs in Canada

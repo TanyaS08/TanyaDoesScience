@@ -3,6 +3,7 @@ format:
   html:
     theme: [Journal, mystyles.scss]
 title: Seeing Science
+lightbox: auto
 ---
 
 I take a great degree of pride in incorporating a strong visual element within the research I do. Be that through developing figures that provide a powerful visual narratives of concepts or trying to present data in ways that are both visually appealing as well as informative. I also like to spend time operating in the overlap of purely creative outputs and those that have 'utilitarian' scientific value - be that through the communication of research or playing with data-driven visuals.
@@ -75,7 +76,7 @@ And every now and then I have been known to do some doodling of some of the rese
       <img src="images/other/nextgen.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="images/other/acebum.png" class="d-block w-100" alt="...">
+      <img src="images/other/symposium_bio.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="images/other/spatialboundaries.png" class="d-block w-100" alt="...">
