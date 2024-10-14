@@ -4,10 +4,11 @@ project:
 
 website:
   title: "TanyaDoesScience"
-  favicon: images/logo.png
+  favicon: images/assets/logo.png
+  search: false
   navbar:
     title: "TanyaDoesScience"
-    logo: images/logo.png
+    logo: images/assets/logo_darkmode.png
     background: primary
     left:
       - href: index.qmd
@@ -23,6 +24,12 @@ website:
         text: CV
       - icon: github
         href: https://github.com/TanyaS08
+  page-footer:     
+    background: primary 
+    right: 
+      - icon: code
+        text: "{{< fa code >}} Source code"
+        href: https://github.com/TanyaS08/TanyaDoesScience
 
 format:
   html:
