@@ -15,7 +15,7 @@ about:
       text: "{{< fa brands github-alt >}} GitHub"
       href: https://github.com/TanyaS08
     - icon: bluesky
-      text: "🦋 Bluesky"
+      text: "{{< fa brands bluesky >}} Bluesky"
       href: https://bsky.app/profile/tanyadoesscience.bsky.social
     - icon: instagram
       text: Instagram
