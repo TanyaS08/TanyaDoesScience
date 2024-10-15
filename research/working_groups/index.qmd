@@ -1,9 +1,7 @@
 ---
 title: "Working groups"
 image: post-its.jpg
-description: " " 
-date: 01-04-2000
-date-format: " "
+description: " "
 draft: false
 editor: source
 lightbox: auto

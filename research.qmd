@@ -1,8 +1,8 @@
 ---
 listing: 
-  contents: research # all Quarto docs in the "projects" directory 
+  contents: research # all Quarto docs in the "research" directory 
   type: grid # "grid", "default" or "table"
   categories: false # allows you to sort posts by assigned categories 
-  sort: "date" # can also sort on more than one field
+  sort: "title" # can also sort on more than one field
   date-format: " "
 ---
