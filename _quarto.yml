@@ -11,8 +11,6 @@ website:
     logo: images/assets/logo_darkmode.png
     background: primary
     left:
-      - href: index.qmd
-        text: home
       - href: research.qmd
         text: research
       - href: workflow.qmd
