@@ -4,6 +4,7 @@ format:
     theme: [Journal, mystyles.scss]
 title: Seeing Science
 lightbox: auto
+title-block-banner: "#031425"
 ---
 
 I take a great degree of pride in incorporating a strong visual element within the research I do. Be that through developing figures that provide a powerful visual narratives of concepts or trying to present data in ways that are both visually appealing as well as informative. I also like to spend time operating in the overlap of purely creative outputs and those that have 'utilitarian' scientific value - be that through the communication of research or playing with data-driven visuals.
