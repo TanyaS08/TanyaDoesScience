@@ -1,17 +1,17 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/2023-03-07-digital-intelligence/index.html",
-      "/posts/2023-03-07-forecasting-lcbd/index.html"
-    ]
-  },
-  {
     "listing": "/research.html",
     "items": [
       "/research/cascade/index.html",
       "/research/thesis/index.html",
       "/research/working_groups/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2023-03-07-digital-intelligence/index.html",
+      "/posts/2023-03-07-forecasting-lcbd/index.html"
     ]
   }
 ]
