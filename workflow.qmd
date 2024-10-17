@@ -9,40 +9,40 @@ I would never claim to have the 'optimal' research workflow. However I always fi
 
 ## Writing
 
-- I avoid using word as my writing environment at all costs and rather make use of a [pandoc-assisted](http://pandoc.org/) workflow. Which allows me to write in a distraction-free, plain-text world and use the relevant templates to generate files that conform journal standards. This allows me to focus on the content and not get distracted by the minutia of formatting.
+- I avoid using word as my writing environment at all costs and rather make use of a [pandoc-assisted](http://pandoc.org/) workflow. Which allows me to write in a distraction-free, plain-text world and use the relevant templates to generate files that conform to journal requirements. This allows me to focus on the content and not get distracted by the minutia of formatting.
     - I primarily use [Quarto](https://quarto.org/) to facilitate this process, with the [Quarto manuscript](https://quarto.org/docs/manuscripts/) project type being my go to for writing-specific projects.
 - I also host all of my writing projects as individual repositories on [Github](https://github.com/), where I will also host the (in-progress) writing on [GitHub pages](https://pages.github.com). This allows for easy sharing between collaborators and allows them to access different filetypes of the document
     - Comments/feedback is done through pull requests - which allows us to compare changes before accepting them, and keeps a record of changes
     - It is also possible to have an [hypothesis.is](https://web.hypothes.is) overlay on the actual webpage - allowing collaborators to make 'word-style' comments there as well
 - The additional advantage of using the Quarto ecosystem is that it allows you to embed code chunks within the file or as additional notebooks 
-    - This allows you to integrate analyses with writing and create and immediately import 'live' objects such as figures or tables automatically. Ensuring that the up-to-date results are always available and not reliant on someone manually replacing files.
+    - This allows you to integrate analyses with writing and create 'living documents'. Ensuring that up-to-date results are always shown and is not reliant on someone manually replacing/updating them.
 - I use [Zotero](https://www.zotero.org/) as my reference manager, which has the added benefit of integrating with Quarto allowing you to import bibliographic entries while writing.
-    - Although I still prefer to use individual folders in Zotero for each project and dropping relevant references into them, which I can then have automatically expert as a `.bib` file to the relevant project file.
+    - I still prefer to use individual folders in Zotero for each project and dropping relevant references into them, which I can then have automatically expert as a `.bib` file to the relevant project file as opposed to the Quarto reference workflow but for very collaborative projects where many people are expected to write and add their own citations the the Quarto backend is better.
     - I use the [Better BibTeX](https://retorque.re/zotero-better-bibtex/) plugin to generate (what I find to be) informative citation keys for each reference
-- I am still a devout pen and paper user when it comes to generating and processing ideas and concepts and use a standard diary as a way to temporally segregate my notes.
+- I am still a devout pen and paper user when it comes to generating and processing of ideas and concepts and use a dated diary as a way to temporally segregate my notes.
 
 ## Science and research
 
 ### Development
 
 - In the interest of full reproducibility and transparency, I post almost everything I write (see above) or develop on [GitHub](https://github.com/tanyas08).
-- I use a mixture of [Julia](https://julialang.org) and [R](https://www.r-project.org/) for any statistical computing or modelling exercises. (I would not say that I have strong opinions but lean in favour of Julia for doing any development but often still turn to R for data wrangling - something I find well suited to with the [tidyverse](http://tidyverse.org/) ecosystem)
+- I use a mixture of [`Julia`](https://julialang.org) and [`R`](https://www.r-project.org/) for any statistical computing or modelling exercises. (I would not say that I have strong opinions but lean in favour of Julia for doing development but often still turn to R for data wrangling - something I find well suited to with the [tidyverse](http://tidyverse.org/) ecosystem)
 - I primarily use [Visual Studio Code](https://code.visualstudio.com/) for everything I do (writing and coding).
-    -  I adore the [fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) theme, and always have a [vscode-pet](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) roaming around my workspace.
-- For dedicated R users [RStudio](https://posit.co/download/rstudio-desktop/) is still the interface to work with though
+    -  I adore the [`fairyfloss`](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) theme, and always have a [`vscode-pet`](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) roaming around my workspace.
+- For dedicated R users I can see an argument for [RStudio](https://posit.co/download/rstudio-desktop/) though.
 
 ### Graphic design
 
-- For data-driven figures and plotting I am a devout [ggplot](https://ggplot2.tidyverse.org) user, although I am trying to embrace the [Makie](https://docs.makie.org/v0.21/) ecosystem in Julia...
+- For data-driven figures and plotting I am a devout [`ggplot`](https://ggplot2.tidyverse.org) user, although I am trying to embrace the [`Makie`](https://docs.makie.org/v0.21/) ecosystem in Julia...
 - I use a combination of [Fresco](https://www.adobe.com/products/fresco.html) and [Illustrator CC](https://www.adobe.com/products/illustrator.html) to make non-data-driven figures and diagrams.
     - Using Freso to create the smaller 'assets' and Illustrator for overall design, layout, and text.
-- I use [Adobe Color](https://color.adobe.com/create/color-wheel) to generate colour palettes, both from the colour wheel as well as extracting from figures
+- I use [Adobe Color](https://color.adobe.com/create/color-wheel) to generate colour palettes, both from the colour wheel as well as extracting them from figures.
 - I use the [Color Oracle](https://colororacle.org) plug-in to aid in designing figures that are accessible for colour impaired audiences.
-- Despite my dislike for Word and Excel, I must admit to using PowerPoint for all my presentations...
+- Despite my dislike for Word and Excel, I must admit to using PowerPoint for all my presentations - although the temptation to play with [Quarto presentations](https://quarto.org/docs/presentations/) is strong...
 
 ### Hardware and Software
 
-- I am a dedicated MacOS user having not been brave enough to dip my toes into Linux.
+- I am a dedicated MacOS user, having not been brave enough to dip my toes into Linux.
 - I am currently using a 2024 M3 14" MacBook Pro with 48 GB of memory and a 3rd generation 11" iPad Pro.
 - I am currently using the [Hobonichi A5 Hon](https://www.1101.com/store/techo/en/magazine/hon/?srsltid=AfmBOopJqn_UuRHkKg28pgS2PuwftJNUTZSGhETVMaT8IKdDGevr0uAC) as my 'old man paper calendar' writing tool (few things will beat the Tomoe River paper writing experience).
 - For pens I range between [Sailor](https://en.sailor.co.jp), [Platinum](https://www.platinum-pen.co.jp/en/), [LAMY](https://shop.lamy.com/en_gb?srsltid=AfmBOooERWRXeHxpK0sCMgFWtaM5717hVM5kcS5sQQiEi0y7ITBmVP_1), and [TWSBI](https://www.twsbi.com), and have recently fallen in love with [Wearinguel](https://www.wearingeul.com/colors) and [Colorverse](https://colorverseink.com) inks.
