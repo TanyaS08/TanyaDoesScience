@@ -49,4 +49,4 @@ I would never claim to have the 'optimal' research workflow. However I always fi
 
 ### Miscellaneous
 
-- I am not a fan of productivity apps (I spend more time fiddling than using) but do use [WakaTime](https://wakatime.com/dashboard) as way to see see which projects are getting the bulk o fmy attention.
+- I am not a fan of productivity apps (I spend more time fiddling than using) but do use [WakaTime](https://wakatime.com/dashboard) as way to see see which projects are getting the bulk of my attention.
