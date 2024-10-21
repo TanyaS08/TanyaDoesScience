@@ -9,7 +9,7 @@ I would never claim to have the 'optimal' research workflow. However I always fi
 
 ## Writing
 
-- I avoid using word as my writing environment at all costs and rather make use of a [pandoc-assisted](http://pandoc.org/) workflow. Which allows me to write in a distraction-free, plain-text world and use the relevant templates to generate files that conform to journal requirements. This allows me to focus on the content and not get distracted by the minutia of formatting.
+- I avoid using Word as my writing environment at all costs and rather make use of a [pandoc-assisted](http://pandoc.org/) workflow. Which allows me to write in a distraction-free, plain-text world and use the relevant templates to generate files that conform to journal requirements. This allows me to focus on the content and not get distracted by the minutia of formatting.
     - I primarily use [Quarto](https://quarto.org/) to facilitate this process, with the [Quarto manuscript](https://quarto.org/docs/manuscripts/) project type being my go to for writing-specific projects.
 - I also host all of my writing projects as individual repositories on [Github](https://github.com/), where I will also host the (in-progress) writing on [GitHub pages](https://pages.github.com). This allows for easy sharing between collaborators and allows them to access different filetypes of the document
     - Comments/feedback is done through pull requests - which allows us to compare changes before accepting them, and keeps a record of changes
