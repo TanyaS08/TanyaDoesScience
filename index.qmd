@@ -1,0 +1,49 @@
+---
+title: "Tanya Strydom"
+description: "Postdoctoral Researcher"
+image: images/avatar.png
+editor: source
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 18em
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:tanya.strydom@sheffield.ac.uk
+    - icon: github-alt
+      text: "{{< fa brands github-alt >}} GitHub"
+      href: https://github.com/TanyaS08
+    - icon: bluesky
+      text: "{{< fa brands bluesky >}} Bluesky"
+      href: https://bsky.app/profile/tanyadoesscience.bsky.social
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/tanyas_08/
+    - icon: orcid 
+      text: "{{< fa brands orcid >}} ORCiD"
+      href: https://orcid.org/0000-0001-6067-1349
+    - text: CV
+      url: "CV/CV.pdf"
+format: 
+  html: 
+    include-in-header: hero-image.html
+---
+
+## Howzit!
+
+📌 A South African 🇿🇦 on a research outpost at [@BecksLab](https://github.com/BecksLab)
+
+🦖 Working on DINOSAUR food webs (okay they're paleo marine communities but let me have this one)
+
+🧪 Committed to (and educating myself on) developing more open and reproducible workflows
+
+🔭 Working on broadening my knowledge of machine learning and programming workflows
+
+👾 Currently works mostly in `Julia` but probably more competent in `R`
+
+🎨 Part-time doodler, 🐾 Adrenaline junkie, and ☕️ warm beverage fan
+
+I use she/they pronouns.
+
+
