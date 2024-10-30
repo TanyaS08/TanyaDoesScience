@@ -7,3 +7,6 @@
 
 /.luarc.json
 .vscode/settings.json
+
+# build artefacts
+/docs/
