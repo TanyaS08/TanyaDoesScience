@@ -11,8 +11,13 @@ title-block-banner: "#031425"
 #### Black holes and revelations: Identifying priority sampling locations for local food webs in Canada
 With the Computational Biodiversity Science & Services program ([BIOS²](https://bios2.usherbrooke.ca/))\
 September 2022 (*Montreal, Canada*)\
-[{{< fa brands github-alt >}} repo](https://github.com/PoisotLab/BlackHolesAndRevelations),
-[{{< fa code >}} BiodiversityObservationNetworks.jl](https://github.com/EcoJulia/BiodiversityObservationNetworks.jl)\
+<span class="badge rounded-pill bg-secondary">
+  <a href="https://github.com/PoisotLab/BlackHolesAndRevelations" style="text-decoration:none">{{< fa brands github-alt >}} Repo</a>
+</span>
+<span class="badge rounded-pill bg-secondary">
+  <a href="https://github.com/EcoJulia/BiodiversityObservationNetworks.jl" style="text-decoration:none">{{< fa code >}} BiodiversityObservationNetworks.jl</a>
+</span>
+<br>
 
 ![Predicting food webs across space while being able to incorporate our uncertainty is an important goal of network ecology, and one goal of this working group was to try to 1) work out how we can propagate uncertainty as we go from a country-level metaweb down into smaller localised units, and 2) use this uncertainty to help us identify places where we *should* be sampling networks on the ground.](blackholes.jpg)
 
