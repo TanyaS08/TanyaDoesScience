@@ -5,7 +5,6 @@ description: " "
 draft: false 
 editor: source
 lightbox: auto
-title-block-banner: "#031425"
 ---
 
 ## Tools’ O the Times: Understanding the common properties of species interaction networks across space

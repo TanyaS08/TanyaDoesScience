@@ -5,7 +5,6 @@ description: " "
 draft: false
 editor: source
 lightbox: auto
-title-block-banner: "#031425"
 ---
 
 #### Black holes and revelations: Identifying priority sampling locations for local food webs in Canada
