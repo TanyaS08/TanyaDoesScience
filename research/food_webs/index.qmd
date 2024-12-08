@@ -1,0 +1,10 @@
+---
+title: "food webs"
+image: BESPoster.png
+description: " "
+draft: false 
+editor: source
+lightbox: auto
+---
+
+![Food webs are a useful abstraction and representation of the feeding links between species in a community and are used to infer many ecosystem level processes. However, the different theories, mechanisms, and criteria that underpin how a food web is defined, and ultimately constructed. What you can see here is a breakdown of some of the different processes that play a role in determining interactions between species. Importantly these different processes are tied to different definitions of a network, and it is important that we are aware of these differences when we want to use networks to answer key ecological and conservation questions.](BESPoster.png)

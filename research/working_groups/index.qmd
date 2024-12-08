@@ -1,0 +1,34 @@
+---
+title: "working groups"
+image: post-its.jpg
+description: " "
+draft: false
+editor: source
+lightbox: auto
+---
+
+#### Black holes and revelations: Identifying priority sampling locations for local food webs in Canada
+With the Computational Biodiversity Science & Services program ([BIOS²](https://bios2.usherbrooke.ca/))\
+September 2022 (*Montreal, Canada*)\
+<span class="badge rounded-pill bg-secondary">
+  <a href="https://github.com/PoisotLab/BlackHolesAndRevelations" style="text-decoration:none">{{< fa brands github-alt >}} Repo</a>
+</span>
+<span class="badge rounded-pill bg-secondary">
+  <a href="https://github.com/EcoJulia/BiodiversityObservationNetworks.jl" style="text-decoration:none">{{< fa code >}} BiodiversityObservationNetworks.jl</a>
+</span>
+<br>
+
+![Predicting food webs across space while being able to incorporate our uncertainty is an important goal of network ecology, and one goal of this working group was to try to 1) work out how we can propagate uncertainty as we go from a country-level metaweb down into smaller localised units, and 2) use this uncertainty to help us identify places where we *should* be sampling networks on the ground.](blackholes.jpg)
+
+###### Publications
+
+* A direct product from this working group is [Banville et al. (2024)](https://doi.org/10.32942/X28G8Z), which aims to discuss and the different ways we can capture and represent uncertainty in networks.
+
+#### Designing a Collective Prototype of Future Tropical and Subtropical Science
+September 2021 (*ATBC Virtual Meeting*)\
+
+![This started as a workshop session at the 2021 ATBC annual meeting specifically aimed at discussing the opportunities ad challenges experienced by scientists, but specifically those from the (sub)tropics, starting with a speculation experiment to prototype the future of the next generation of tropical scientists.](ATBC.png)
+
+###### Publications
+
+* [Higino et al.(2024)](https://doi.org/10.32942/X2VC86) is a synthesis of these discussions.

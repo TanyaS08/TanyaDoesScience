@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "TanyaDoesScience"
+  favicon: images/assets/logo.png
+  search: false
+  navbar:
+    title: "TanyaDoesScience"
+    logo: images/assets/logo_darkmode.png
+    background: primary
+    left:
+      - href: research.qmd
+        text: research
+      - href: workflow.qmd
+        text: workflows
+      - href: visual.qmd
+        text: seeing science
+      - href: draws.qmd
+        text: draws
+    right: 
+      - href: CV/CV.pdf
+        text: CV
+      - icon: github
+        href: https://github.com/TanyaS08
+  page-footer:     
+    background: primary 
+    right: 
+      - icon: code
+        text: "{{< fa code >}} Source code"
+        href: https://github.com/TanyaS08/TanyaDoesScience
+
+format:
+  html:
+    theme: [Journal, mystyles.scss]
+    css: css/styles.css
+    toc: false
+    code-background: true
+    code-fold: true
+
+editor: visual
+
+

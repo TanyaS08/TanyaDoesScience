@@ -1,8 +1,12 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# MacOS nonsense
 .DS_Store
-themes/hugo-academic/.DS_Store
 
+# Quarto stuff
 /.quarto/
+/_site/
+
+/.luarc.json
+.vscode/settings.json
+
+# build artefacts
+/docs/
