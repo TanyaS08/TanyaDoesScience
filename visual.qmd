@@ -13,6 +13,9 @@ I take a great degree of pride in incorporating a strong visual element within t
 
 From 2020 - 2022 I had an awesome time creating a fortnightly comic strip for the [Ecology for the Masses](https://ecologyforthemasses.com/) blog, where the goal was to inject a bit of humour while still communicating the central message of recent publications or ecology related news - creating some eLOLogy for the masses.
 
+<span class="btn btn-outline-primary btn-sm">
+  <a href="https://ecologyforthemasses.com/category/elology-for-the-masses/" style="text-decoration:none">{{< fa box-archive >}} Archive</a>
+</span>
 ```{=html}
 
 <div id="carouselEcoMass" class="carousel slide">
@@ -65,10 +68,6 @@ From 2020 - 2022 I had an awesome time creating a fortnightly comic strip for th
 </div>
 
 ```
-<span class="badge rounded-pill bg-secondary">
-  <a href="https://ecologyforthemasses.com/category/elology-for-the-masses/" style="text-decoration:none">{{< fa box-archive >}} Archive</a>
-</span>
-<br>
 
 And every now and then I have been known to do some doodling of some of the research that I have been involved in, or been commandeered to help with creating visual assets for a project.
 
@@ -110,6 +109,9 @@ And every now and then I have been known to do some doodling of some of the rese
 
 Of course as scientists we are often crunching numbers and looking at model outputs. However it is still important that we are able to visualise that data and I am a big fan of the work done by the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) team when it comes to learning through experimentation. Although I don't always have the time to participate every week I still find myself coming back to some of my previous plots and using those techniques in my actual research!
 
+<span class="btn btn-outline-primary btn-sm">
+  <a href="https://github.com/TanyaS08/TidyTuesday" style="text-decoration:none">{{< fa brands github-alt >}} Repo</a>
+</span>
 ```{=html}
 
 <div id="carouselTidyTuesday" class="carousel slide">
@@ -140,7 +142,3 @@ Of course as scientists we are often crunching numbers and looking at model outp
 <br>
 
 ```
-<span class="badge rounded-pill bg-secondary">
-  <a href="https://github.com/TanyaS08/TidyTuesday" style="text-decoration:none">{{< fa brands github-alt >}} Repo</a>
-</span>
-<br>
