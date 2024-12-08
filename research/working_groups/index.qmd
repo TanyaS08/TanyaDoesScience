@@ -1,5 +1,5 @@
 ---
-title: "Working groups"
+title: "working groups"
 image: post-its.jpg
 description: " "
 draft: false

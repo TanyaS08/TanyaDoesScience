@@ -1,5 +1,5 @@
 ---
-title: "Food Webs"
+title: "food webs"
 image: BESPoster.png
 description: " "
 draft: false 
