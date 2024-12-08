@@ -39,6 +39,5 @@ format:
     code-background: true
     code-fold: true
 
-editor: visual
-
-
+execute:
+  freeze: auto
