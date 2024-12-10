@@ -39,8 +39,6 @@ $eggplant: #A0006D;
 $white: #ffffff;
 
 // Sizes
-$my-font-size: 1.8rem;
-$my-width: 500px;
 
 // Base document colors
 $navbar-bg: $blue; // navbar
@@ -79,9 +77,9 @@ h3 {
    font-family: "Shadows Into Light Two";
 }
 
-h5 {
-   font-size: 1rem;
-   font-family: "Assistant";
+h4 {
+   font-size: 1.2rem;
+   font-family: "Shadows Into Light Two";
 }
 
 b, strong {
@@ -89,7 +87,7 @@ b, strong {
 }
 
 p, .ul {
-   font-size: 0.8rem;
+   font-size: 0.9rem;
    font-family: montserrat;
 }
 
@@ -114,9 +112,9 @@ p, .ul {
   font-family: montserrat;
 }
 
-.figure-caption {
+.figure-caption, .margin-caption {
   color: $purple;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-family: "Assistant";
 }
 
