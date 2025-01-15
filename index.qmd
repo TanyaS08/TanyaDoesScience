@@ -10,7 +10,7 @@ about:
   links:
     - icon: envelope-fill
       text: Email
-      href: mailto:tanya.strydom@sheffield.ac.uk
+      href: mailto:t.strydom@sheffield.ac.uk
     - icon: github-alt
       text: "{{< fa brands github-alt >}} GitHub"
       href: https://github.com/TanyaS08
