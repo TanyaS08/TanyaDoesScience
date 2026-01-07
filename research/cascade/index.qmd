@@ -1,6 +1,6 @@
 ---
 title: "paleo networks"
-image: cascade.jpg
+image: icon.png
 description: " "
 draft: false
 editor: source
