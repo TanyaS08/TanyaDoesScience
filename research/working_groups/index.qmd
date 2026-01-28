@@ -1,33 +1,29 @@
 ---
-title: "working groups"
+title: "collaborative & applied ecology"
 image: post-its.jpg
 description: " "
 draft: false
 editor: source
 lightbox: auto
+toc: true
 ---
 
-### Black holes and revelations: Identifying priority sampling locations for local food webs in Canada
-With the Computational Biodiversity Science & Services program ([BIOS²](https://bios2.usherbrooke.ca/))\
-September 2022 (*Montreal, Canada*)\
-<span class="btn btn-outline-primary btn-sm">
-  <a href="https://github.com/PoisotLab/BlackHolesAndRevelations" style="text-decoration:none">{{< fa brands github-alt >}} repo</a>
-</span>
-<span class="btn btn-outline-primary btn-sm">
-  <a href="https://github.com/EcoJulia/BiodiversityObservationNetworks.jl" style="text-decoration:none">{{< fa code >}} BiodiversityObservationNetworks.jl</a>
-</span>
-<span class="btn btn-outline-primary btn-sm">
-  <a href="https://doi.org/10.32942/X28G8Z" style="text-decoration:none">{{< fa file >}} preprint</a>
-</span>
-<br>
+Alongside my core research themes, I contribute to collaborative and applied ecological research spanning plant functional traits, microclimate effects, and large-scale data synthesis. Much of this work emerges from interdisciplinary collaborations and working groups, where I apply quantitative and network-based approaches to diverse ecological questions.
 
-![Predicting food webs across space while being able to incorporate our uncertainty is an important goal of network ecology, and one goal of this working group was to try to 1) work out how we can propagate uncertainty as we go from a country-level metaweb down into smaller localised units, and 2) use this uncertainty to help us identify places where we *should* be sampling networks on the ground.](blackholes.jpg)
+### Data Synthesis & Trait-Based Ecology
 
-### Designing a Collective Prototype of Future Tropical and Subtropical Science
-September 2021 (*ATBC Virtual Meeting*)\
-<span class="btn btn-outline-primary btn-sm">
-  <a href="https://doi.org/10.32942/X2VC86" style="text-decoration:none">{{< fa file >}} preprint</a>
-</span>
-<br>
+Contributor to large-scale, collaborative efforts that develop data infrastructure and quantitative methods for trait-based ecology. This work focuses on improving how ecological trait data are compiled, analyzed, and interpreted across systems and scales.
 
-![This started as a workshop session at the 2021 ATBC annual meeting specifically aimed at discussing the opportunities ad challenges experienced by scientists, but specifically those from the (sub)tropics, starting with a speculation experiment to prototype the future of the next generation of tropical scientists.](ATBC.png)
+* Contributor to the [TRY database]( https://doi.org/10.1111/gcb.14904), supporting global-scale analyses of plant functional diversity and ecological strategies
+* Bootstrapping outperforms community-weighted approaches for estimating phenotypic trait distributions, improving inference under data limitation [Methods in Ecology and Evolution, 2023](https://doi.org/10.1111/2041-210X.14160)
+* Plant species and traits respond to environmental gradients and microclimate variation across landscapes [Journal of Vegetation Science, 2023](https://doi.org/10.1111/jvs.13197); [Oikos, 2022](https://doi.org/10.1111/oik.09617)
+
+### Community Science & Responsible Research
+
+Participant in interdisciplinary working groups focused on data synthesis, open science, and the future of ecological research. These projects emphasize collaboration, inclusivity, the co-development of research agendas and training models, and examining how scientific practices, tools, and incentives shape ecological research outcomes.
+
+* [Designing a Collective Prototype of Future Tropical and Subtropical Science](https://doi.org/https://doi.org/10.1139/facets-2024-0113), outlining collaborative frameworks for equitable and forward-looking research
+* [Next-Generation Field Courses](https://doi.org/10.1002/ece3.7009), integrating open science principles and online learning into ecological education
+* [From a Crisis to an Opportunity](https://doi.org/10.1002/ece3.7026), synthesizing lessons for collaborative science during and beyond the COVID-19 era
+* [Pressure to publish introduces LLM risks](https://doi.org/10.1111/2041-210X.14397), assessing how publication pressure interacts with emerging AI tools and outlining risks and best practices for responsible use in ecology
+* [BES Guide to Reproducible Code](https://doi.org/10.5281/zenodo.17855982), a community-developed resource providing practical guidance for writing transparent, reusable, and reproducible research code

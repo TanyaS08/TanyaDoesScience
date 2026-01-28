@@ -1,10 +1,39 @@
 ---
-title: "food webs"
+title: "scaling & synthesis in network ecology"
 image: BESPoster.png
 description: " "
 draft: false 
 editor: source
-lightbox: auto
+lightbox: auto 
+toc: true
 ---
 
+Ecological networks are often treated as static, closed systems, despite growing evidence that their structure and dynamics depend on scale, context, and data resolution. This theme focuses on developing conceptual and methodological frameworks that rethink how we analyse, compare, and interpret ecological networks.
+
+My work here emphasizes synthesis across systems and scales, including the identification of major axes of network structure, feature selection for network comparison, and the development of unifying perspectives on network complexity and predictability. This research aims to bridge theory, data, and methodology, providing tools for more robust and interpretable network ecology.
+
 ![Food webs are a useful abstraction and representation of the feeding links between species in a community and are used to infer many ecosystem level processes. However, the different theories, mechanisms, and criteria that underpin how a food web is defined, and ultimately constructed. What you can see here is a breakdown of some of the different processes that play a role in determining interactions between species. Importantly these different processes are tied to different definitions of a network, and it is important that we are aware of these differences when we want to use networks to answer key ecological and conservation questions.](BESPoster.png)
+
+## Scaling Networks from Metawebs to Realised Webs
+
+Ecological networks are often analyzed at a single scale, yet interactions emerge from a hierarchy of constraints operating across space, time, and organization. This project investigates how large-scale metawebs give rise to realised interaction networks, and how this scaling process shapes observed network structure.
+
+By explicitly linking potential interaction space to realised networks, this work provides a framework for comparing networks across systems and scales.
+
+#### Key outputs
+
+* [Scaling from Metawebs to Realised Webs: A Hierarchical Approach to Network Ecology](https://doi.org/10.32942/X2JW8K) (EcoEvoRxiv, 2026)
+
+## Network Structure, Complexity, and Major Axes
+
+This project focuses on identifying major axes of variation in ecological network structure and understanding how these axes relate to ecological processes such as stability, resilience, and predictability.
+
+Rather than relying on large sets of correlated network metrics, this work aims to develop principled feature selection approaches that improve interpretability and comparability across studies.
+
+#### Key outputs
+
+* [SVD Entropy reveals the high complexity of ecological networks](https://doi.org/10.3389/fevo.2021.623141) (Frontiers in Ecology and Evolution, 2021)
+
+## Rethinking How We Do Network Ecology
+
+Beyond individual methods or metrics, this project addresses broader questions about how network ecology is practiced. It includes conceptual synthesis, benchmarking of analytical approaches, and reflections on emerging methodological challenges.
