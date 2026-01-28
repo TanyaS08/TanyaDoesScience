@@ -10,3 +10,4 @@
 
 # build artefacts
 /docs/
+**/*.quarto_ipynb
