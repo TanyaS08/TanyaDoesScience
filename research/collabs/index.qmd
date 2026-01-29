@@ -1,7 +1,7 @@
 ---
 title: "collaborative & applied ecology"
 image: post-its.jpg
-description: " "
+description: "Contributing to global plant trait datasets, working groups, open science, and reproducible research practices"
 draft: false
 editor: source
 lightbox: auto
