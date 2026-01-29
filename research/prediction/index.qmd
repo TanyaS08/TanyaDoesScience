@@ -1,6 +1,6 @@
 ---
 title: "predicting ecological networks"
-image: thesis.jpg
+image: icon.png
 description: " "
 draft: false 
 editor: source
