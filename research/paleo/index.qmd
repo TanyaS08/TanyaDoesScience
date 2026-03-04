@@ -16,20 +16,36 @@ As part of my current postdoctoral research, I investigate how large-scale metaw
 
 ## Scaling Paleo Metawebs to Realised Networks
 <span class="btn btn-outline-primary btn-sm">
-  <a href="https://doi.org/10.32942/X2VC86" style="text-decoration:none">{{< fa file >}} placeholder</a>
+  <a style="text-decoration:none">{{< fa flask >}} Currently active</a>
 </span>
 <br>
 
-This flagship project applies hierarchical network frameworks to paleoecological systems to reconstruct species interaction networks across deep time. By treating observed paleo networks as probabilistic realizations of a larger interaction metaweb, this work investigates how long-term environmental change shapes network assembly, persistence, and collapse.
+This project applies different approaches to reconstructing species interaction networks across deep time. By treating observed paleo networks as probabilistic realizations of a larger interaction metaweb, this work investigates how long-term environmental change shapes network assembly, persistence, and collapse.
 
 A central goal is to understand how scale, uncertainty, and hierarchical structure influence extinction risk and system-level resilience over evolutionary timescales.
 
+#### Key outputs
+
+* Reconstructing food webs in deep time: why model choice matters for ecological inference (In prep.)
+
 ## Network Resilience and Extinction Dynamics Across Time
+<span class="btn btn-outline-primary btn-sm">
+  <a style="text-decoration:none">{{< fa flask >}} Currently active</a>
+</span>
+<br>
 
 Building on probabilistic and hierarchical network models, this project examines how network structure mediates species persistence and extinction under long-term environmental change.
 
 By integrating paleo data with predictive network theory, this work links deep-time patterns to contemporary questions about resilience and biodiversity loss.
 
+#### Key outputs
+
+* [No global collapse of marine food webs across the Permian–Triassic Mass Extinction](https://doi.org/10.64898/2026.02.24.707709) (BioRxiv, 2026)
+
 ## Bridging Paleo and Contemporary Network Ecology
+<span class="btn btn-outline-primary btn-sm">
+  <a style="text-decoration:none">{{< fa compass >}} Long-term direction</a>
+</span>
+<br>
 
 This project explicitly connects paleoecological network reconstructions with modern ecological networks, allowing insights from deep time to inform prediction, uncertainty quantification, and theory in contemporary systems.

@@ -19,6 +19,10 @@ Contributor to large-scale, collaborative efforts that develop data infrastructu
 * Plant species and traits respond to environmental gradients and microclimate variation across landscapes [Journal of Vegetation Science, 2023](https://doi.org/10.1111/jvs.13197); [Oikos, 2022](https://doi.org/10.1111/oik.09617)
 
 ### Community Science & Responsible Research
+<span class="btn btn-outline-primary btn-sm">
+  <a style="text-decoration:none">{{< fa heart >}} Core commitment</a>
+</span>
+<br>
 
 Participant in interdisciplinary working groups focused on data synthesis, open science, and the future of ecological research. These projects emphasize collaboration, inclusivity, the co-development of research agendas and training models, and examining how scientific practices, tools, and incentives shape ecological research outcomes.
 

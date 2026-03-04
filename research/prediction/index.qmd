@@ -15,6 +15,10 @@ My research in this theme develops probabilistic and predictive approaches to in
 ![](thesis.jpg){width=100%}
 
 ## Probabilistic Interaction Network Inference
+<span class="btn btn-outline-primary btn-sm">
+  <a style="text-decoration:none">{{< fa seedling >}} Emerging ideas</a>
+</span>
+<br>
 
 Ecological interaction data are inherently incomplete: absences may reflect true non-interactions, limited sampling, or context dependence. This project develops probabilistic frameworks to infer species interaction networks while explicitly accounting for uncertainty, detection bias, and missing data.
 
@@ -37,6 +41,13 @@ This work demonstrates that information learned from well-sampled systems can be
 * [Food web reconstruction through phylogenetic transfer of low-rank network representation](https://doi.org/10.1111/2041-210X.13835) (Methods in Ecology and Evolution, 2022)
 
 ## Tools for Predictive Network Ecology
+<span class="btn btn-outline-primary btn-sm">
+  <a style="text-decoration:none">{{< fa heart >}} Core commitment</a>
+</span>
+<span class="btn btn-outline-primary btn-sm">
+  <a style="text-decoration:none">{{< fa dna >}} Core research theme</a>
+</span>
+<br>
 
 Alongside methodological development, I contribute software tools that make predictive network approaches accessible and reproducible. These tools support spatial, probabilistic, and structural analyses of ecological networks.
 
