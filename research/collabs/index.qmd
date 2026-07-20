@@ -24,10 +24,10 @@ Contributor to large-scale, collaborative efforts that develop data infrastructu
 </span>
 <br>
 
-Participant in interdisciplinary working groups focused on data synthesis, open science, and the future of ecological research. These projects emphasize collaboration, inclusivity, the co-development of research agendas and training models, and examining how scientific practices, tools, and incentives shape ecological research outcomes.
+Participant in interdisciplinary working groups focused on data synthesis, open science, and the future of ecological research. These projects emphasise collaboration, inclusivity, the co-development of research agendas and training models, and examining how scientific practices, tools, and incentives shape ecological research outcomes.
 
 * [Designing a Collective Prototype of Future Tropical and Subtropical Science](https://doi.org/https://doi.org/10.1139/facets-2024-0113), outlining collaborative frameworks for equitable and forward-looking research
 * [Next-Generation Field Courses](https://doi.org/10.1002/ece3.7009), integrating open science principles and online learning into ecological education
-* [From a Crisis to an Opportunity](https://doi.org/10.1002/ece3.7026), synthesizing lessons for collaborative science during and beyond the COVID-19 era
+* [From a Crisis to an Opportunity](https://doi.org/10.1002/ece3.7026), synthesising lessons for collaborative science during and beyond the COVID-19 era
 * [Pressure to publish introduces LLM risks](https://doi.org/10.1111/2041-210X.14397), assessing how publication pressure interacts with emerging AI tools and outlining risks and best practices for responsible use in ecology
 * [BES Guide to Reproducible Code](https://doi.org/10.5281/zenodo.17855982), a community-developed resource providing practical guidance for writing transparent, reusable, and reproducible research code

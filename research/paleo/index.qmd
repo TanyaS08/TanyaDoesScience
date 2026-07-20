@@ -8,9 +8,9 @@ lightbox: auto
 toc: true
 ---
 
-Understanding how ecological networks respond to environmental change requires perspectives that extend beyond contemporary observations. This theme uses paleoecological data and network modeling to reconstruct species interaction networks across deep time, allowing us to explore how networks assemble, persist, and reorganize under long-term environmental dynamics.
+Understanding how ecological networks respond to environmental change requires perspectives that extend beyond contemporary observations. This theme uses paleoecological data and network modeling to reconstruct species interaction networks across deep time, allowing us to explore how networks assemble, persist, and reorganise under long-term environmental dynamics.
 
-As part of my current postdoctoral research, I investigate how large-scale metawebs give rise to realized interaction networks and how hierarchical structure and scale influence extinction risk and system-level resilience. By integrating paleo data with probabilistic network frameworks, this work connects deep-time ecology with predictive network theory.
+As part of my current postdoctoral research, I investigate how large-scale metawebs give rise to realised interaction networks and how hierarchical structure and scale influence extinction risk and system-level resilience. By integrating paleo data with probabilistic network frameworks, this work connects deep-time ecology with predictive network theory.
 
 ![](cascade_wf.png){width=100%}
 
@@ -20,7 +20,7 @@ As part of my current postdoctoral research, I investigate how large-scale metaw
 </span>
 <br>
 
-This project applies different approaches to reconstructing species interaction networks across deep time. By treating observed paleo networks as probabilistic realizations of a larger interaction metaweb, this work investigates how long-term environmental change shapes network assembly, persistence, and collapse.
+This project applies different approaches to reconstructing species interaction networks across deep time. By treating observed paleo networks as probabilistic realisations of a larger interaction metaweb, this work investigates how long-term environmental change shapes network assembly, persistence, and collapse.
 
 A central goal is to understand how scale, uncertainty, and hierarchical structure influence extinction risk and system-level resilience over evolutionary timescales.
 
