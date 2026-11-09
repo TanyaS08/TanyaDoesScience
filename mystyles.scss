@@ -9,61 +9,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 
 // Modify carousel css
-#carouselTidyTuesday .carousel-item img {  
+#carouselTidyTuesday .carousel-item img {
   object-fit: contain;
   object-position: center;
   overflow: hidden;
-  height:50vh;
+  height: 50vh;
   max-height: 50vh;
-  width: 100%
+  width: 100%;
 }
 
-// Modify carousel css
-#carouselOtherFun .carousel-item img {  
+#carouselOtherFun .carousel-item img {
   object-fit: contain;
   object-position: center;
   overflow: hidden;
-  height:50vh;
+  height: 50vh;
   max-height: 50vh;
-  width: 100%
+  width: 100%;
 }
 
-// Colors
-$black: #0C1A1A;
-$blue: #031425;
-$blue-light: #04ADBF;
-$purple: #4B2473;
-$pink: #F263A6;
-$yellow: #E8F87B;
-$eggplant: #A0006D;
-$white: #ffffff;
+// --------------------------------------------------
+// COLOURS — MIDNIGHT OBSERVATORY x AFRICAN COSMIC
+// --------------------------------------------------
 
-// Sizes
+$black: #1E1A34;       // Deep aubergine
+$blue: #031425;        // Midnight blue
+$blue-light: #006D75;  // Deep teal
+$purple: #5E53A6;      // Signature violet
+$pink: #981E97;        // Orchid
+$yellow: #D2A75B;      // Antique gold
+$eggplant: #8BA0B2;    // Starlight blue-grey
+$white: #E6E6E7;       // Moonlight
 
-// Base document colors
-$navbar-bg: $blue; // navbar
-$navbar-fg: $pink; // navbar foreground elements
-$navbar-hl: $blue-light; // highlight color when hovering over navbar links
-$body-bg: $white; // page background 
-$body-color: $black; // page text 
-$footer-bg: $blue; // footer 
-$link-color: $purple; // hyperlinks 
+// Additional ecological accents
+$green: #0EB45E;
+$forest: #024023;
 
-$primary: $pink; // Changes main theme color, including buttons
+// --------------------------------------------------
+// BASE DOCUMENT COLOURS
+// --------------------------------------------------
+
+$navbar-bg: $black;
+$navbar-fg: $green;
+$navbar-hl: $yellow;
+
+$body-bg: $white;
+$body-color: $black;
+
+$footer-bg: $black;
+
+$link-color: $green;
+
+$primary: $purple; // Changes main theme color, including buttons
 
 // Inline code
-$code-bg: $yellow; // inline code background color
-$code-color: $eggplant; // inline code text color
+$code-bg: $eggplant;
+$code-color: $forest;
 
 // Code blocks
-$code-block-bg: $pink; // code block background color
+$code-block-bg: $black;
+
 
 /*-- scss:rules --*/
 
-// CSS rules
+// --------------------------------------------------
+// HEADINGS
+// --------------------------------------------------
 
 h1 {
-  color: $blue-light;
+  color: $purple;
   font-size: 2.5rem;
   font-family: "Shadows Into Light Two";
 }
@@ -75,28 +88,34 @@ h2 {
 }
 
 h3 {
-   font-size: 1.5rem;
-   font-family: "Shadows Into Light Two";
+  color: $purple;
+  font-size: 1.5rem;
+  font-family: "Shadows Into Light Two";
 }
 
 h4 {
-   font-size: 1.2rem;
-   font-family: "Shadows Into Light Two";
+  color: $blue-light;
+  font-size: 1.2rem;
+  font-family: "Shadows Into Light Two";
 }
 
-
 h5 {
+  color: $purple;
   font-size: 1.0rem;
   font-family: "Shadows Into Light Two";
 }
 
 b, strong {
-   color: $pink;
+  color: $pink;
 }
 
+// --------------------------------------------------
+// BODY TEXT
+// --------------------------------------------------
+
 p, .ul {
-   font-size: 0.9rem;
-   font-family: montserrat;
+  font-size: 0.9rem;
+  font-family: montserrat;
 }
 
 .about-link-text {
@@ -104,8 +123,10 @@ p, .ul {
   font-family: montserrat;
 }
 
-.date, .quarto-category, .quarto-title-meta-contents, .affiliation, .card-index, .listing-description, .listing-category, .quarto-appendix-secondary-label {
-  color: $black;
+.date, .quarto-category, .quarto-title-meta-contents,
+.affiliation, .card-index, .listing-description,
+.listing-category, .quarto-appendix-secondary-label {
+  color: $forest;
   font-family: montserrat;
 }
 
@@ -118,10 +139,11 @@ p, .ul {
 .quarto-title-meta-heading {
   font-size: 1rem;
   font-family: montserrat;
+  color: $purple;
 }
 
 .figure-caption, .margin-caption {
-  color: $purple;
+  color: $blue-light;
   font-size: 0.9rem;
   font-family: "Assistant";
 }
@@ -135,7 +157,12 @@ p, .ul {
   font-size: 0.7rem;
   font-family: montserrat;
   font-weight: bold;
+  color: $purple;
 }
+
+// --------------------------------------------------
+// NAVIGATION
+// --------------------------------------------------
 
 .menu-text {
   font-size: 1.1rem;
@@ -145,6 +172,7 @@ p, .ul {
 .navbar-title {
   font-family: "Shadows Into Light Two";
   font-size: 1.7rem;
+  color: $purple;
 }
 
 .navbar-logo {
@@ -156,7 +184,13 @@ p, .ul {
   font-size: 0.9rem;
 }
 
-/* HERO IMAGE AT TOP OF PAGE*/
+.nav-link:hover {
+  color: $yellow;
+}
+
+// --------------------------------------------------
+// HERO IMAGE
+// --------------------------------------------------
 
 .hero-container {
   overflow: hidden;
@@ -167,13 +201,13 @@ p, .ul {
 
 .hero-image {
   position: absolute;
-  /* liner gradient tints the image darker for readability*/
-  background-image: url(images/interests.png);
+
+  background-image: url("images/interests.png");
   background-size: cover;
   height: 100%;
   width: 100%;
-  background-color: $blue;
-  display: flex; /* Change to `display: none` for no hero image */
+  background-color: $black;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
@@ -187,4 +221,77 @@ p, .ul {
   bottom: 0.5%;
   font-size: 12px;
   color: $white;
+}
+
+// --------------------------------------------------
+// LINKS AND INTERACTION
+// --------------------------------------------------
+
+a {
+  color: $purple;
+}
+
+a:hover {
+  color: $pink;
+}
+
+// --------------------------------------------------
+// CARDS AND LISTINGS
+// --------------------------------------------------
+
+.card {
+  border-color: rgba(94, 83, 166, 0.25);
+}
+
+.card:hover {
+  border-color: $purple;
+}
+
+// --------------------------------------------------
+// CODE
+// --------------------------------------------------
+
+code {
+  background-color: $code-bg;
+  color: $code-color;
+}
+
+pre {
+  background-color: $code-block-bg;
+  color: $white;
+}
+
+// --------------------------------------------------
+// FOOTER
+// --------------------------------------------------
+
+.nav-footer {
+  background-color: $black;
+  color: $white;
+}
+
+// --------------------------------------------------
+// DECORATIVE DETAILS
+// --------------------------------------------------
+
+hr {
+  border-color: rgba(94, 83, 166, 0.3);
+}
+
+blockquote {
+  border-left: 3px solid $yellow;
+}
+
+// --------------------------------------------------
+// CAROUSELS
+// --------------------------------------------------
+
+#carouselTidyTuesday .carousel-item img,
+#carouselOtherFun .carousel-item img {
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  height: 50vh;
+  max-height: 50vh;
+  width: 100%;
 }

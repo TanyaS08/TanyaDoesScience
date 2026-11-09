@@ -1,7 +1,7 @@
 # options specified here will apply to all posts in this folder
 
 # enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)
-title-block-banner: "#031425"
+title-block-banner: "#1E1A34"
 
 # place figure captions in the margins 
 cap-location: margin
